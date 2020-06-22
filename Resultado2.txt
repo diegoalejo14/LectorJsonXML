@@ -1,0 +1,1187 @@
+ConsultaSaldosProductos		IN	nombreOperacion						con:ConsultaSaldosProductos:Request:DataHeader:nombreOperacion	ConsultaSaldosProductos
+ConsultaSaldosProductos		IN	total						con:ConsultaSaldosProductos:Request:DataHeader:total	22365
+ConsultaSaldosProductos		IN	jornada						con:ConsultaSaldosProductos:Request:DataHeader:jornada	0
+ConsultaSaldosProductos		IN	canal						con:ConsultaSaldosProductos:Request:DataHeader:canal	37
+ConsultaSaldosProductos		IN	modoDeOperacion						con:ConsultaSaldosProductos:Request:DataHeader:modoDeOperacion	0
+ConsultaSaldosProductos		IN	usuario						con:ConsultaSaldosProductos:Request:DataHeader:usuario	Mbaas
+ConsultaSaldosProductos		IN	perfil						con:ConsultaSaldosProductos:Request:DataHeader:perfil	1
+ConsultaSaldosProductos		IN	versionServicio						con:ConsultaSaldosProductos:Request:DataHeader:versionServicio	1.0.0
+ConsultaSaldosProductos		IN	idTransaccion						con:ConsultaSaldosProductos:Request:DataHeader:idTransaccion	1591397288
+ConsultaSaldosProductos		IN	idSesion						con:ConsultaSaldosProductos:Request:Data:idSesion
+ConsultaSaldosProductos		IN	codIdioma						con:ConsultaSaldosProductos:Request:Data:codIdioma
+ConsultaSaldosProductos		IN	valOrigen						con:ConsultaSaldosProductos:Request:Data:valOrigen
+ConsultaSaldosProductos		IN	codPais						con:ConsultaSaldosProductos:Request:Data:codPais
+ConsultaSaldosProductos		IN	valNumIdentificacion						con:ConsultaSaldosProductos:Request:Data:valNumIdentificacion	19207329
+ConsultaSaldosProductos		IN	valTipoIdentificacion						con:ConsultaSaldosProductos:Request:Data:valTipoIdentificacion	01
+ConsultaSaldosProductos		IN	valCompania						con:ConsultaSaldosProductos:Request:Data:valCompania	1
+ConsultaSaldosProductos		IN	valCodProducto						con:ConsultaSaldosProductos:Request:Data:valCodProducto	1
+ConsultaSaldosProductos		IN	valNumProducto						con:ConsultaSaldosProductos:Request:Data:valNumProducto	1
+ConsultaSaldosProductos		IN	valConAhorros						con:ConsultaSaldosProductos:Request:Data:valConAhorros	1
+ConsultaSaldosProductos		IN	valConCorrientes						con:ConsultaSaldosProductos:Request:Data:valConCorrientes	1
+ConsultaSaldosProductos		IN	valConTcPropias						con:ConsultaSaldosProductos:Request:Data:valConTcPropias	0
+ConsultaSaldosProductos		IN	valTcAmparadas						con:ConsultaSaldosProductos:Request:Data:valTcAmparadas	0
+ConsultaSaldosProductos		IN	valConCreditos						con:ConsultaSaldosProductos:Request:Data:valConCreditos	0
+ConsultaSaldosProductos		IN	valConDabuenavidas						con:ConsultaSaldosProductos:Request:Data:valConDabuenavidas	0
+ConsultaSaldosProductos		OUT	nombreOperacion						con:ConsultaSaldosProductosResponse:Response:DataHeader:nombreOperacion	ConsultaSaldosProductos
+ConsultaSaldosProductos		OUT	total						con:ConsultaSaldosProductosResponse:Response:DataHeader:total	22365
+ConsultaSaldosProductos		OUT	caracterAceptacion						con:ConsultaSaldosProductosResponse:Response:DataHeader:caracterAceptacion	B
+ConsultaSaldosProductos		OUT	ultimoMensaje						con:ConsultaSaldosProductosResponse:Response:DataHeader:ultimoMensaje	1
+ConsultaSaldosProductos		OUT	idTransaccion						con:ConsultaSaldosProductosResponse:Response:DataHeader:idTransaccion	1591397288
+ConsultaSaldosProductos		OUT	codMsgRespuesta						con:ConsultaSaldosProductosResponse:Response:DataHeader:codMsgRespuesta	0
+ConsultaSaldosProductos		OUT	msgRespuesta						con:ConsultaSaldosProductosResponse:Response:DataHeader:msgRespuesta
+ConsultaSaldosProductos		OUT	valNumIdentificacion						con:ConsultaSaldosProductosResponse:Response:Data:valNumIdentificacion	0
+ConsultaSaldosProductos		OUT	codTipoIdentificacion						con:ConsultaSaldosProductosResponse:Response:Data:codTipoIdentificacion	0
+ConsultaSaldosProductos		OUT	valCompania						con:ConsultaSaldosProductosResponse:Response:Data:valCompania	0000
+ConsultaSaldosProductos		OUT	codProducto						con:ConsultaSaldosProductosResponse:Response:Data:codProducto	0000
+ConsultaSaldosProductos		OUT	valNumProducto						con:ConsultaSaldosProductosResponse:Response:Data:valNumProducto	0000000000000000
+ConsultaSaldosProductos		OUT	valNumCantidadProductos						con:ConsultaSaldosProductosResponse:Response:Data:valNumCantidadProductos	3
+ConsultaSaldosProductos		OUT	valCodProducto						con:ConsultaSaldosProductosResponse:Response:Data:Registros:Registro:valCodProducto	0560
+ConsultaSaldosProductos		OUT	valCodSubProducto						con:ConsultaSaldosProductosResponse:Response:Data:Registros:Registro:valCodSubProducto	2001
+ConsultaSaldosProductos		OUT	valNumProducto						con:ConsultaSaldosProductosResponse:Response:Data:Registros:Registro:valNumProducto	0560501060012660
+ConsultaSaldosProductos		OUT	valCodErrorConsulta						con:ConsultaSaldosProductosResponse:Response:Data:Registros:Registro:valCodErrorConsulta	0031
+ConsultaSaldosProductos		OUT	valMensajeError						con:ConsultaSaldosProductosResponse:Response:Data:Registros:Registro:valMensajeError	NRO.ESTACION NO EXISTE EN ARCH.TOTALES00
+ConsultaSaldosProductos		OUT	valSaldoOCupoTotal						con:ConsultaSaldosProductosResponse:Response:Data:Registros:Registro:valSaldoOCupoTotal	0.00
+ConsultaSaldosProductos		OUT	valSaldoOCupoDisp						con:ConsultaSaldosProductosResponse:Response:Data:Registros:Registro:valSaldoOCupoDisp	0.00
+ConsultaSaldosProductos		OUT	valSaldoCanje						con:ConsultaSaldosProductosResponse:Response:Data:Registros:Registro:valSaldoCanje	0.00
+ConsultaSaldosProductos		OUT	valSaldoDispAvance						con:ConsultaSaldosProductosResponse:Response:Data:Registros:Registro:valSaldoDispAvance	0.00
+ConsultaSaldosProductos		OUT	valFechaPago						con:ConsultaSaldosProductosResponse:Response:Data:Registros:Registro:InformacionPago:valFechaPago	0
+ConsultaSaldosProductos		OUT	valPagoMinimo						con:ConsultaSaldosProductosResponse:Response:Data:Registros:Registro:InformacionPago:valPagoMinimo	0.00
+ConsultaSaldosProductos		OUT	valPagoTotal						con:ConsultaSaldosProductosResponse:Response:Data:Registros:Registro:InformacionPago:valPagoTotal	0.00
+ConsultaSaldosProductos		OUT	valDiasMoraOSobregiro						con:ConsultaSaldosProductosResponse:Response:Data:Registros:Registro:InformacionPago:valDiasMoraOSobregiro	0
+ConsultaSaldosProductos		OUT	valMoraOSaldoSobregiro						con:ConsultaSaldosProductosResponse:Response:Data:Registros:Registro:InformacionPago:valMoraOSaldoSobregiro	0.00
+ConsultaPersistenciaCredito		IN	nombreOperacion						con:ConsultaPersistenciaCredito:Request:DataHeader:nombreOperacion	ConsultaPersistenciaCredito
+ConsultaPersistenciaCredito		IN	total						con:ConsultaPersistenciaCredito:Request:DataHeader:total	3
+ConsultaPersistenciaCredito		IN	jornada						con:ConsultaPersistenciaCredito:Request:DataHeader:jornada	1
+ConsultaPersistenciaCredito		IN	canal						con:ConsultaPersistenciaCredito:Request:DataHeader:canal	37
+ConsultaPersistenciaCredito		IN	modoDeOperacion						con:ConsultaPersistenciaCredito:Request:DataHeader:modoDeOperacion	0
+ConsultaPersistenciaCredito		IN	usuario						con:ConsultaPersistenciaCredito:Request:DataHeader:usuario	Mbaas
+ConsultaPersistenciaCredito		IN	perfil						con:ConsultaPersistenciaCredito:Request:DataHeader:perfil	1
+ConsultaPersistenciaCredito		IN	versionServicio						con:ConsultaPersistenciaCredito:Request:DataHeader:versionServicio	1.0.0
+ConsultaPersistenciaCredito		IN	idTransaccion						con:ConsultaPersistenciaCredito:Request:DataHeader:idTransaccion	1591397199
+ConsultaPersistenciaCredito		IN	idSesion						con:ConsultaPersistenciaCredito:Request:Data:idSesion
+ConsultaPersistenciaCredito		IN	codIdioma						con:ConsultaPersistenciaCredito:Request:Data:codIdioma
+ConsultaPersistenciaCredito		IN	valOrigen						con:ConsultaPersistenciaCredito:Request:Data:valOrigen
+ConsultaPersistenciaCredito		IN	codPais						con:ConsultaPersistenciaCredito:Request:Data:codPais
+ConsultaPersistenciaCredito		IN	aplicacionOrigen						con:ConsultaPersistenciaCredito:Request:Data:aplicacionOrigen	371301
+ConsultaPersistenciaCredito		IN	ipOrigen						con:ConsultaPersistenciaCredito:Request:Data:ipOrigen	186.28.115.112
+ConsultaPersistenciaCredito		IN	tipoIdentificacion						con:ConsultaPersistenciaCredito:Request:Data:tipoIdentificacion	01
+ConsultaPersistenciaCredito		IN	nroIdentificacion						con:ConsultaPersistenciaCredito:Request:Data:nroIdentificacion	19207329
+ConsultaPersistenciaCredito		IN	tipoConsulta						con:ConsultaPersistenciaCredito:Request:Data:tipoConsulta	R
+ConsultaPersistenciaCredito		IN	codigoProductoRPRsolicitado						con:ConsultaPersistenciaCredito:Request:Data:codigoProductoRPRsolicitado	0120
+ConsultaPersistenciaCredito		IN	codigoSubproductoRPRsolicitado						con:ConsultaPersistenciaCredito:Request:Data:codigoSubproductoRPRsolicitado	3510
+ConsultaPersistenciaCredito		OUT	nombreOperacion						con:ConsultaPersistenciaCreditoResponse:Response:DataHeader:nombreOperacion	ConsultaPersistenciaCredito
+ConsultaPersistenciaCredito		OUT	total						con:ConsultaPersistenciaCreditoResponse:Response:DataHeader:total	3
+ConsultaPersistenciaCredito		OUT	caracterAceptacion						con:ConsultaPersistenciaCreditoResponse:Response:DataHeader:caracterAceptacion	B
+ConsultaPersistenciaCredito		OUT	ultimoMensaje						con:ConsultaPersistenciaCreditoResponse:Response:DataHeader:ultimoMensaje	1
+ConsultaPersistenciaCredito		OUT	idTransaccion						con:ConsultaPersistenciaCreditoResponse:Response:DataHeader:idTransaccion	1591397199
+ConsultaPersistenciaCredito		OUT	codMsgRespuesta						con:ConsultaPersistenciaCreditoResponse:Response:DataHeader:codMsgRespuesta	0000
+ConsultaPersistenciaCredito		OUT	msgRespuesta						con:ConsultaPersistenciaCreditoResponse:Response:DataHeader:msgRespuesta
+ConsultaPersistenciaCredito		OUT	descripcionRespuesta						con:ConsultaPersistenciaCreditoResponse:Response:Data:descripcionRespuesta	
+ConsultaPersistenciaCredito		OUT	aplicacionOrigen						con:ConsultaPersistenciaCreditoResponse:Response:Data:aplicacionOrigen	301
+ConsultaPersistenciaCredito		OUT	tipoIdentificacion						con:ConsultaPersistenciaCreditoResponse:Response:Data:tipoIdentificacion	1
+ConsultaPersistenciaCredito		OUT	nroIdentificacion						con:ConsultaPersistenciaCreditoResponse:Response:Data:nroIdentificacion	19207329
+ConsultaPersistenciaCredito		OUT	nroSolicitud						con:ConsultaPersistenciaCreditoResponse:Response:Data:nroSolicitud	35893
+ConsultaPersistenciaCredito		OUT	nroProceso						con:ConsultaPersistenciaCreditoResponse:Response:Data:nroProceso	0
+ConsultaPersistenciaCredito		OUT	fechaProceso						con:ConsultaPersistenciaCreditoResponse:Response:Data:fechaProceso	20200605
+ConsultaPersistenciaCredito		OUT	horaProceso						con:ConsultaPersistenciaCreditoResponse:Response:Data:horaProceso	155508
+ConsultaPersistenciaCredito		OUT	valorSolicitado						con:ConsultaPersistenciaCreditoResponse:Response:Data:valorSolicitado	0
+ConsultaPersistenciaCredito		OUT	valorAprobado						con:ConsultaPersistenciaCreditoResponse:Response:Data:valorAprobado	0
+ConsultaPersistenciaCredito		OUT	valorCuotaMensual						con:ConsultaPersistenciaCreditoResponse:Response:Data:valorCuotaMensual	0
+ConsultaPersistenciaCredito		OUT	plazoSolicitado						con:ConsultaPersistenciaCreditoResponse:Response:Data:plazoSolicitado	0
+ConsultaPersistenciaCredito		OUT	tasaAprobadaMesVencido						con:ConsultaPersistenciaCreditoResponse:Response:Data:tasaAprobadaMesVencido	0.0000
+ConsultaPersistenciaCredito		OUT	tasaAprobadaEfectivaAnual						con:ConsultaPersistenciaCreditoResponse:Response:Data:tasaAprobadaEfectivaAnual	0.0000
+ConsultaPersistenciaCredito		OUT	capitalVtu						con:ConsultaPersistenciaCreditoResponse:Response:Data:capitalVtu	0.00
+ConsultaPersistenciaCredito		OUT	interesVtu						con:ConsultaPersistenciaCreditoResponse:Response:Data:interesVtu	0.00
+ConsultaPersistenciaCredito		OUT	seguroVidaItpVtu						con:ConsultaPersistenciaCreditoResponse:Response:Data:seguroVidaItpVtu	0.00
+ConsultaPersistenciaCredito		OUT	totalVtu						con:ConsultaPersistenciaCreditoResponse:Response:Data:totalVtu	0.00
+ConsultaPersistenciaCredito		OUT	porcentajeVtu						con:ConsultaPersistenciaCreditoResponse:Response:Data:porcentajeVtu	0.0000
+ConsultaPersistenciaCredito		OUT	codigoProductoRprSolicitado						con:ConsultaPersistenciaCreditoResponse:Response:Data:codigoProductoRprSolicitado	120
+ConsultaPersistenciaCredito		OUT	codigoSubproductoRprSolicitado						con:ConsultaPersistenciaCreditoResponse:Response:Data:codigoSubproductoRprSolicitado	3510
+ConsultaPersistenciaCredito		OUT	codigoProductoCarteraFm2000Solicitado						con:ConsultaPersistenciaCreditoResponse:Response:Data:codigoProductoCarteraFm2000Solicitado	0
+ConsultaPersistenciaCredito		OUT	codigoProductoRprCuentaDesembolsar						con:ConsultaPersistenciaCreditoResponse:Response:Data:codigoProductoRprCuentaDesembolsar	0
+ConsultaPersistenciaCredito		OUT	codigoSubproductoRprCuentaDesembolsar						con:ConsultaPersistenciaCreditoResponse:Response:Data:codigoSubproductoRprCuentaDesembolsar	0
+ConsultaPersistenciaCredito		OUT	numeroCuentaDesembolsar						con:ConsultaPersistenciaCreditoResponse:Response:Data:numeroCuentaDesembolsar	0
+ConsultaPersistenciaCredito		OUT	ingresoMensuales						con:ConsultaPersistenciaCreditoResponse:Response:Data:ingresoMensuales	0
+ConsultaPersistenciaCredito		OUT	actividadEconomica						con:ConsultaPersistenciaCreditoResponse:Response:Data:actividadEconomica	
+ConsultaPersistenciaCredito		OUT	ciudadResidencia						con:ConsultaPersistenciaCreditoResponse:Response:Data:ciudadResidencia	0
+ConsultaPersistenciaCredito		OUT	empresaDondeTrabaja						con:ConsultaPersistenciaCreditoResponse:Response:Data:empresaDondeTrabaja	
+ConsultaPersistenciaCredito		OUT	tipoContrato						con:ConsultaPersistenciaCreditoResponse:Response:Data:tipoContrato	0
+ConsultaPersistenciaCredito		OUT	ocupacionIndependiente						con:ConsultaPersistenciaCreditoResponse:Response:Data:ocupacionIndependiente	   
+ConsultaPersistenciaCredito		OUT	decision						con:ConsultaPersistenciaCreditoResponse:Response:Data:decision	
+ConsultaPersistenciaCredito		OUT	causalNegacion1						con:ConsultaPersistenciaCreditoResponse:Response:Data:causalNegacion1	
+ConsultaPersistenciaCredito		OUT	causalNegacion2						con:ConsultaPersistenciaCreditoResponse:Response:Data:causalNegacion2	
+ConsultaPersistenciaCredito		OUT	causalNegacion3						con:ConsultaPersistenciaCreditoResponse:Response:Data:causalNegacion3	
+ConsultaPersistenciaCredito		OUT	causalNegacion4						con:ConsultaPersistenciaCreditoResponse:Response:Data:causalNegacion4	
+ConsultaPersistenciaCredito		OUT	causalNegacion5						con:ConsultaPersistenciaCreditoResponse:Response:Data:causalNegacion5	
+ConsultaPersistenciaCredito		OUT	montoMaximoContraOferta						con:ConsultaPersistenciaCreditoResponse:Response:Data:montoMaximoContraOferta	0
+ConsultaPersistenciaCredito		OUT	ingresoFinal						con:ConsultaPersistenciaCreditoResponse:Response:Data:ingresoFinal	0
+ConsultaPersistenciaCredito		OUT	oficinaCliente						con:ConsultaPersistenciaCreditoResponse:Response:Data:oficinaCliente	0
+ConsultaPersistenciaCredito		OUT	agenteVendedor						con:ConsultaPersistenciaCreditoResponse:Response:Data:agenteVendedor	0
+ConsultaPersistenciaCredito		OUT	tipoCuentaDesembolsar						con:ConsultaPersistenciaCreditoResponse:Response:Data:tipoCuentaDesembolsar	
+ConsultaPersistenciaCredito		OUT	factorPorMillon						con:ConsultaPersistenciaCreditoResponse:Response:Data:factorPorMillon	0.00
+ConsultaPersistenciaCredito		OUT	convenio						con:ConsultaPersistenciaCreditoResponse:Response:Data:convenio	0
+ConsultaPersistenciaCredito		OUT	periocidadPago						con:ConsultaPersistenciaCreditoResponse:Response:Data:periocidadPago	
+ConsultaPersistenciaCredito		OUT	idDocumentoPagare						con:ConsultaPersistenciaCreditoResponse:Response:Data:idDocumentoPagare	0
+ConsultaPersistenciaCredito		OUT	uRLProductoDigital						con:ConsultaPersistenciaCreditoResponse:Response:Data:uRLProductoDigital	/1/
+ConsultaPersistenciaCredito		OUT	descripcionProductoDigital						con:ConsultaPersistenciaCreditoResponse:Response:Data:descripcionProductoDigital	Tarjeta Movil
+ConsultaPersistenciaCredito		OUT	indicadorLibranza						con:ConsultaPersistenciaCreditoResponse:Response:Data:indicadorLibranza	
+ConsultaPersistenciaCredito		OUT	fechaIngresoEmpresaReportadaCliente						con:ConsultaPersistenciaCreditoResponse:Response:Data:fechaIngresoEmpresaReportadaCliente	0
+ConsultaPersistenciaCredito		OUT	acierta						con:ConsultaPersistenciaCreditoResponse:Response:Data:acierta	
+ConsultaPersistenciaCredito		OUT	nitEmpresaDondeTrabaja						con:ConsultaPersistenciaCreditoResponse:Response:Data:nitEmpresaDondeTrabaja	0
+ConsultaPersistenciaCredito		OUT	riesgoConvenio						con:ConsultaPersistenciaCreditoResponse:Response:Data:riesgoConvenio	0
+ConsultaPersistenciaCredito		OUT	nombreConvenio						con:ConsultaPersistenciaCreditoResponse:Response:Data:nombreConvenio	
+ConsultaPersistenciaCredito		OUT	grupoConvenio						con:ConsultaPersistenciaCreditoResponse:Response:Data:grupoConvenio	0
+ConsultaPersistenciaCredito		OUT	tipoTasaFijaOVariable						con:ConsultaPersistenciaCreditoResponse:Response:Data:tipoTasaFijaOVariable	
+ConsultaPersistenciaCredito		OUT	spreed						con:ConsultaPersistenciaCreditoResponse:Response:Data:spreed	0.0000
+ConsultaPersistenciaCredito		OUT	valorFinalCreditoIncluidoCola						con:ConsultaPersistenciaCreditoResponse:Response:Data:valorFinalCreditoIncluidoCola	0.00
+ConsultaPersistenciaCredito		OUT	GMF						con:ConsultaPersistenciaCreditoResponse:Response:Data:GMF	0.00
+ConsultaPersistenciaCredito		OUT	fechaSimulacion						con:ConsultaPersistenciaCreditoResponse:Response:Data:fechaSimulacion	0
+ConsultaPersistenciaCredito		OUT	fechaEvaluacion1erMotor						con:ConsultaPersistenciaCreditoResponse:Response:Data:fechaEvaluacion1erMotor	0
+ConsultaPersistenciaCredito		OUT	OTP						con:ConsultaPersistenciaCreditoResponse:Response:Data:OTP	
+ConsultaPersistenciaCredito		OUT	campana						con:ConsultaPersistenciaCreditoResponse:Response:Data:campana	
+ConsultaPersistenciaCredito		OUT	canalVentaOrigen						con:ConsultaPersistenciaCreditoResponse:Response:Data:canalVentaOrigen	
+ConsultaPersistenciaCredito		OUT	estadoDaviplata						con:ConsultaPersistenciaCreditoResponse:Response:Data:estadoDaviplata	
+ConsultaPersistenciaCredito		OUT	direccionEntregaTarjeta						con:ConsultaPersistenciaCreditoResponse:Response:Data:direccionEntregaTarjeta	
+ConsultaPersistenciaCredito		OUT	ciudadEntregaTarjeta						con:ConsultaPersistenciaCreditoResponse:Response:Data:ciudadEntregaTarjeta	0
+ConsultaPersistenciaCredito		OUT	valAceptado						con:ConsultaPersistenciaCreditoResponse:Response:Data:valAceptado	0
+ConsultaPersistenciaCredito		OUT	valIndicadorAceptacionSeguro						con:ConsultaPersistenciaCreditoResponse:Response:Data:valIndicadorAceptacionSeguro	
+ConsultaPersistenciaCredito		OUT	fecFechaRtaSolicitudSeguroAdquirido						con:ConsultaPersistenciaCreditoResponse:Response:Data:fecFechaRtaSolicitudSeguroAdquirido	0
+ConsultaPersistenciaCredito		OUT	fecHoraRtaSolicitudSeguroAdquirido						con:ConsultaPersistenciaCreditoResponse:Response:Data:fecHoraRtaSolicitudSeguroAdquirido	0
+ConsultaPersistenciaCredito		OUT	valIndicadorCampana						con:ConsultaPersistenciaCreditoResponse:Response:Data:valIndicadorCampana	
+ConsultaPersistenciaCredito		OUT	valSeguro						con:ConsultaPersistenciaCreditoResponse:Response:Data:valSeguro	0.00
+ConsultaPersistenciaCredito		OUT	fecFechaInicioSolicitudAnterior						con:ConsultaPersistenciaCreditoResponse:Response:Data:fecFechaInicioSolicitudAnterior	0
+ConsultaPersistenciaCredito		OUT	valNumeroChequesRecoger						con:ConsultaPersistenciaCreditoResponse:Response:Data:valNumeroChequesRecoger	0
+ConsultaPersistenciaCredito		OUT	valTotalObligacionesComprar						con:ConsultaPersistenciaCreditoResponse:Response:Data:valTotalObligacionesComprar	0.00
+ConsultaPersistenciaCredito		OUT	fecFechaLimiteRecogerCheque						con:ConsultaPersistenciaCreditoResponse:Response:Data:fecFechaLimiteRecogerCheque	
+ConsultaPersistenciaCredito		OUT	fecFechaLimiteRespuestaEmpresa						con:ConsultaPersistenciaCreditoResponse:Response:Data:fecFechaLimiteRespuestaEmpresa	
+GenerarOTP		IN	v12:idServicio						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:servicio:v12:idServicio	generarOTP
+GenerarOTP		IN	v13:idSesion						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:operacionCanal:v13:idSesion	5d47dcd0-a77e-11ea-9126-ef7014bb4938
+GenerarOTP		IN	v13:idTransaccion						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:operacionCanal:v13:idTransaccion	1591397298
+GenerarOTP		IN	v13:fecOperacion						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:operacionCanal:v13:fecOperacion	2020-06-05T22:48:18.084+00:00
+GenerarOTP		IN	v13:valJornada						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:operacionCanal:v13:valJornada	0
+GenerarOTP		IN	v13:codMoneda						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:operacionCanal:v13:codMoneda	COP
+GenerarOTP		IN	v13:codPais						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:operacionCanal:v13:codPais	co
+GenerarOTP		IN	v13:codIdioma						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:operacionCanal:v13:codIdioma	ES
+GenerarOTP		IN	v14:idConsumidor						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:consumidor:v14:idConsumidor	DAVIVIENDA_TARJETA_MOVIL_CC
+GenerarOTP		IN	v15:idAplicacion						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:consumidor:v14:aplicacion:v15:idAplicacion	MBAAS
+GenerarOTP		IN	v16:idCanal						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:consumidor:v14:canal:v16:idCanal	37
+GenerarOTP		IN	v16:idHost						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:consumidor:v14:canal:v16:idHost	186.28.115.112
+GenerarOTP		IN	v17:idTerminal						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:consumidor:v14:terminal:v17:idTerminal	120003
+GenerarOTP		IN	v17:valOrigenPeticion						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:consumidor:v14:terminal:v17:valOrigenPeticion	186.28.115.112
+GenerarOTP		IN	v17:codUsuario						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:consumidor:v14:terminal:v17:codUsuario	Mbaas
+GenerarOTP		IN	v17:valPerfil						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:consumidor:v14:terminal:v17:valPerfil	0
+GenerarOTP		IN	v18:idBeacon						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:huellaDigitalDispositivo:v18:idBeacon
+GenerarOTP		IN	v18:valHuellaDispositivo						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:huellaDigitalDispositivo:v18:valHuellaDispositivo
+GenerarOTP		IN	v18:valTokenCookie						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:huellaDigitalDispositivo:v18:valTokenCookie
+GenerarOTP		IN	v18:valTokenFSO						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:huellaDigitalDispositivo:v18:valTokenFSO
+GenerarOTP		IN	v18:valHttpAccept						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:huellaDigitalDispositivo:v18:valHttpAccept
+GenerarOTP		IN	v18:valHttpAcceptChars						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:huellaDigitalDispositivo:v18:valHttpAcceptChars
+GenerarOTP		IN	v18:valHttpAcceptEncoding						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:huellaDigitalDispositivo:v18:valHttpAcceptEncoding
+GenerarOTP		IN	v18:valHttpAcceptLanguage						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:huellaDigitalDispositivo:v18:valHttpAcceptLanguage
+GenerarOTP		IN	v18:valHttpReferrer						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:huellaDigitalDispositivo:v18:valHttpReferrer
+GenerarOTP		IN	v18:valIpAddress						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:huellaDigitalDispositivo:v18:valIpAddress
+GenerarOTP		IN	v18:valUserAgent						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:huellaDigitalDispositivo:v18:valUserAgent
+GenerarOTP		IN	v19:valColumna						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:criteriosOrdenamiento:v11:criterioOrdenamiento:v19:valColumna
+GenerarOTP		IN	v19:valOrden						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:criteriosOrdenamiento:v11:criterioOrdenamiento:v19:valOrden
+GenerarOTP		IN	v110:valCantidadRegistrosLote						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:paginacion:v110:valCantidadRegistrosLote
+GenerarOTP		IN	v110:valNumeroLote						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:paginacion:v110:valNumeroLote
+GenerarOTP		IN	v110:valTotalRegistros						v1:msjSolOpGenerarOTPQR:v1:contextoSolicitud:v11:paginacion:v110:valTotalRegistros
+GenerarOTP		IN	v111:codTipoIdentificacion						v1:msjSolOpGenerarOTPQR:v1:cliente:v111:codTipoIdentificacion	01
+GenerarOTP		IN	v111:valNumeroIdentificacion						v1:msjSolOpGenerarOTPQR:v1:cliente:v111:valNumeroIdentificacion	19207329
+GenerarOTP		IN	v111:valNombre						v1:msjSolOpGenerarOTPQR:v1:cliente:v111:valNombre
+GenerarOTP		IN	v113:codTipoTelefono						v1:msjSolOpGenerarOTPQR:v1:cliente:v111:contacto:v112:telefonos:v112:telefono:v113:codTipoTelefono
+GenerarOTP		IN	v113:valNumeroTelefono						v1:msjSolOpGenerarOTPQR:v1:cliente:v111:contacto:v112:telefonos:v112:telefono:v113:valNumeroTelefono
+GenerarOTP		IN	v112:valCorreoElectronico						v1:msjSolOpGenerarOTPQR:v1:cliente:v111:contacto:v112:correosElectronicos:v112:valCorreoElectronico
+GenerarOTP		IN	v112:esAutorizaNotificacionElectronica						v1:msjSolOpGenerarOTPQR:v1:cliente:v111:contacto:v112:esAutorizaNotificacionElectronica
+GenerarOTP		IN	v115:idMunicipio						v1:msjSolOpGenerarOTPQR:v1:cliente:v111:contacto:v112:ubicaciones:v112:ubicacion:v114:municipio:v115:idMunicipio
+GenerarOTP		IN	v115:codMunicipio						v1:msjSolOpGenerarOTPQR:v1:cliente:v111:contacto:v112:ubicaciones:v112:ubicacion:v114:municipio:v115:codMunicipio
+GenerarOTP		IN	v115:valNombre						v1:msjSolOpGenerarOTPQR:v1:cliente:v111:contacto:v112:ubicaciones:v112:ubicacion:v114:municipio:v115:valNombre
+GenerarOTP		IN	v116:idDepartamento						v1:msjSolOpGenerarOTPQR:v1:cliente:v111:contacto:v112:ubicaciones:v112:ubicacion:v114:municipio:v115:departamento:v116:idDepartamento
+GenerarOTP		IN	v116:codDepartamento						v1:msjSolOpGenerarOTPQR:v1:cliente:v111:contacto:v112:ubicaciones:v112:ubicacion:v114:municipio:v115:departamento:v116:codDepartamento
+GenerarOTP		IN	v116:valNombre						v1:msjSolOpGenerarOTPQR:v1:cliente:v111:contacto:v112:ubicaciones:v112:ubicacion:v114:municipio:v115:departamento:v116:valNombre
+GenerarOTP		IN	v114:valDireccion						v1:msjSolOpGenerarOTPQR:v1:cliente:v111:contacto:v112:ubicaciones:v112:ubicacion:v114:valDireccion
+GenerarOTP		IN	v114:codTipoDireccion						v1:msjSolOpGenerarOTPQR:v1:cliente:v111:contacto:v112:ubicaciones:v112:ubicacion:v114:codTipoDireccion
+GenerarOTP		IN	v111:valNaturaleza						v1:msjSolOpGenerarOTPQR:v1:cliente:v111:valNaturaleza
+GenerarOTP		IN	v117:valPrimerNombre						v1:msjSolOpGenerarOTPQR:v1:cliente:v117:valPrimerNombre
+GenerarOTP		IN	v117:valSegundoNombre						v1:msjSolOpGenerarOTPQR:v1:cliente:v117:valSegundoNombre
+GenerarOTP		IN	v117:valPrimerApellido						v1:msjSolOpGenerarOTPQR:v1:cliente:v117:valPrimerApellido
+GenerarOTP		IN	v117:valSegundoApellido						v1:msjSolOpGenerarOTPQR:v1:cliente:v117:valSegundoApellido
+GenerarOTP		IN	v117:codSexo						v1:msjSolOpGenerarOTPQR:v1:cliente:v117:codSexo
+GenerarOTP		IN	v117:codEstadoCivil						v1:msjSolOpGenerarOTPQR:v1:cliente:v117:codEstadoCivil
+GenerarOTP		IN	v117:valLoginAutoservicio						v1:msjSolOpGenerarOTPQR:v1:cliente:v117:valLoginAutoservicio
+GenerarOTP		IN	v117:codNivelEducativo						v1:msjSolOpGenerarOTPQR:v1:cliente:v117:codNivelEducativo
+GenerarOTP		IN	v117:valFechaNacimiento						v1:msjSolOpGenerarOTPQR:v1:cliente:v117:valFechaNacimiento
+GenerarOTP		IN	v118:codEmpresaAsociada						v1:msjSolOpGenerarOTPQR:v1:cliente:v118:codEmpresaAsociada
+GenerarOTP		IN	v118:valNombreEmpresaAsociada						v1:msjSolOpGenerarOTPQR:v1:cliente:v118:valNombreEmpresaAsociada
+GenerarOTP		IN	v1:valIdTokenOTP						v1:msjSolOpGenerarOTPQR:v1:infoToken:v1:valIdTokenOTP
+GenerarOTP		IN	v1:fecExpiracionToken						v1:msjSolOpGenerarOTPQR:v1:infoToken:v1:fecExpiracionToken
+GenerarOTP		IN	v1:valTiempoVida						v1:msjSolOpGenerarOTPQR:v1:infoToken:v1:valTiempoVida
+GenerarOTP		IN	v1:valTipoOTP						v1:msjSolOpGenerarOTPQR:v1:infoNotificacion:v1:valTipoOTP	APPTRN_MOVIL_CCARTERA
+GenerarOTP		IN	v1:esNotificacionPush						v1:msjSolOpGenerarOTPQR:v1:infoNotificacion:v1:esNotificacionPush
+GenerarOTP		IN	v1:esNotificacionSMS						v1:msjSolOpGenerarOTPQR:v1:infoNotificacion:v1:esNotificacionSMS
+GenerarOTP		IN	v1:esNotificacionMail						v1:msjSolOpGenerarOTPQR:v1:infoNotificacion:v1:esNotificacionMail
+GenerarOTP		IN	v1:valLlave						v1:msjSolOpGenerarOTPQR:v1:listaParametrosAdicionales:v1:parametroAdicional:v1:valLlave	ValorTX
+GenerarOTP		IN	v1:valValor						v1:msjSolOpGenerarOTPQR:v1:listaParametrosAdicionales:v1:parametroAdicional:v1:valValor	2000000
+GenerarOTP		IN	v1:esReplicado						v1:msjSolOpGenerarOTPQR:v1:listaParametrosAdicionales:v1:parametroAdicional:v1:esReplicado
+GenerarOTP		OUT	v12:codEstadoTransaccion						v1:msjRespOpGenerarOTPQR:v1:contextoRespuesta:v11:resultadoTransaccion:v12:codEstadoTransaccion
+GenerarOTP		OUT	v12:valCaracterAceptacion						v1:msjRespOpGenerarOTPQR:v1:contextoRespuesta:v11:resultadoTransaccion:v12:valCaracterAceptacion
+GenerarOTP		OUT	v12:valNumeroAprobacion						v1:msjRespOpGenerarOTPQR:v1:contextoRespuesta:v11:resultadoTransaccion:v12:valNumeroAprobacion
+GenerarOTP		OUT	v12:idTransaccion						v1:msjRespOpGenerarOTPQR:v1:contextoRespuesta:v11:resultadoTransaccion:v12:idTransaccion
+GenerarOTP		OUT	v12:fecOperacion						v1:msjRespOpGenerarOTPQR:v1:contextoRespuesta:v11:resultadoTransaccion:v12:fecOperacion
+GenerarOTP		OUT	v13:codMsjRespuesta						v1:msjRespOpGenerarOTPQR:v1:contextoRespuesta:v11:error:v13:codMsjRespuesta
+GenerarOTP		OUT	v13:valMsjRespuesta						v1:msjRespOpGenerarOTPQR:v1:contextoRespuesta:v11:error:v13:valMsjRespuesta
+GenerarOTP		OUT	v13:codMsjRespuestaBackend						v1:msjRespOpGenerarOTPQR:v1:contextoRespuesta:v11:error:v13:codMsjRespuestaBackend
+GenerarOTP		OUT	v13:valMsjRespuestaBackend						v1:msjRespOpGenerarOTPQR:v1:contextoRespuesta:v11:error:v13:valMsjRespuestaBackend
+GenerarOTP		OUT	v14:valCantidadRegistrosLote						v1:msjRespOpGenerarOTPQR:v1:contextoRespuesta:v11:paginacion:v14:valCantidadRegistrosLote
+GenerarOTP		OUT	v14:valNumeroLote						v1:msjRespOpGenerarOTPQR:v1:contextoRespuesta:v11:paginacion:v14:valNumeroLote
+GenerarOTP		OUT	v14:valTotalRegistros						v1:msjRespOpGenerarOTPQR:v1:contextoRespuesta:v11:paginacion:v14:valTotalRegistros
+GenerarOTP		OUT	v1:valTokenOTP						v1:msjRespOpGenerarOTPQR:v1:tokenGenerado:v1:valTokenOTP
+GenerarOTP		OUT	v1:valIdTokenOTP						v1:msjRespOpGenerarOTPQR:v1:tokenGenerado:v1:valIdTokenOTP
+GenerarOTP		OUT	v1:feInicio						v1:msjRespOpGenerarOTPQR:v1:tokenGenerado:v1:feInicio
+GenerarOTP		OUT	v1:fecExpiracion						v1:msjRespOpGenerarOTPQR:v1:tokenGenerado:v1:fecExpiracion
+GenerarOTP		OUT	v1:valTiempoExpiracion						v1:msjRespOpGenerarOTPQR:v1:tokenGenerado:v1:valTiempoExpiracion
+GenerarOTP		OUT	valTokenOTPQR						v1:msjRespOpGenerarOTPQR:v1:tokenGenerado:valTokenOTPQR
+GenerarOTP		OUT	v1:valIdQR						v1:msjRespOpGenerarOTPQR:v1:tokenGenerado:v1:valIdQR
+GenerarOTP		OUT	v1:esSMS						v1:msjRespOpGenerarOTPQR:v1:valMediosNotificados:v1:esSMS
+GenerarOTP		OUT	v1:esMail						v1:msjRespOpGenerarOTPQR:v1:valMediosNotificados:v1:esMail
+GenerarOTP		OUT	v1:esPUSH						v1:msjRespOpGenerarOTPQR:v1:valMediosNotificados:v1:esPUSH
+AsignarMedio		IN	nombreOperacion						asig:AsignarMedioProcesoExpress:Request:DataHeader:nombreOperacion	AsignarMedioProcesoExpress
+AsignarMedio		IN	total						asig:AsignarMedioProcesoExpress:Request:DataHeader:total	370003
+AsignarMedio		IN	jornada						asig:AsignarMedioProcesoExpress:Request:DataHeader:jornada	0
+AsignarMedio		IN	canal						asig:AsignarMedioProcesoExpress:Request:DataHeader:canal	37
+AsignarMedio		IN	modoDeOperacion						asig:AsignarMedioProcesoExpress:Request:DataHeader:modoDeOperacion	0
+AsignarMedio		IN	usuario						asig:AsignarMedioProcesoExpress:Request:DataHeader:usuario	Mbaas
+AsignarMedio		IN	perfil						asig:AsignarMedioProcesoExpress:Request:DataHeader:perfil	0
+AsignarMedio		IN	versionServicio						asig:AsignarMedioProcesoExpress:Request:DataHeader:versionServicio	3.0.0
+AsignarMedio		IN	idTransaccion						asig:AsignarMedioProcesoExpress:Request:DataHeader:idTransaccion	1591397391
+AsignarMedio		IN	idSesion						asig:AsignarMedioProcesoExpress:Request:Data:idSesion
+AsignarMedio		IN	codIdioma						asig:AsignarMedioProcesoExpress:Request:Data:codIdioma
+AsignarMedio		IN	valOrigen						asig:AsignarMedioProcesoExpress:Request:Data:valOrigen
+AsignarMedio		IN	codPais						asig:AsignarMedioProcesoExpress:Request:Data:codPais
+AsignarMedio		IN	valTipoCliente						asig:AsignarMedioProcesoExpress:Request:Data:InformacionCliente:valTipoCliente	C
+AsignarMedio		IN	codTipoIdCliente						asig:AsignarMedioProcesoExpress:Request:Data:InformacionCliente:codTipoIdCliente	01
+AsignarMedio		IN	valIdCliente						asig:AsignarMedioProcesoExpress:Request:Data:InformacionCliente:valIdCliente	19207329
+AsignarMedio		IN	valPrimerNombre						asig:AsignarMedioProcesoExpress:Request:Data:InformacionCliente:valPrimerNombre	ROBERTO
+AsignarMedio		IN	valSegundoNombre						asig:AsignarMedioProcesoExpress:Request:Data:InformacionCliente:valSegundoNombre	
+AsignarMedio		IN	valPrimerApellido						asig:AsignarMedioProcesoExpress:Request:Data:InformacionCliente:valPrimerApellido	LIZARAZO
+AsignarMedio		IN	valSegundoApellido						asig:AsignarMedioProcesoExpress:Request:Data:InformacionCliente:valSegundoApellido	MEJIA
+AsignarMedio		IN	valDireccionCorreoElecronico						asig:AsignarMedioProcesoExpress:Request:Data:InformacionCliente:valDireccionCorreoElecronico	pruebaslabdavi@gmail.com
+AsignarMedio		IN	valNumeroCelular						asig:AsignarMedioProcesoExpress:Request:Data:InformacionCliente:valNumeroCelular	3001231234
+AsignarMedio		IN	codigoConvenio						asig:AsignarMedioProcesoExpress:Request:Data:InformacionTarjeta:codigoConvenio	TMOM
+AsignarMedio		IN	indicadorGeneradorPlastico						asig:AsignarMedioProcesoExpress:Request:Data:InformacionTarjeta:indicadorGeneradorPlastico	CP
+AsignarMedio		IN	codOficina						asig:AsignarMedioProcesoExpress:Request:Data:InformacionTarjeta:codOficina	000100000000000
+AsignarMedio		IN	codigoProducto						asig:AsignarMedioProcesoExpress:Request:Data:InformacionTarjeta:codigoProducto	
+AsignarMedio		IN	cupoTotalDecisor						asig:AsignarMedioProcesoExpress:Request:Data:InformacionTarjeta:cupoTotalDecisor	2000000
+AsignarMedio		IN	cupoTotalInmediato						asig:AsignarMedioProcesoExpress:Request:Data:InformacionTarjeta:cupoTotalInmediato	0
+AsignarMedio		IN	numeroSolicitud						asig:AsignarMedioProcesoExpress:Request:Data:InformacionTarjeta:numeroSolicitud	35893
+AsignarMedio		IN	valOrigenTerminal						asig:AsignarMedioProcesoExpress:Request:Data:InformacionTarjeta:valOrigenTerminal	TARJETA_MOVIL
+AsignarMedio		IN	codigoOficina						asig:AsignarMedioProcesoExpress:Request:Data:InformacionTarjeta:codigoOficina	0
+AsignarMedio		IN	codigoAgenteVendedor						asig:AsignarMedioProcesoExpress:Request:Data:InformacionTarjeta:codigoAgenteVendedor	0
+AsignarMedio		IN	direccionCorrespondencia						asig:AsignarMedioProcesoExpress:Request:Data:InformacionTarjeta:direccionCorrespondencia	KR 15 # 8346 AP 707
+AsignarMedio		IN	ciudadCorrespondencia						asig:AsignarMedioProcesoExpress:Request:Data:InformacionTarjeta:ciudadCorrespondencia	16911001
+AsignarMedio		IN	modalidadExtractos						asig:AsignarMedioProcesoExpress:Request:Data:InformacionTarjeta:modalidadExtractos	1
+AsignarMedio		IN	usoFuturo1						asig:AsignarMedioProcesoExpress:Request:Data:InformacionTarjeta:usoFuturo1	0
+AsignarMedio		IN	usoFuturo2						asig:AsignarMedioProcesoExpress:Request:Data:InformacionTarjeta:usoFuturo2	0
+AsignarMedio		IN	usoFuturo3						asig:AsignarMedioProcesoExpress:Request:Data:InformacionTarjeta:usoFuturo3	
+AsignarMedio		IN	usoFuturo4						asig:AsignarMedioProcesoExpress:Request:Data:InformacionTarjeta:usoFuturo4	
+AsignarMedio		IN	valIndicadorEntregaOficina						asig:AsignarMedioProcesoExpress:Request:Data:InformacionTarjeta:valIndicadorEntregaOficina	0
+AsignarMedio		IN	valOficinaEntregaTC						asig:AsignarMedioProcesoExpress:Request:Data:InformacionTarjeta:valOficinaEntregaTC	0
+AsignarMedio		OUT	nombreOperacion						asig:AsignarMedioProcesoExpressResponse:Response:DataHeader:nombreOperacion	AsignarMedioProcesoExpress
+AsignarMedio		OUT	total						asig:AsignarMedioProcesoExpressResponse:Response:DataHeader:total	370003
+AsignarMedio		OUT	caracterAceptacion						asig:AsignarMedioProcesoExpressResponse:Response:DataHeader:caracterAceptacion	B
+AsignarMedio		OUT	ultimoMensaje						asig:AsignarMedioProcesoExpressResponse:Response:DataHeader:ultimoMensaje	0
+AsignarMedio		OUT	idTransaccion						asig:AsignarMedioProcesoExpressResponse:Response:DataHeader:idTransaccion	1591397391
+AsignarMedio		OUT	codMsgRespuesta						asig:AsignarMedioProcesoExpressResponse:Response:DataHeader:codMsgRespuesta	0
+AsignarMedio		OUT	msgRespuesta						asig:AsignarMedioProcesoExpressResponse:Response:DataHeader:msgRespuesta	Transacción procesada
+AsignarMedio		OUT	numeroDeTarjeta						asig:AsignarMedioProcesoExpressResponse:Response:Data:numeroDeTarjeta	5471301426417516
+AsignarMedio		OUT	codMsgRespuesta						asig:AsignarMedioProcesoExpressResponse:Response:Data:CreacionTC:codMsgRespuesta	0
+AsignarMedio		OUT	msgRespuesta						asig:AsignarMedioProcesoExpressResponse:Response:Data:CreacionTC:msgRespuesta
+AsignarMedio		OUT	codMsgRespuesta						asig:AsignarMedioProcesoExpressResponse:Response:Data:RedistribucionCuposAutorizador:codMsgRespuesta	0
+AsignarMedio		OUT	msgRespuesta						asig:AsignarMedioProcesoExpressResponse:Response:Data:RedistribucionCuposAutorizador:msgRespuesta
+AsignarMedio		OUT	codMsgRespuesta						asig:AsignarMedioProcesoExpressResponse:Response:Data:RedistribucionCuposStratus:codMsgRespuesta	0
+AsignarMedio		OUT	msgRespuesta						asig:AsignarMedioProcesoExpressResponse:Response:Data:RedistribucionCuposStratus:msgRespuesta
+AsignarMedio		OUT	codMsgRespuesta						asig:AsignarMedioProcesoExpressResponse:Response:Data:CrearRPR:codMsgRespuesta	0
+AsignarMedio		OUT	msgRespuesta						asig:AsignarMedioProcesoExpressResponse:Response:Data:CrearRPR:msgRespuesta
+AsignarMedio		OUT	codMsgRespuesta						asig:AsignarMedioProcesoExpressResponse:Response:Data:PrimeraCompra:codMsgRespuesta
+AsignarMedio		OUT	msgRespuesta						asig:AsignarMedioProcesoExpressResponse:Response:Data:PrimeraCompra:msgRespuesta	Ha ocurrido un Error No Esperado en el ESB
+ConsultarTCV		IN	nombreOperacion						con:consultarTCV:Request:DataHeader:nombreOperacion	consultarTCV
+ConsultarTCV		IN	total						con:consultarTCV:Request:DataHeader:total	370034
+ConsultarTCV		IN	jornada						con:consultarTCV:Request:DataHeader:jornada	0
+ConsultarTCV		IN	canal						con:consultarTCV:Request:DataHeader:canal	37
+ConsultarTCV		IN	modoDeOperacion						con:consultarTCV:Request:DataHeader:modoDeOperacion	0
+ConsultarTCV		IN	usuario						con:consultarTCV:Request:DataHeader:usuario	Mbaas
+ConsultarTCV		IN	perfil						con:consultarTCV:Request:DataHeader:perfil	0
+ConsultarTCV		IN	versionServicio						con:consultarTCV:Request:DataHeader:versionServicio	1.0.0
+ConsultarTCV		IN	idSesion						con:consultarTCV:Request:Data:idSesion
+ConsultarTCV		IN	codIdioma						con:consultarTCV:Request:Data:codIdioma
+ConsultarTCV		IN	valOrigen						con:consultarTCV:Request:Data:valOrigen
+ConsultarTCV		IN	codPais						con:consultarTCV:Request:Data:codPais
+ConsultarTCV		IN	valCodigoConvenio						con:consultarTCV:Request:Data:valCodigoConvenio	0001
+ConsultarTCV		IN	valTipoConsulta						con:consultarTCV:Request:Data:valTipoConsulta	P
+ConsultarTCV		IN	numProducto						con:consultarTCV:Request:Data:numProducto	5471301426417516
+ConsultarTCV		IN	valCodigoSeguridad						con:consultarTCV:Request:Data:valCodigoSeguridad
+ConsultarTCV		IN	valCampoDisponibleN1						con:consultarTCV:Request:Data:valCampoDisponibleN1
+ConsultarTCV		IN	valCampoDisponibleN2						con:consultarTCV:Request:Data:valCampoDisponibleN2
+ConsultarTCV		IN	valCampoDisponibleC1						con:consultarTCV:Request:Data:valCampoDisponibleC1
+ConsultarTCV		IN	valCampoDisponibleC2						con:consultarTCV:Request:Data:valCampoDisponibleC2
+ConsultarTCV		IN	numTelefono						con:consultarTCV:Request:Data:numTelefono
+ConsultarTCV		IN	valCodTipoIdentificacion						con:consultarTCV:Request:Data:valCodTipoIdentificacion
+ConsultarTCV		IN	numIdentificacion						con:consultarTCV:Request:Data:numIdentificacion
+ConsultarTCV		OUT	nombreOperacion						con:consultarTCVResponse:Response:DataHeader:nombreOperacion	consultarTCV
+ConsultarTCV		OUT	total						con:consultarTCVResponse:Response:DataHeader:total	370034
+ConsultarTCV		OUT	caracterAceptacion						con:consultarTCVResponse:Response:DataHeader:caracterAceptacion	B
+ConsultarTCV		OUT	ultimoMensaje						con:consultarTCVResponse:Response:DataHeader:ultimoMensaje	1
+ConsultarTCV		OUT	codMsgRespuesta						con:consultarTCVResponse:Response:DataHeader:codMsgRespuesta	0
+ConsultarTCV		OUT	msgRespuesta						con:consultarTCVResponse:Response:DataHeader:msgRespuesta
+ConsultarTCV		OUT	numRegistros						con:consultarTCVResponse:Response:Data:numRegistros	1
+ConsultarTCV		OUT	valTipoIdentificacion						con:consultarTCVResponse:Response:Data:Registros:Registro:valTipoIdentificacion	01
+ConsultarTCV		OUT	numIdentificacion						con:consultarTCVResponse:Response:Data:Registros:Registro:numIdentificacion	000019207329
+ConsultarTCV		OUT	fecVencimiento						con:consultarTCVResponse:Response:Data:Registros:Registro:fecVencimiento	202609
+ConsultarTCV		OUT	valCodigoSeguridad						con:consultarTCVResponse:Response:Data:Registros:Registro:valCodigoSeguridad
+ConsultarTCV		OUT	valCampoDisponibleN1						con:consultarTCVResponse:Response:Data:Registros:Registro:valCampoDisponibleN1	0
+ConsultarTCV		OUT	valCampoDisponibleN2						con:consultarTCVResponse:Response:Data:Registros:Registro:valCampoDisponibleN2	0
+ConsultarTCV		OUT	valCampoDisponibleC1						con:consultarTCVResponse:Response:Data:Registros:Registro:valCampoDisponibleC1	5471301426417516
+ConsultarTCV		OUT	valCampoDisponibleC2						con:consultarTCVResponse:Response:Data:Registros:Registro:valCampoDisponibleC2	ROBERTO LIZARAZO M
+ConsultaCambioPlazo		IN	nombreOperacion						con:ConsultaCambioPlazo:Request:DataHeader:nombreOperacion	ConsultaCambioPlazo
+ConsultaCambioPlazo		IN	total						con:ConsultaCambioPlazo:Request:DataHeader:total	250084
+ConsultaCambioPlazo		IN	jornada						con:ConsultaCambioPlazo:Request:DataHeader:jornada	1
+ConsultaCambioPlazo		IN	canal						con:ConsultaCambioPlazo:Request:DataHeader:canal	37
+ConsultaCambioPlazo		IN	modoDeOperacion						con:ConsultaCambioPlazo:Request:DataHeader:modoDeOperacion	0
+ConsultaCambioPlazo		IN	usuario						con:ConsultaCambioPlazo:Request:DataHeader:usuario	Mbaas
+ConsultaCambioPlazo		IN	perfil						con:ConsultaCambioPlazo:Request:DataHeader:perfil	0
+ConsultaCambioPlazo		IN	versionServicio						con:ConsultaCambioPlazo:Request:DataHeader:versionServicio	2.0.0
+ConsultaCambioPlazo		IN	idTransaccion						con:ConsultaCambioPlazo:Request:DataHeader:idTransaccion	1591382206
+ConsultaCambioPlazo		IN	idSesion						con:ConsultaCambioPlazo:Request:Data:idSesion
+ConsultaCambioPlazo		IN	codIdioma						con:ConsultaCambioPlazo:Request:Data:codIdioma
+ConsultaCambioPlazo		IN	valOrigen						con:ConsultaCambioPlazo:Request:Data:valOrigen
+ConsultaCambioPlazo		IN	codPais						con:ConsultaCambioPlazo:Request:Data:codPais
+ConsultaCambioPlazo		IN	codOperacion						con:ConsultaCambioPlazo:Request:Data:codOperacion	R
+ConsultaCambioPlazo		IN	valNumeroTarjeta						con:ConsultaCambioPlazo:Request:Data:valNumeroTarjeta	0036032415329862
+ConsultaCambioPlazo		OUT	nombreOperacion						con:ConsultaCambioPlazoResponse:Response:DataHeader:nombreOperacion	ConsultaCambioPlazo
+ConsultaCambioPlazo		OUT	total						con:ConsultaCambioPlazoResponse:Response:DataHeader:total
+ConsultaCambioPlazo		OUT	caracterAceptacion						con:ConsultaCambioPlazoResponse:Response:DataHeader:caracterAceptacion	M
+ConsultaCambioPlazo		OUT	ultimoMensaje						con:ConsultaCambioPlazoResponse:Response:DataHeader:ultimoMensaje	1
+ConsultaCambioPlazo		OUT	idTransaccion						con:ConsultaCambioPlazoResponse:Response:DataHeader:idTransaccion	1591382206
+ConsultaCambioPlazo		OUT	codMsgRespuesta						con:ConsultaCambioPlazoResponse:Response:DataHeader:codMsgRespuesta	1
+ConsultaCambioPlazo		OUT	msgRespuesta						con:ConsultaCambioPlazoResponse:Response:DataHeader:msgRespuesta	Tarjeta sin parámetros de transacciones para cambio de plazo
+ConsultaCambioPlazo		OUT	codOperacion						con:ConsultaCambioPlazoResponse:Response:Data:codOperacion
+ConsultaCambioPlazo		OUT	valNumeroTarjeta						con:ConsultaCambioPlazoResponse:Response:Data:valNumeroTarjeta
+ConsultaCambioPlazo		OUT	valNumeroRegistros						con:ConsultaCambioPlazoResponse:Response:Data:valNumeroRegistros
+ConsultaCambioPlazo		OUT	codTipoTransaccion						con:ConsultaCambioPlazoResponse:Response:Data:Registros:Registro:codTipoTransaccion
+ConsultaCambioPlazo		OUT	codOrigenMovimiento						con:ConsultaCambioPlazoResponse:Response:Data:Registros:Registro:codOrigenMovimiento
+ConsultaCambioPlazo		OUT	valPlazoDiferido						con:ConsultaCambioPlazoResponse:Response:Data:Registros:Registro:valPlazoDiferido
+ConsultaCambioPlazo		OUT	fecDiferido						con:ConsultaCambioPlazoResponse:Response:Data:Registros:Registro:fecDiferido
+ConsultaClienteUnClick		IN	nombreOperacion						con:consultaClienteUnClick:Request:DataHeader:nombreOperacion	consultaClienteUnClick
+ConsultaClienteUnClick		IN	total						con:consultaClienteUnClick:Request:DataHeader:total	2337
+ConsultaClienteUnClick		IN	jornada						con:consultaClienteUnClick:Request:DataHeader:jornada	0
+ConsultaClienteUnClick		IN	canal						con:consultaClienteUnClick:Request:DataHeader:canal	37
+ConsultaClienteUnClick		IN	modoDeOperacion						con:consultaClienteUnClick:Request:DataHeader:modoDeOperacion	1
+ConsultaClienteUnClick		IN	usuario						con:consultaClienteUnClick:Request:DataHeader:usuario	MBaas
+ConsultaClienteUnClick		IN	perfil						con:consultaClienteUnClick:Request:DataHeader:perfil	0
+ConsultaClienteUnClick		IN	versionServicio						con:consultaClienteUnClick:Request:DataHeader:versionServicio	1.0.0
+ConsultaClienteUnClick		IN	idSesion						con:consultaClienteUnClick:Request:Data:idSesion
+ConsultaClienteUnClick		IN	codIdioma						con:consultaClienteUnClick:Request:Data:codIdioma
+ConsultaClienteUnClick		IN	codPais						con:consultaClienteUnClick:Request:Data:codPais
+ConsultaClienteUnClick		IN	valOrigen						con:consultaClienteUnClick:Request:Data:valOrigen
+ConsultaClienteUnClick		IN	idTransaccion						con:consultaClienteUnClick:Request:Data:idTransaccion
+ConsultaClienteUnClick		IN	valVersionApp						con:consultaClienteUnClick:Request:Data:valVersionApp
+ConsultaClienteUnClick		IN	numeroId						con:consultaClienteUnClick:Request:Data:numeroId	19207329
+ConsultaClienteUnClick		IN	tipoId						con:consultaClienteUnClick:Request:Data:tipoId	01
+ConsultaClienteUnClick		OUT	nombreOperacion						con:consultaClienteUnClickResponse:Response:DataHeader:nombreOperacion	consultaClienteUnClick
+ConsultaClienteUnClick		OUT	total						con:consultaClienteUnClickResponse:Response:DataHeader:total	2337
+ConsultaClienteUnClick		OUT	caracterAceptacion						con:consultaClienteUnClickResponse:Response:DataHeader:caracterAceptacion	B
+ConsultaClienteUnClick		OUT	ultimoMensaje						con:consultaClienteUnClickResponse:Response:DataHeader:ultimoMensaje	1
+ConsultaClienteUnClick		OUT	codMsgRespuesta						con:consultaClienteUnClickResponse:Response:DataHeader:codMsgRespuesta	0
+ConsultaClienteUnClick		OUT	msgRespuesta						con:consultaClienteUnClickResponse:Response:DataHeader:msgRespuesta
+ConsultaClienteUnClick		OUT	desctipoidentificacionAL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:actLaborales:actLaboral:desctipoidentificacionAL	CEDULA DE CIUDADANIA
+ConsultaClienteUnClick		OUT	nroIdentificacionAL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:actLaborales:actLaboral:nroIdentificacionAL	19207329
+ConsultaClienteUnClick		OUT	tipoIdentificacionAL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:actLaborales:actLaboral:tipoIdentificacionAL	01
+ConsultaClienteUnClick		OUT	actLaboralAL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:actLaborales:actLaboral:actLaboralAL	INDEPENDIENTE
+ConsultaClienteUnClick		OUT	tipoContratoAL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:actLaborales:actLaboral:tipoContratoAL	0
+ConsultaClienteUnClick		OUT	fechaInicioAL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:actLaborales:actLaboral:fechaInicioAL	1900/01/01 00:00:00
+ConsultaClienteUnClick		OUT	carreraAL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:actLaborales:actLaboral:carreraAL	
+ConsultaClienteUnClick		OUT	anoCursaAL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:actLaborales:actLaboral:anoCursaAL	
+ConsultaClienteUnClick		OUT	universidadAL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:actLaborales:actLaboral:universidadAL	
+ConsultaClienteUnClick		OUT	tipoAL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:actLaborales:actLaboral:tipoAL	Laboral
+ConsultaClienteUnClick		OUT	nroIdentificacionNT						con:consultaClienteUnClickResponse:Response:Data:datos_PN:notas:nota:nroIdentificacionNT
+ConsultaClienteUnClick		OUT	descTipoIdentificacionNT						con:consultaClienteUnClickResponse:Response:Data:datos_PN:notas:nota:descTipoIdentificacionNT
+ConsultaClienteUnClick		OUT	tipoIdentificacionNT						con:consultaClienteUnClickResponse:Response:Data:datos_PN:notas:nota:tipoIdentificacionNT
+ConsultaClienteUnClick		OUT	tipoNotaNT						con:consultaClienteUnClickResponse:Response:Data:datos_PN:notas:nota:tipoNotaNT
+ConsultaClienteUnClick		OUT	notaNT						con:consultaClienteUnClickResponse:Response:Data:datos_PN:notas:nota:notaNT
+ConsultaClienteUnClick		OUT	nroIdentificacionOI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:operacionesInternacionales:operacionInternacional:nroIdentificacionOI
+ConsultaClienteUnClick		OUT	descTipoIdentificacionOI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:operacionesInternacionales:operacionInternacional:descTipoIdentificacionOI
+ConsultaClienteUnClick		OUT	tipoIdentificacionOI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:operacionesInternacionales:operacionInternacional:tipoIdentificacionOI
+ConsultaClienteUnClick		OUT	tipoOI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:operacionesInternacionales:operacionInternacional:tipoOI
+ConsultaClienteUnClick		OUT	tipoDeOperacionOI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:operacionesInternacionales:operacionInternacional:tipoDeOperacionOI
+ConsultaClienteUnClick		OUT	descripcionOI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:operacionesInternacionales:operacionInternacional:descripcionOI
+ConsultaClienteUnClick		OUT	valorMensualOI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:operacionesInternacionales:operacionInternacional:valorMensualOI
+ConsultaClienteUnClick		OUT	remitenteBeneficiarioOI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:operacionesInternacionales:operacionInternacional:remitenteBeneficiarioOI
+ConsultaClienteUnClick		OUT	codigoCiudadOI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:operacionesInternacionales:operacionInternacional:codigoCiudadOI
+ConsultaClienteUnClick		OUT	ciudadOI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:operacionesInternacionales:operacionInternacional:ciudadOI
+ConsultaClienteUnClick		OUT	departamentoOI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:operacionesInternacionales:operacionInternacional:departamentoOI
+ConsultaClienteUnClick		OUT	codigoPaisOI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:operacionesInternacionales:operacionInternacional:codigoPaisOI
+ConsultaClienteUnClick		OUT	paisOI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:operacionesInternacionales:operacionInternacional:paisOI
+ConsultaClienteUnClick		OUT	codigoPaisDestinoOI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:operacionesInternacionales:operacionInternacional:codigoPaisDestinoOI
+ConsultaClienteUnClick		OUT	nroIdentificacionMN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:monedas:moneda:nroIdentificacionMN
+ConsultaClienteUnClick		OUT	descTipoIdentificacionMN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:monedas:moneda:descTipoIdentificacionMN
+ConsultaClienteUnClick		OUT	tipoIdentificacionMN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:monedas:moneda:tipoIdentificacionMN
+ConsultaClienteUnClick		OUT	tipoMN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:monedas:moneda:tipoMN
+ConsultaClienteUnClick		OUT	ciudadEntidadMN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:monedas:moneda:ciudadEntidadMN
+ConsultaClienteUnClick		OUT	cuentaEntidadMN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:monedas:moneda:cuentaEntidadMN
+ConsultaClienteUnClick		OUT	monedaMN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:monedas:moneda:monedaMN
+ConsultaClienteUnClick		OUT	nombreEntidadMN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:monedas:moneda:nombreEntidadMN
+ConsultaClienteUnClick		OUT	paisMN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:monedas:moneda:paisMN
+ConsultaClienteUnClick		OUT	nroIdentificacionRF						con:consultaClienteUnClickResponse:Response:Data:datos_PN:referencias:referencia:nroIdentificacionRF
+ConsultaClienteUnClick		OUT	descTipoIdentificacionRF						con:consultaClienteUnClickResponse:Response:Data:datos_PN:referencias:referencia:descTipoIdentificacionRF
+ConsultaClienteUnClick		OUT	tipoIdentificacionRF						con:consultaClienteUnClickResponse:Response:Data:datos_PN:referencias:referencia:tipoIdentificacionRF
+ConsultaClienteUnClick		OUT	relacionRF						con:consultaClienteUnClickResponse:Response:Data:datos_PN:referencias:referencia:relacionRF
+ConsultaClienteUnClick		OUT	codigoRelacionRF						con:consultaClienteUnClickResponse:Response:Data:datos_PN:referencias:referencia:codigoRelacionRF
+ConsultaClienteUnClick		OUT	claseDeRelacionRF						con:consultaClienteUnClickResponse:Response:Data:datos_PN:referencias:referencia:claseDeRelacionRF
+ConsultaClienteUnClick		OUT	claseDeRelacionGlosaRF						con:consultaClienteUnClickResponse:Response:Data:datos_PN:referencias:referencia:claseDeRelacionGlosaRF
+ConsultaClienteUnClick		OUT	nroIdentificacionREF						con:consultaClienteUnClickResponse:Response:Data:datos_PN:referencias:referencia:nroIdentificacionREF
+ConsultaClienteUnClick		OUT	descTipoIdentificacionREF						con:consultaClienteUnClickResponse:Response:Data:datos_PN:referencias:referencia:descTipoIdentificacionREF
+ConsultaClienteUnClick		OUT	tipoIdentificacionREFE						con:consultaClienteUnClickResponse:Response:Data:datos_PN:referencias:referencia:tipoIdentificacionREFE
+ConsultaClienteUnClick		OUT	primerApellidoRF						con:consultaClienteUnClickResponse:Response:Data:datos_PN:referencias:referencia:primerApellidoRF
+ConsultaClienteUnClick		OUT	segundoApellidoRF						con:consultaClienteUnClickResponse:Response:Data:datos_PN:referencias:referencia:segundoApellidoRF
+ConsultaClienteUnClick		OUT	nombreRF						con:consultaClienteUnClickResponse:Response:Data:datos_PN:referencias:referencia:nombreRF
+ConsultaClienteUnClick		OUT	telefonoRF						con:consultaClienteUnClickResponse:Response:Data:datos_PN:referencias:referencia:telefonoRF
+ConsultaClienteUnClick		OUT	direccionRF						con:consultaClienteUnClickResponse:Response:Data:datos_PN:referencias:referencia:direccionRF
+ConsultaClienteUnClick		OUT	ciudadDireccionRF						con:consultaClienteUnClickResponse:Response:Data:datos_PN:referencias:referencia:ciudadDireccionRF
+ConsultaClienteUnClick		OUT	ciudadTelefonoRF						con:consultaClienteUnClickResponse:Response:Data:datos_PN:referencias:referencia:ciudadTelefonoRF
+ConsultaClienteUnClick		OUT	tipoRF						con:consultaClienteUnClickResponse:Response:Data:datos_PN:referencias:referencia:tipoRF
+ConsultaClienteUnClick		OUT	tipoRelacionRF						con:consultaClienteUnClickResponse:Response:Data:datos_PN:referencias:referencia:tipoRelacionRF
+ConsultaClienteUnClick		OUT	email						con:consultaClienteUnClickResponse:Response:Data:datos_PN:referencias:referencia:email
+ConsultaClienteUnClick		OUT	nroIdentificacionPC						con:consultaClienteUnClickResponse:Response:Data:datos_PN:pasivosCreditos:pasivoCredito:nroIdentificacionPC
+ConsultaClienteUnClick		OUT	descTipoIdentificacionPC						con:consultaClienteUnClickResponse:Response:Data:datos_PN:pasivosCreditos:pasivoCredito:descTipoIdentificacionPC
+ConsultaClienteUnClick		OUT	tipoIdentificacionPC						con:consultaClienteUnClickResponse:Response:Data:datos_PN:pasivosCreditos:pasivoCredito:tipoIdentificacionPC
+ConsultaClienteUnClick		OUT	nombreEntidadPC						con:consultaClienteUnClickResponse:Response:Data:datos_PN:pasivosCreditos:pasivoCredito:nombreEntidadPC
+ConsultaClienteUnClick		OUT	valorSaldoDeudaPC						con:consultaClienteUnClickResponse:Response:Data:datos_PN:pasivosCreditos:pasivoCredito:valorSaldoDeudaPC
+ConsultaClienteUnClick		OUT	valorAprobadoPC						con:consultaClienteUnClickResponse:Response:Data:datos_PN:pasivosCreditos:pasivoCredito:valorAprobadoPC
+ConsultaClienteUnClick		OUT	cuotaMensualPC						con:consultaClienteUnClickResponse:Response:Data:datos_PN:pasivosCreditos:pasivoCredito:cuotaMensualPC
+ConsultaClienteUnClick		OUT	fechaAprobacionPC						con:consultaClienteUnClickResponse:Response:Data:datos_PN:pasivosCreditos:pasivoCredito:fechaAprobacionPC
+ConsultaClienteUnClick		OUT	matriculaInmobiliariaPC						con:consultaClienteUnClickResponse:Response:Data:datos_PN:pasivosCreditos:pasivoCredito:matriculaInmobiliariaPC
+ConsultaClienteUnClick		OUT	valorComercialPC						con:consultaClienteUnClickResponse:Response:Data:datos_PN:pasivosCreditos:pasivoCredito:valorComercialPC
+ConsultaClienteUnClick		OUT	tipoObligacionPC						con:consultaClienteUnClickResponse:Response:Data:datos_PN:pasivosCreditos:pasivoCredito:tipoObligacionPC
+ConsultaClienteUnClick		OUT	codigoTipoObligacionPC						con:consultaClienteUnClickResponse:Response:Data:datos_PN:pasivosCreditos:pasivoCredito:codigoTipoObligacionPC
+ConsultaClienteUnClick		OUT	tipoPC						con:consultaClienteUnClickResponse:Response:Data:datos_PN:pasivosCreditos:pasivoCredito:tipoPC
+ConsultaClienteUnClick		OUT	nombrePC						con:consultaClienteUnClickResponse:Response:Data:datos_PN:pasivosCreditos:pasivoCredito:nombrePC
+ConsultaClienteUnClick		OUT	tipoPasivoPC						con:consultaClienteUnClickResponse:Response:Data:datos_PN:pasivosCreditos:pasivoCredito:tipoPasivoPC
+ConsultaClienteUnClick		OUT	descripcion						con:consultaClienteUnClickResponse:Response:Data:datos_PN:pasivosCreditos:pasivoCredito:descripcion
+ConsultaClienteUnClick		OUT	nroIdentificacionPV						con:consultaClienteUnClickResponse:Response:Data:datos_PN:activosPropiedadesVehiculos:activoPropiedadVehiculo:nroIdentificacionPV	19207329
+ConsultaClienteUnClick		OUT	descTipoIdentificacionPV						con:consultaClienteUnClickResponse:Response:Data:datos_PN:activosPropiedadesVehiculos:activoPropiedadVehiculo:descTipoIdentificacionPV	CEDULA DE CIUDADANIA
+ConsultaClienteUnClick		OUT	tipoIdentificacionPV						con:consultaClienteUnClickResponse:Response:Data:datos_PN:activosPropiedadesVehiculos:activoPropiedadVehiculo:tipoIdentificacionPV	01
+ConsultaClienteUnClick		OUT	tipoPV						con:consultaClienteUnClickResponse:Response:Data:datos_PN:activosPropiedadesVehiculos:activoPropiedadVehiculo:tipoPV	Otros Activos
+ConsultaClienteUnClick		OUT	codigoTipoPV						con:consultaClienteUnClickResponse:Response:Data:datos_PN:activosPropiedadesVehiculos:activoPropiedadVehiculo:codigoTipoPV	3
+ConsultaClienteUnClick		OUT	marcaVehiculoPV						con:consultaClienteUnClickResponse:Response:Data:datos_PN:activosPropiedadesVehiculos:activoPropiedadVehiculo:marcaVehiculoPV	
+ConsultaClienteUnClick		OUT	valorComercialPV						con:consultaClienteUnClickResponse:Response:Data:datos_PN:activosPropiedadesVehiculos:activoPropiedadVehiculo:valorComercialPV	2000000
+ConsultaClienteUnClick		OUT	modeloVehiculoPV						con:consultaClienteUnClickResponse:Response:Data:datos_PN:activosPropiedadesVehiculos:activoPropiedadVehiculo:modeloVehiculoPV	
+ConsultaClienteUnClick		OUT	placaVehiculoPV						con:consultaClienteUnClickResponse:Response:Data:datos_PN:activosPropiedadesVehiculos:activoPropiedadVehiculo:placaVehiculoPV	
+ConsultaClienteUnClick		OUT	reservaDominioVehPV						con:consultaClienteUnClickResponse:Response:Data:datos_PN:activosPropiedadesVehiculos:activoPropiedadVehiculo:reservaDominioVehPV	
+ConsultaClienteUnClick		OUT	tipodeInmueblePV						con:consultaClienteUnClickResponse:Response:Data:datos_PN:activosPropiedadesVehiculos:activoPropiedadVehiculo:tipodeInmueblePV	
+ConsultaClienteUnClick		OUT	direccionInmueblePV						con:consultaClienteUnClickResponse:Response:Data:datos_PN:activosPropiedadesVehiculos:activoPropiedadVehiculo:direccionInmueblePV	
+ConsultaClienteUnClick		OUT	ciudadInmueblePV						con:consultaClienteUnClickResponse:Response:Data:datos_PN:activosPropiedadesVehiculos:activoPropiedadVehiculo:ciudadInmueblePV	
+ConsultaClienteUnClick		OUT	matriculaInmobiliariaPV						con:consultaClienteUnClickResponse:Response:Data:datos_PN:activosPropiedadesVehiculos:activoPropiedadVehiculo:matriculaInmobiliariaPV	
+ConsultaClienteUnClick		OUT	saldoHipotecaPV						con:consultaClienteUnClickResponse:Response:Data:datos_PN:activosPropiedadesVehiculos:activoPropiedadVehiculo:saldoHipotecaPV	
+ConsultaClienteUnClick		OUT	marcaTipoInmueblePV						con:consultaClienteUnClickResponse:Response:Data:datos_PN:activosPropiedadesVehiculos:activoPropiedadVehiculo:marcaTipoInmueblePV
+ConsultaClienteUnClick		OUT	nroIdentificacionEG						con:consultaClienteUnClickResponse:Response:Data:datos_PN:egresos:egreso:nroIdentificacionEG	19207329
+ConsultaClienteUnClick		OUT	descTipoIdentificacionEG						con:consultaClienteUnClickResponse:Response:Data:datos_PN:egresos:egreso:descTipoIdentificacionEG	CEDULA DE CIUDADANIA
+ConsultaClienteUnClick		OUT	tipoIdentificacionEG						con:consultaClienteUnClickResponse:Response:Data:datos_PN:egresos:egreso:tipoIdentificacionEG	01
+ConsultaClienteUnClick		OUT	montoEG						con:consultaClienteUnClickResponse:Response:Data:datos_PN:egresos:egreso:montoEG	100000000
+ConsultaClienteUnClick		OUT	tipoEG						con:consultaClienteUnClickResponse:Response:Data:datos_PN:egresos:egreso:tipoEG	Arriendos
+ConsultaClienteUnClick		OUT	descripcion						con:consultaClienteUnClickResponse:Response:Data:datos_PN:egresos:egreso:descripcion	GASTOS_FAMILIARES
+ConsultaClienteUnClick		OUT	nroIdentificacionIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:nroIdentificacionIN	19207329
+ConsultaClienteUnClick		OUT	descTipoIdentificacionIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:descTipoIdentificacionIN	CEDULA DE CIUDADANIA
+ConsultaClienteUnClick		OUT	tipoIdentificacionIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:tipoIdentificacionIN	01
+ConsultaClienteUnClick		OUT	valorIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:valorIN	12000000
+ConsultaClienteUnClick		OUT	tipoIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:tipoIN	Otros Ingresos
+ConsultaClienteUnClick		OUT	codigoTipoIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:codigoTipoIN	3
+ConsultaClienteUnClick		OUT	principalIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:principalIN	N
+ConsultaClienteUnClick		OUT	tipoActLaboralIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:tipoActLaboralIN	INDEPENDIENTE
+ConsultaClienteUnClick		OUT	codActLaboralIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:codActLaboralIN	I
+ConsultaClienteUnClick		OUT	actEconomicaIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:actEconomicaIN	02022
+ConsultaClienteUnClick		OUT	desActEconomicaIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:desActEconomicaIN	FABRICACIÓN DE PINTURAS, BARNICES Y REVESTIMIENTOS SIMILARES, TINTAS PARA IMPRESIÓN Y MASILLAS
+ConsultaClienteUnClick		OUT	profesionIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:profesionIN	
+ConsultaClienteUnClick		OUT	codProfesionIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:codProfesionIN	
+ConsultaClienteUnClick		OUT	tipoContratoIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:tipoContratoIN	0
+ConsultaClienteUnClick		OUT	codTipoContratoIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:codTipoContratoIN	
+ConsultaClienteUnClick		OUT	nombreEmpresaIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:nombreEmpresaIN	
+ConsultaClienteUnClick		OUT	nitEmpresaIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:nitEmpresaIN	
+ConsultaClienteUnClick		OUT	tipoNitEmpresaIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:tipoNitEmpresaIN	
+ConsultaClienteUnClick		OUT	fechaInicioIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:fechaInicioIN	1900/01/01 00:00:00
+ConsultaClienteUnClick		OUT	antigLaboralIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:antigLaboralIN	1441
+ConsultaClienteUnClick		OUT	carreraIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:carreraIN	
+ConsultaClienteUnClick		OUT	codCarreraIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:codCarreraIN	
+ConsultaClienteUnClick		OUT	universidadIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:universidadIN	
+ConsultaClienteUnClick		OUT	anoCursaIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:anoCursaIN	
+ConsultaClienteUnClick		OUT	valFlagFraudeEmpresaIN						con:consultaClienteUnClickResponse:Response:Data:datos_PN:ingresos:ingreso:valFlagFraudeEmpresaIN	
+ConsultaClienteUnClick		OUT	nroIdentificacionRL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:relaciones:relacion:nroIdentificacionRL
+ConsultaClienteUnClick		OUT	descTipoIdentificacionRL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:relaciones:relacion:descTipoIdentificacionRL
+ConsultaClienteUnClick		OUT	tipoIdentificacionRL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:relaciones:relacion:tipoIdentificacionRL
+ConsultaClienteUnClick		OUT	tipoRelacionRL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:relaciones:relacion:tipoRelacionRL
+ConsultaClienteUnClick		OUT	codTipoRelacionRL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:relaciones:relacion:codTipoRelacionRL
+ConsultaClienteUnClick		OUT	claseRelacionRL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:relaciones:relacion:claseRelacionRL
+ConsultaClienteUnClick		OUT	claseRelacionGlosaRL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:relaciones:relacion:claseRelacionGlosaRL
+ConsultaClienteUnClick		OUT	porcentajeParticipacionRL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:relaciones:relacion:porcentajeParticipacionRL
+ConsultaClienteUnClick		OUT	porcentajParticipGFRL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:relaciones:relacion:porcentajParticipGFRL
+ConsultaClienteUnClick		OUT	grupoFamiliarRL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:relaciones:relacion:grupoFamiliarRL
+ConsultaClienteUnClick		OUT	socioImpactLeyFATCARL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:relaciones:relacion:socioImpactLeyFATCARL
+ConsultaClienteUnClick		OUT	porcentajeParticipSocioRL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:relaciones:relacion:porcentajeParticipSocioRL
+ConsultaClienteUnClick		OUT	numeroTINRL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:relaciones:relacion:numeroTINRL
+ConsultaClienteUnClick		OUT	tributacionUSARL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:relaciones:relacion:tributacionUSARL
+ConsultaClienteUnClick		OUT	primerApellidoRelRL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:relaciones:relacion:primerApellidoRelRL
+ConsultaClienteUnClick		OUT	segundoApellidoRelRL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:relaciones:relacion:segundoApellidoRelRL
+ConsultaClienteUnClick		OUT	nombreRelRL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:relaciones:relacion:nombreRelRL
+ConsultaClienteUnClick		OUT	noIdentificacionRelRL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:relaciones:relacion:noIdentificacionRelRL
+ConsultaClienteUnClick		OUT	tipoIdentificacionRelRL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:relaciones:relacion:tipoIdentificacionRelRL
+ConsultaClienteUnClick		OUT	impactadoFATCARL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:relaciones:relacion:impactadoFATCARL
+ConsultaClienteUnClick		OUT	nroIdentificacionEM						con:consultaClienteUnClickResponse:Response:Data:datos_PN:empleos:empleo:nroIdentificacionEM	19207329
+ConsultaClienteUnClick		OUT	descTipoIdentificacionEM						con:consultaClienteUnClickResponse:Response:Data:datos_PN:empleos:empleo:descTipoIdentificacionEM	CEDULA DE CIUDADANIA
+ConsultaClienteUnClick		OUT	tipoIdentificacionEM						con:consultaClienteUnClickResponse:Response:Data:datos_PN:empleos:empleo:tipoIdentificacionEM	01
+ConsultaClienteUnClick		OUT	nombreEmpresaEM						con:consultaClienteUnClickResponse:Response:Data:datos_PN:empleos:empleo:nombreEmpresaEM	AASSAAS
+ConsultaClienteUnClick		OUT	nitEmpresaEM						con:consultaClienteUnClickResponse:Response:Data:datos_PN:empleos:empleo:nitEmpresaEM	779798987
+ConsultaClienteUnClick		OUT	actEconomicaEM						con:consultaClienteUnClickResponse:Response:Data:datos_PN:empleos:empleo:actEconomicaEM	00000
+ConsultaClienteUnClick		OUT	tipoContratoEM						con:consultaClienteUnClickResponse:Response:Data:datos_PN:empleos:empleo:tipoContratoEM	INDEFINIDO
+ConsultaClienteUnClick		OUT	cargoEM						con:consultaClienteUnClickResponse:Response:Data:datos_PN:empleos:empleo:cargoEM	OPERADOR
+ConsultaClienteUnClick		OUT	fechaIngresoEM						con:consultaClienteUnClickResponse:Response:Data:datos_PN:empleos:empleo:fechaIngresoEM	2000/11/11 00:00:00
+ConsultaClienteUnClick		OUT	convenio						con:consultaClienteUnClickResponse:Response:Data:datos_PN:empleos:empleo:convenio	
+ConsultaClienteUnClick		OUT	nroIdentificacionPT						con:consultaClienteUnClickResponse:Response:Data:datos_PN:puestosTrabajo:puestoDeTrabajo:nroIdentificacionPT	19207329
+ConsultaClienteUnClick		OUT	descTipoIdentificacionPT						con:consultaClienteUnClickResponse:Response:Data:datos_PN:puestosTrabajo:puestoDeTrabajo:descTipoIdentificacionPT	CEDULA DE CIUDADANIA
+ConsultaClienteUnClick		OUT	tipoIdentificacionPT						con:consultaClienteUnClickResponse:Response:Data:datos_PN:puestosTrabajo:puestoDeTrabajo:tipoIdentificacionPT	01
+ConsultaClienteUnClick		OUT	divisionPT						con:consultaClienteUnClickResponse:Response:Data:datos_PN:puestosTrabajo:puestoDeTrabajo:divisionPT	Siebel Administration - Davivienda
+ConsultaClienteUnClick		OUT	puestoTrabajoPT						con:consultaClienteUnClickResponse:Response:Data:datos_PN:puestosTrabajo:puestoDeTrabajo:puestoTrabajoPT	Administrador Siebel - Davivienda
+ConsultaClienteUnClick		OUT	tipoEjecutivoPT						con:consultaClienteUnClickResponse:Response:Data:datos_PN:puestosTrabajo:puestoDeTrabajo:tipoEjecutivoPT	
+ConsultaClienteUnClick		OUT	rolCoberturaPT						con:consultaClienteUnClickResponse:Response:Data:datos_PN:puestosTrabajo:puestoDeTrabajo:rolCoberturaPT	
+ConsultaClienteUnClick		OUT	nroIdentificacionHB						con:consultaClienteUnClickResponse:Response:Data:datos_PN:hobbies:hobbie:nroIdentificacionHB	19207329
+ConsultaClienteUnClick		OUT	descTipoIdentificacionHB						con:consultaClienteUnClickResponse:Response:Data:datos_PN:hobbies:hobbie:descTipoIdentificacionHB	CEDULA DE CIUDADANIA
+ConsultaClienteUnClick		OUT	tipoIdentificacionHB						con:consultaClienteUnClickResponse:Response:Data:datos_PN:hobbies:hobbie:tipoIdentificacionHB	01
+ConsultaClienteUnClick		OUT	hobbieHB						con:consultaClienteUnClickResponse:Response:Data:datos_PN:hobbies:hobbie:hobbieHB	NO INFORMADO
+ConsultaClienteUnClick		OUT	nroIdentificacionDI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:direcciones:direccion:nroIdentificacionDI	19207329
+ConsultaClienteUnClick		OUT	descTipoIdentificacionDI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:direcciones:direccion:descTipoIdentificacionDI	CEDULA DE CIUDADANIA
+ConsultaClienteUnClick		OUT	tipoIdentificacionDI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:direcciones:direccion:tipoIdentificacionDI	01
+ConsultaClienteUnClick		OUT	tipoDireccionDI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:direcciones:direccion:tipoDireccionDI	OFICINA CLIENTE
+ConsultaClienteUnClick		OUT	codTipoDireccionDI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:direcciones:direccion:codTipoDireccionDI	02
+ConsultaClienteUnClick		OUT	claseDireccionDI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:direcciones:direccion:claseDireccionDI	OFICINA CLIENTE
+ConsultaClienteUnClick		OUT	codigoClaseDireccionDI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:direcciones:direccion:codigoClaseDireccionDI	02
+ConsultaClienteUnClick		OUT	direccionDI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:direcciones:direccion:direccionDI	CL 9 88 77
+ConsultaClienteUnClick		OUT	ciudadDI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:direcciones:direccion:ciudadDI	16966400
+ConsultaClienteUnClick		OUT	municipioDI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:direcciones:direccion:municipioDI	16966400000
+ConsultaClienteUnClick		OUT	departamentoDI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:direcciones:direccion:departamentoDI	16966
+ConsultaClienteUnClick		OUT	paisDI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:direcciones:direccion:paisDI	169
+ConsultaClienteUnClick		OUT	codigoPostalDI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:direcciones:direccion:codigoPostalDI	
+ConsultaClienteUnClick		OUT	codigoAreaDI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:direcciones:direccion:codigoAreaDI	
+ConsultaClienteUnClick		OUT	direccionPrincipalDI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:direcciones:direccion:direccionPrincipalDI	N
+ConsultaClienteUnClick		OUT	codigoColoniaDI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:direcciones:direccion:codigoColoniaDI
+ConsultaClienteUnClick		OUT	valorPuntoReferenciaDI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:direcciones:direccion:valorPuntoReferenciaDI
+ConsultaClienteUnClick		OUT	nroIdentificacionEM						con:consultaClienteUnClickResponse:Response:Data:datos_PN:emails:email:nroIdentificacionEM	19207329
+ConsultaClienteUnClick		OUT	descTipoIdentificacionEM						con:consultaClienteUnClickResponse:Response:Data:datos_PN:emails:email:descTipoIdentificacionEM	CEDULA DE CIUDADANIA
+ConsultaClienteUnClick		OUT	tipoIdentificacionEM						con:consultaClienteUnClickResponse:Response:Data:datos_PN:emails:email:tipoIdentificacionEM	01
+ConsultaClienteUnClick		OUT	claseCelularEM						con:consultaClienteUnClickResponse:Response:Data:datos_PN:emails:email:claseCelularEM	E-MAIL
+ConsultaClienteUnClick		OUT	emailEM						con:consultaClienteUnClickResponse:Response:Data:datos_PN:emails:email:emailEM	pruebaslabdavi@gmail.com
+ConsultaClienteUnClick		OUT	correoPrincipalEM						con:consultaClienteUnClickResponse:Response:Data:datos_PN:emails:email:correoPrincipalEM	Y
+ConsultaClienteUnClick		OUT	estadoEmailEM						con:consultaClienteUnClickResponse:Response:Data:datos_PN:emails:email:estadoEmailEM	ACTIVA
+ConsultaClienteUnClick		OUT	activoEM						con:consultaClienteUnClickResponse:Response:Data:datos_PN:emails:email:activoEM	
+ConsultaClienteUnClick		OUT	tipo						con:consultaClienteUnClickResponse:Response:Data:datos_PN:emails:email:tipo	Email
+ConsultaClienteUnClick		OUT	nroIdentificacionCL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:celulares:celular:nroIdentificacionCL	19207329
+ConsultaClienteUnClick		OUT	descTipoIdentificacionCL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:celulares:celular:descTipoIdentificacionCL	CEDULA DE CIUDADANIA
+ConsultaClienteUnClick		OUT	tipoIdentificacionCL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:celulares:celular:tipoIdentificacionCL	01
+ConsultaClienteUnClick		OUT	tipoTelefonoCL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:celulares:celular:tipoTelefonoCL	03
+ConsultaClienteUnClick		OUT	numeroCL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:celulares:celular:numeroCL	3111111112
+ConsultaClienteUnClick		OUT	celularPrincipalCL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:celulares:celular:celularPrincipalCL	N
+ConsultaClienteUnClick		OUT	ciudadCL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:celulares:celular:ciudadCL	
+ConsultaClienteUnClick		OUT	indicativoCL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:celulares:celular:indicativoCL	OKM
+ConsultaClienteUnClick		OUT	activoCL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:celulares:celular:activoCL	Y
+ConsultaClienteUnClick		OUT	extensionCL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:celulares:celular:extensionCL	
+ConsultaClienteUnClick		OUT	tipoCL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:celulares:celular:tipoCL	Cellphone
+ConsultaClienteUnClick		OUT	nroIdentificacionTL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:telefonos:telefono:nroIdentificacionTL	19207329
+ConsultaClienteUnClick		OUT	descTipoIdentificacionTL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:telefonos:telefono:descTipoIdentificacionTL	CEDULA DE CIUDADANIA
+ConsultaClienteUnClick		OUT	tipoIdentificacionTL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:telefonos:telefono:tipoIdentificacionTL	01
+ConsultaClienteUnClick		OUT	tipoTelefonoTL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:telefonos:telefono:tipoTelefonoTL	00
+ConsultaClienteUnClick		OUT	numeroTL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:telefonos:telefono:numeroTL	4000100
+ConsultaClienteUnClick		OUT	telefonoPpalTL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:telefonos:telefono:telefonoPpalTL	Y
+ConsultaClienteUnClick		OUT	ciudadTL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:telefonos:telefono:ciudadTL	
+ConsultaClienteUnClick		OUT	indicativoTL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:telefonos:telefono:indicativoTL	00
+ConsultaClienteUnClick		OUT	activoTL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:telefonos:telefono:activoTL	Y
+ConsultaClienteUnClick		OUT	extensionTL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:telefonos:telefono:extensionTL	0
+ConsultaClienteUnClick		OUT	tipoTL						con:consultaClienteUnClickResponse:Response:Data:datos_PN:telefonos:telefono:tipoTL	Telephone
+ConsultaClienteUnClick		OUT	nroIdentificacionCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:nroIdentificacionCLI	19207329
+ConsultaClienteUnClick		OUT	descTipoIdentificacionCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:descTipoIdentificacionCLI	CEDULA DE CIUDADANIA
+ConsultaClienteUnClick		OUT	tipoIdentificacionCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:tipoIdentificacionCLI	01
+ConsultaClienteUnClick		OUT	saludoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:saludoCLI	SEÑOR
+ConsultaClienteUnClick		OUT	primerApellidoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:primerApellidoCLI	LIZARAZO
+ConsultaClienteUnClick		OUT	segundoApellidoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:segundoApellidoCLI	MEJIA
+ConsultaClienteUnClick		OUT	nombresCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:nombresCLI	ROBERTO
+ConsultaClienteUnClick		OUT	valorSegundoNombre						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:valorSegundoNombre
+ConsultaClienteUnClick		OUT	valorApellidoCasada						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:valorApellidoCasada
+ConsultaClienteUnClick		OUT	valorNombreConyugue						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:valorNombreConyugue
+ConsultaClienteUnClick		OUT	valorNIT						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:valorNIT
+ConsultaClienteUnClick		OUT	numeroInternoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:numeroInternoCLI
+ConsultaClienteUnClick		OUT	lugarNacimientoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:lugarNacimientoCLI	16911001000
+ConsultaClienteUnClick		OUT	fechaNacimientoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:fechaNacimientoCLI	1980/03/03 00:00:00
+ConsultaClienteUnClick		OUT	fechaVencimientoCedulaCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:fechaVencimientoCedulaCLI
+ConsultaClienteUnClick		OUT	lugarExpedicionCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:lugarExpedicionCLI	16911001000
+ConsultaClienteUnClick		OUT	fechaExpedicionCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:fechaExpedicionCLI	2000/11/11 00:00:00
+ConsultaClienteUnClick		OUT	fechaVinculacionCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:fechaVinculacionCLI	2019/08/05 00:00:00
+ConsultaClienteUnClick		OUT	oficinaRadicacionCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:oficinaRadicacionCLI	0005
+ConsultaClienteUnClick		OUT	tokenCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:tokenCLI	N
+ConsultaClienteUnClick		OUT	indicadorExistenciaCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:indicadorExistenciaCLI	01
+ConsultaClienteUnClick		OUT	indicadorPNCNCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:indicadorPNCNCLI	N
+ConsultaClienteUnClick		OUT	estadoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:estadoCLI	1
+ConsultaClienteUnClick		OUT	tipoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:tipoCLI	CLIENTE
+ConsultaClienteUnClick		OUT	clienteDavivaloresCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:clienteDavivaloresCLI	4
+ConsultaClienteUnClick		OUT	segmentoComercialCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:segmentoComercialCLI	01
+ConsultaClienteUnClick		OUT	subsegmentoComercialCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:subsegmentoComercialCLI	03
+ConsultaClienteUnClick		OUT	segmentoColorCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:segmentoColorCLI	1
+ConsultaClienteUnClick		OUT	autenticadoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:autenticadoCLI	SI
+ConsultaClienteUnClick		OUT	autenticacionUsuarioCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:autenticacionUsuarioCLI	LSIEBEL6
+ConsultaClienteUnClick		OUT	segmentoInversionCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:segmentoInversionCLI	
+ConsultaClienteUnClick		OUT	perfilRiesgoInversionCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:perfilRiesgoInversionCLI	
+ConsultaClienteUnClick		OUT	cuentaDECEVALCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:cuentaDECEVALCLI	
+ConsultaClienteUnClick		OUT	nroPersonasCargoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:nroPersonasCargoCLI	0
+ConsultaClienteUnClick		OUT	origenCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:origenCLI	BUK
+ConsultaClienteUnClick		OUT	sexoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:sexoCLI	M
+ConsultaClienteUnClick		OUT	estadoCivilCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:estadoCivilCLI	02
+ConsultaClienteUnClick		OUT	nivelEducacionCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:nivelEducacionCLI	08
+ConsultaClienteUnClick		OUT	profesionCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:profesionCLI	TG104
+ConsultaClienteUnClick		OUT	vincGrupoBolivarCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:vincGrupoBolivarCLI	00
+ConsultaClienteUnClick		OUT	fechaPensionadoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:fechaPensionadoCLI	
+ConsultaClienteUnClick		OUT	fechaMarcaActualExonerCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:fechaMarcaActualExonerCLI	
+ConsultaClienteUnClick		OUT	diasActDatosCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:diasActDatosCLI	
+ConsultaClienteUnClick		OUT	usuarioCreaClienteCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:usuarioCreaClienteCLI	
+ConsultaClienteUnClick		OUT	ordenanteCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:ordenanteCLI	N
+ConsultaClienteUnClick		OUT	accionistaDaviviendaCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:accionistaDaviviendaCLI	N
+ConsultaClienteUnClick		OUT	indClienteEstablecimCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:indClienteEstablecimCLI	N
+ConsultaClienteUnClick		OUT	estadoExoneradoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:estadoExoneradoCLI	N
+ConsultaClienteUnClick		OUT	ingresoCertificadoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:ingresoCertificadoCLI	0
+ConsultaClienteUnClick		OUT	viviendaCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:viviendaCLI	P
+ConsultaClienteUnClick		OUT	declaraRentaCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:declaraRentaCLI	02
+ConsultaClienteUnClick		OUT	retefuenteCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:retefuenteCLI	02
+ConsultaClienteUnClick		OUT	anoinicVidaLaboralCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:anoinicVidaLaboralCLI	2000
+ConsultaClienteUnClick		OUT	particbilleteraCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:particbilleteraCLI	
+ConsultaClienteUnClick		OUT	montopreapFirmeTotCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:montopreapFirmeTotCLI	
+ConsultaClienteUnClick		OUT	montopreapRotativoFirmeCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:montopreapRotativoFirmeCLI	
+ConsultaClienteUnClick		OUT	montopreapConsumoFirmeCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:montopreapConsumoFirmeCLI	
+ConsultaClienteUnClick		OUT	fechaLiberapreapCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:fechaLiberapreapCLI	
+ConsultaClienteUnClick		OUT	fechaUltActuaprCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:fechaUltActuaprCLI	
+ConsultaClienteUnClick		OUT	clientePEPSCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:clientePEPSCLI	N
+ConsultaClienteUnClick		OUT	leyVictimasCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:leyVictimasCLI	N
+ConsultaClienteUnClick		OUT	funcionarioPublicoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:funcionarioPublicoCLI	N
+ConsultaClienteUnClick		OUT	manejaRecursosPublCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:manejaRecursosPublCLI	N
+ConsultaClienteUnClick		OUT	nacionalidadCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:nacionalidadCLI	169
+ConsultaClienteUnClick		OUT	ingresoMensualCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:ingresoMensualCLI	
+ConsultaClienteUnClick		OUT	cliEntregaBienEnFiduciaCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:cliEntregaBienEnFiduciaCLI	N
+ConsultaClienteUnClick		OUT	intervenDeProyectoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:intervenDeProyectoCLI	N
+ConsultaClienteUnClick		OUT	flagEntidadPublicaCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:flagEntidadPublicaCLI	N
+ConsultaClienteUnClick		OUT	paisNacimientoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:paisNacimientoCLI	169
+ConsultaClienteUnClick		OUT	esContratistaEstadoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:esContratistaEstadoCLI	N
+ConsultaClienteUnClick		OUT	nacionalidadAmericanaCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:nacionalidadAmericanaCLI	N
+ConsultaClienteUnClick		OUT	ciudadaniaAmericanaCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:ciudadaniaAmericanaCLI	N
+ConsultaClienteUnClick		OUT	pasaporteAmericanoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:pasaporteAmericanoCLI	N
+ConsultaClienteUnClick		OUT	nroPasapAmericanoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:nroPasapAmericanoCLI	
+ConsultaClienteUnClick		OUT	tarjetaVerdeCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:tarjetaVerdeCLI	N
+ConsultaClienteUnClick		OUT	numeroTINCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:numeroTINCLI	
+ConsultaClienteUnClick		OUT	motivoEstadiaUSACLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:motivoEstadiaUSACLI	
+ConsultaClienteUnClick		OUT	otroMotivoEstadiaUSACLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:otroMotivoEstadiaUSACLI	
+ConsultaClienteUnClick		OUT	mas180DiasUSAUltAFiscalCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:mas180DiasUSAUltAFiscalCLI	N
+ConsultaClienteUnClick		OUT	otraNacionalidadCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:otraNacionalidadCLI	N
+ConsultaClienteUnClick		OUT	cualOtraNacionalidadCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:cualOtraNacionalidadCLI	000
+ConsultaClienteUnClick		OUT	tieneResidLegalOtroPaisCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:tieneResidLegalOtroPaisCLI	N
+ConsultaClienteUnClick		OUT	direcOtroPaisCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:direcOtroPaisCLI	
+ConsultaClienteUnClick		OUT	paisDirecOtroPaisCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:paisDirecOtroPaisCLI	000
+ConsultaClienteUnClick		OUT	ciudadDirOtroPaisCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:ciudadDirOtroPaisCLI	00000000000
+ConsultaClienteUnClick		OUT	impactadoFATCACLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:impactadoFATCACLI	N
+ConsultaClienteUnClick		OUT	identifBienEntregadoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:identifBienEntregadoCLI	
+ConsultaClienteUnClick		OUT	modalEntreInfoAnualCostoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:modalEntreInfoAnualCostoCLI	04
+ConsultaClienteUnClick		OUT	claseRecursoEntregadoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:claseRecursoEntregadoCLI	
+ConsultaClienteUnClick		OUT	flagRelntoGrupoBolivarCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:flagRelntoGrupoBolivarCLI	N
+ConsultaClienteUnClick		OUT	fechaActInformacionClienteCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:fechaActInformacionClienteCLI	2020/06/03 00:17:50
+ConsultaClienteUnClick		OUT	twitterCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:twitterCLI	
+ConsultaClienteUnClick		OUT	mas122DiasPromUSAult3anosCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:mas122DiasPromUSAult3anosCLI	N
+ConsultaClienteUnClick		OUT	actividadLaboralCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:actividadLaboralCLI	E
+ConsultaClienteUnClick		OUT	modEntregaInfoAnualCostoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:modEntregaInfoAnualCostoCLI	04
+ConsultaClienteUnClick		OUT	totalIngresosCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:totalIngresosCLI	111123111111
+ConsultaClienteUnClick		OUT	totalEgresosCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:totalEgresosCLI	104000000
+ConsultaClienteUnClick		OUT	totalActivosCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:totalActivosCLI	6000000
+ConsultaClienteUnClick		OUT	totalPasivosCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:totalPasivosCLI	10000000
+ConsultaClienteUnClick		OUT	clienteHastalaFecha						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:clienteHastalaFecha	
+ConsultaClienteUnClick		OUT	clasificacionRiesgosSARLAFT						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:clasificacionRiesgosSARLAFT	
+ConsultaClienteUnClick		OUT	clienteDaviplata						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:clienteDaviplata	N
+ConsultaClienteUnClick		OUT	clienteFiduciaria						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:clienteFiduciaria	N
+ConsultaClienteUnClick		OUT	flagTradingElectronico						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:flagTradingElectronico	N
+ConsultaClienteUnClick		OUT	portafolioPersonaNatural						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:portafolioPersonaNatural	03
+ConsultaClienteUnClick		OUT	oficinaDeAsignacion						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:oficinaDeAsignacion	454545
+ConsultaClienteUnClick		OUT	montopreaprobadovehiculo						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:montopreaprobadovehiculo	
+ConsultaClienteUnClick		OUT	montoPreaprobadoHipotecario						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:montoPreaprobadoHipotecario	
+ConsultaClienteUnClick		OUT	trader						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:trader	
+ConsultaClienteUnClick		OUT	segmentoSARLAFT						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:segmentoSARLAFT	
+ConsultaClienteUnClick		OUT	fechaMarcaActualColor						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:fechaMarcaActualColor	20-FEB-12
+ConsultaClienteUnClick		OUT	contadorMarcaColor						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:contadorMarcaColor	0
+ConsultaClienteUnClick		OUT	contadorMarcaLibre						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:contadorMarcaLibre	0
+ConsultaClienteUnClick		OUT	fechaDePrimeraMarcaColor						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:fechaDePrimeraMarcaColor	20-FEB-12
+ConsultaClienteUnClick		OUT	fechaPrimeraMarcaRel						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:fechaPrimeraMarcaRel	
+ConsultaClienteUnClick		OUT	metodoDeAutenticacion						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:metodoDeAutenticacion
+ConsultaClienteUnClick		OUT	valIngresoEspecialistaCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:valIngresoEspecialistaCLI	20000000
+ConsultaClienteUnClick		OUT	valFechaIngresoEspecialistaCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:valFechaIngresoEspecialistaCLI	21-NOV-19
+ConsultaClienteUnClick		OUT	valAciertaCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:valAciertaCLI	720
+ConsultaClienteUnClick		OUT	valFechaAciertaCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:valFechaAciertaCLI	21-NOV-19
+ConsultaClienteUnClick		OUT	valAsegurabilidadCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:valAsegurabilidadCLI	
+ConsultaClienteUnClick		OUT	valFechaAsegurabilidadCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:valFechaAsegurabilidadCLI	
+ConsultaClienteUnClick		OUT	valPorcentajeVidaCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:valPorcentajeVidaCLI	
+ConsultaClienteUnClick		OUT	valPorcentajeITPCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:valPorcentajeITPCLI	
+ConsultaClienteUnClick		OUT	valFechaRespuestaCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:valFechaRespuestaCLI	
+ConsultaClienteUnClick		OUT	valTipoCiudadVinculacionCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:valTipoCiudadVinculacionCLI
+ConsultaClienteUnClick		OUT	valTipoCiudadResidenciaCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:valTipoCiudadResidenciaCLI	
+ConsultaClienteUnClick		OUT	valFechaIngresoCertificadoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:valFechaIngresoCertificadoCLI	2020/04/29 00:00:00
+ConsultaClienteUnClick		OUT	valFechaFinContratoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:valFechaFinContratoCLI	
+ConsultaClienteUnClick		OUT	valFlagFraudeClienteCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:valFlagFraudeClienteCLI	
+ConsultaClienteUnClick		OUT	valFlagFraudeEjecutivoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:valFlagFraudeEjecutivoCLI	
+ConsultaClienteUnClick		OUT	valFlagFraudeOficinaVinculacionCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:valFlagFraudeOficinaVinculacionCLI	
+ConsultaClienteUnClick		OUT	valFlagFraudeOficinaEjecutivoCLI						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:valFlagFraudeOficinaEjecutivoCLI	
+ConsultaClienteUnClick		OUT	codOrigenFondos						con:consultaClienteUnClickResponse:Response:Data:datos_PN:cliente:codOrigenFondos
+ConsProdCompraCartera		IN	nombreOperacion						con:consProdCompraCartera:Request:DataHeader:nombreOperacion	consProdCompraCartera
+ConsProdCompraCartera		IN	total						con:consProdCompraCartera:Request:DataHeader:total	0
+ConsProdCompraCartera		IN	jornada						con:consProdCompraCartera:Request:DataHeader:jornada	0
+ConsProdCompraCartera		IN	canal						con:consProdCompraCartera:Request:DataHeader:canal	37
+ConsProdCompraCartera		IN	modoDeOperacion						con:consProdCompraCartera:Request:DataHeader:modoDeOperacion	1
+ConsProdCompraCartera		IN	usuario						con:consProdCompraCartera:Request:DataHeader:usuario	Mbaas
+ConsProdCompraCartera		IN	perfil						con:consProdCompraCartera:Request:DataHeader:perfil	0
+ConsProdCompraCartera		IN	versionServicio						con:consProdCompraCartera:Request:DataHeader:versionServicio	1.0.0
+ConsProdCompraCartera		IN	idTransaccion						con:consProdCompraCartera:Request:DataHeader:idTransaccion	1591396147
+ConsProdCompraCartera		IN	idSesion						con:consProdCompraCartera:Request:Data:idSesion
+ConsProdCompraCartera		IN	codIdioma						con:consProdCompraCartera:Request:Data:codIdioma
+ConsProdCompraCartera		IN	valOrigen						con:consProdCompraCartera:Request:Data:valOrigen
+ConsProdCompraCartera		IN	codPais						con:consProdCompraCartera:Request:Data:codPais
+ConsProdCompraCartera		IN	numAplicacionOrigen						con:consProdCompraCartera:Request:Data:numAplicacionOrigen	37
+ConsProdCompraCartera		IN	valUsuario						con:consProdCompraCartera:Request:Data:valUsuario	1
+ConsProdCompraCartera		IN	valIpOrigen						con:consProdCompraCartera:Request:Data:valIpOrigen	2800:484:4c81:6200:bd41:9e86:e37b:9169
+ConsProdCompraCartera		IN	numTipoIdentificacion						con:consProdCompraCartera:Request:Data:numTipoIdentificacion	01
+ConsProdCompraCartera		IN	numNumeroIdentificacion						con:consProdCompraCartera:Request:Data:numNumeroIdentificacion	19207329
+ConsProdCompraCartera		IN	valPrimerApellido						con:consProdCompraCartera:Request:Data:valPrimerApellido	LIZARAZO
+ConsProdCompraCartera		IN	numNumeroSolicitud						con:consProdCompraCartera:Request:Data:numNumeroSolicitud	35893
+ConsProdCompraCartera		IN	numIndicadorTipoOperacion						con:consProdCompraCartera:Request:Data:numIndicadorTipoOperacion	2
+ConsProdCompraCartera		IN	numIndicadorEnteExterno						con:consProdCompraCartera:Request:Data:numIndicadorEnteExterno	1
+ConsProdCompraCartera		IN	numDiasVigenciaEnteExterno						con:consProdCompraCartera:Request:Data:numDiasVigenciaEnteExterno	0
+ConsProdCompraCartera		IN	numCodigoProductoRprSolicitado						con:consProdCompraCartera:Request:Data:numCodigoProductoRprSolicitado	0120
+ConsProdCompraCartera		IN	numCodigoSubProdRprSolicitado						con:consProdCompraCartera:Request:Data:numCodigoSubProdRprSolicitado	3510
+ConsProdCompraCartera		OUT	nombreOperacion						con:consProdCompraCarteraResponse:Response:DataHeader:nombreOperacion	consProdCompraCartera
+ConsProdCompraCartera		OUT	total						con:consProdCompraCarteraResponse:Response:DataHeader:total	0
+ConsProdCompraCartera		OUT	caracterAceptacion						con:consProdCompraCarteraResponse:Response:DataHeader:caracterAceptacion	B
+ConsProdCompraCartera		OUT	ultimoMensaje						con:consProdCompraCarteraResponse:Response:DataHeader:ultimoMensaje	1
+ConsProdCompraCartera		OUT	idTransaccion						con:consProdCompraCarteraResponse:Response:DataHeader:idTransaccion	1591396147
+ConsProdCompraCartera		OUT	codMsgRespuesta						con:consProdCompraCarteraResponse:Response:DataHeader:codMsgRespuesta	0000
+ConsProdCompraCartera		OUT	msgRespuesta						con:consProdCompraCarteraResponse:Response:DataHeader:msgRespuesta	                                                                                                                                  
+ConsProdCompraCartera		OUT	numTipoIdentificacion						con:consProdCompraCarteraResponse:Response:Data:numTipoIdentificacion	01
+ConsProdCompraCartera		OUT	numNumeroIdentificacion						con:consProdCompraCarteraResponse:Response:Data:numNumeroIdentificacion	0000000019207329
+ConsProdCompraCartera		OUT	numNumeroSolicitud						con:consProdCompraCarteraResponse:Response:Data:numNumeroSolicitud	000000000000035893
+ConsProdCompraCartera		OUT	numNumeroRepeticiones						con:consProdCompraCarteraResponse:Response:Data:numNumeroRepeticiones	01
+ConsProdCompraCartera		OUT	numNitEntidadFinanciera						con:consProdCompraCarteraResponse:Response:Data:productos:producto:numNitEntidadFinanciera	9000479818
+ConsProdCompraCartera		OUT	valNombreEntidadFinanciera						con:consProdCompraCarteraResponse:Response:Data:productos:producto:valNombreEntidadFinanciera	BANCO FALABELLA
+ConsProdCompraCartera		OUT	valTipoProducto						con:consProdCompraCarteraResponse:Response:Data:productos:producto:valTipoProducto	TDC
+ConsProdCompraCartera		OUT	valDescripcionProducto						con:consProdCompraCarteraResponse:Response:Data:productos:producto:valDescripcionProducto	TARJETA DE CREDITO
+ConsProdCompraCartera		OUT	numNumeroProductoInicial						con:consProdCompraCarteraResponse:Response:Data:productos:producto:numNumeroProductoInicial	80187737
+ConsProdCompraCartera		OUT	numSaldoReportadoInicial						con:consProdCompraCarteraResponse:Response:Data:productos:producto:numSaldoReportadoInicial	4737000
+ConsProdCompraCartera		OUT	numPorcentajeHaciaAbajo						con:consProdCompraCarteraResponse:Response:Data:productos:producto:numPorcentajeHaciaAbajo	5
+ConsProdCompraCartera		OUT	numPorcentajeHaciaArriba						con:consProdCompraCarteraResponse:Response:Data:productos:producto:numPorcentajeHaciaArriba	5
+ConsProdCompraCartera		OUT	numValorOriginal						con:consProdCompraCarteraResponse:Response:Data:productos:producto:numValorOriginal	0
+ConsProdCompraCartera		OUT	numValorCuota						con:consProdCompraCarteraResponse:Response:Data:productos:producto:numValorCuota	514000
+EliminacionPersistenciaCredito		IN	nombreOperacion						elim:EliminacionPersistenciaCredito:Request:DataHeader:nombreOperacion	EliminacionPersistenciaCredito
+EliminacionPersistenciaCredito		IN	total						elim:EliminacionPersistenciaCredito:Request:DataHeader:total	0
+EliminacionPersistenciaCredito		IN	jornada						elim:EliminacionPersistenciaCredito:Request:DataHeader:jornada	0
+EliminacionPersistenciaCredito		IN	canal						elim:EliminacionPersistenciaCredito:Request:DataHeader:canal	37
+EliminacionPersistenciaCredito		IN	modoDeOperacion						elim:EliminacionPersistenciaCredito:Request:DataHeader:modoDeOperacion	0
+EliminacionPersistenciaCredito		IN	usuario						elim:EliminacionPersistenciaCredito:Request:DataHeader:usuario	0
+EliminacionPersistenciaCredito		IN	perfil						elim:EliminacionPersistenciaCredito:Request:DataHeader:perfil	0
+EliminacionPersistenciaCredito		IN	versionServicio						elim:EliminacionPersistenciaCredito:Request:DataHeader:versionServicio	1.0.0
+EliminacionPersistenciaCredito		IN	idTransaccion						elim:EliminacionPersistenciaCredito:Request:DataHeader:idTransaccion	1591397404
+EliminacionPersistenciaCredito		IN	idSesion						elim:EliminacionPersistenciaCredito:Request:Data:idSesion
+EliminacionPersistenciaCredito		IN	codIdioma						elim:EliminacionPersistenciaCredito:Request:Data:codIdioma
+EliminacionPersistenciaCredito		IN	valOrigen						elim:EliminacionPersistenciaCredito:Request:Data:valOrigen
+EliminacionPersistenciaCredito		IN	codPais						elim:EliminacionPersistenciaCredito:Request:Data:codPais
+EliminacionPersistenciaCredito		IN	aplicacionOrigen						elim:EliminacionPersistenciaCredito:Request:Data:aplicacionOrigen	371301
+EliminacionPersistenciaCredito		IN	ipOrigen						elim:EliminacionPersistenciaCredito:Request:Data:ipOrigen	186.28.115.112
+EliminacionPersistenciaCredito		IN	tipoIdentificacion						elim:EliminacionPersistenciaCredito:Request:Data:tipoIdentificacion	01
+EliminacionPersistenciaCredito		IN	nroIdentificacion						elim:EliminacionPersistenciaCredito:Request:Data:nroIdentificacion	19207329
+EliminacionPersistenciaCredito		IN	nroSolicitud						elim:EliminacionPersistenciaCredito:Request:Data:nroSolicitud	35893
+EliminacionPersistenciaCredito		OUT	nombreOperacion						elim:EliminacionPersistenciaCreditoResponse:Response:DataHeader:nombreOperacion	EliminacionPersistenciaCredito
+EliminacionPersistenciaCredito		OUT	total						elim:EliminacionPersistenciaCreditoResponse:Response:DataHeader:total	0
+EliminacionPersistenciaCredito		OUT	caracterAceptacion						elim:EliminacionPersistenciaCreditoResponse:Response:DataHeader:caracterAceptacion	B
+EliminacionPersistenciaCredito		OUT	ultimoMensaje						elim:EliminacionPersistenciaCreditoResponse:Response:DataHeader:ultimoMensaje	1
+EliminacionPersistenciaCredito		OUT	idTransaccion						elim:EliminacionPersistenciaCreditoResponse:Response:DataHeader:idTransaccion	1591397404
+EliminacionPersistenciaCredito		OUT	codMsgRespuesta						elim:EliminacionPersistenciaCreditoResponse:Response:DataHeader:codMsgRespuesta	0000
+EliminacionPersistenciaCredito		OUT	msgRespuesta						elim:EliminacionPersistenciaCreditoResponse:Response:DataHeader:msgRespuesta
+ValidarOTP		IN	v12:idServicio						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:servicio:v12:idServicio	validarOTP
+ValidarOTP		IN	v13:idSesion						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:operacionCanal:v13:idSesion	5d47dcd0-a77e-11ea-9126-ef7014bb4938
+ValidarOTP		IN	v13:idTransaccion						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:operacionCanal:v13:idTransaccion	1591397389
+ValidarOTP		IN	v13:fecOperacion						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:operacionCanal:v13:fecOperacion	2020-06-05T22:49:49.490+00:00
+ValidarOTP		IN	v13:valJornada						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:operacionCanal:v13:valJornada	0
+ValidarOTP		IN	v13:codMoneda						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:operacionCanal:v13:codMoneda	COP
+ValidarOTP		IN	v13:codPais						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:operacionCanal:v13:codPais	co
+ValidarOTP		IN	v13:codIdioma						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:operacionCanal:v13:codIdioma	ES
+ValidarOTP		IN	v14:idConsumidor						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:consumidor:v14:idConsumidor	DAVIVIENDA_TARJETA_MOVIL_CC
+ValidarOTP		IN	v15:idAplicacion						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:consumidor:v14:aplicacion:v15:idAplicacion	MBAAS
+ValidarOTP		IN	v16:idCanal						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:consumidor:v14:canal:v16:idCanal	37
+ValidarOTP		IN	v16:idHost						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:consumidor:v14:canal:v16:idHost	186.28.115.112
+ValidarOTP		IN	v17:idTerminal						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:consumidor:v14:terminal:v17:idTerminal	120003
+ValidarOTP		IN	v17:valOrigenPeticion						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:consumidor:v14:terminal:v17:valOrigenPeticion	186.28.115.112
+ValidarOTP		IN	v17:codUsuario						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:consumidor:v14:terminal:v17:codUsuario	Mbaas
+ValidarOTP		IN	v17:valPerfil						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:consumidor:v14:terminal:v17:valPerfil	0
+ValidarOTP		IN	v18:idBeacon						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:huellaDigitalDispositivo:v18:idBeacon
+ValidarOTP		IN	v18:valHuellaDispositivo						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:huellaDigitalDispositivo:v18:valHuellaDispositivo
+ValidarOTP		IN	v18:valTokenCookie						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:huellaDigitalDispositivo:v18:valTokenCookie
+ValidarOTP		IN	v18:valTokenFSO						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:huellaDigitalDispositivo:v18:valTokenFSO
+ValidarOTP		IN	v18:valHttpAccept						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:huellaDigitalDispositivo:v18:valHttpAccept
+ValidarOTP		IN	v18:valHttpAcceptChars						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:huellaDigitalDispositivo:v18:valHttpAcceptChars
+ValidarOTP		IN	v18:valHttpAcceptEncoding						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:huellaDigitalDispositivo:v18:valHttpAcceptEncoding
+ValidarOTP		IN	v18:valHttpAcceptLanguage						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:huellaDigitalDispositivo:v18:valHttpAcceptLanguage
+ValidarOTP		IN	v18:valHttpReferrer						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:huellaDigitalDispositivo:v18:valHttpReferrer
+ValidarOTP		IN	v18:valIpAddress						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:huellaDigitalDispositivo:v18:valIpAddress
+ValidarOTP		IN	v18:valUserAgent						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:huellaDigitalDispositivo:v18:valUserAgent
+ValidarOTP		IN	v19:valColumna						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:criteriosOrdenamiento:v11:criterioOrdenamiento:v19:valColumna
+ValidarOTP		IN	v19:valOrden						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:criteriosOrdenamiento:v11:criterioOrdenamiento:v19:valOrden
+ValidarOTP		IN	v110:valCantidadRegistrosLote						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:paginacion:v110:valCantidadRegistrosLote
+ValidarOTP		IN	v110:valNumeroLote						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:paginacion:v110:valNumeroLote
+ValidarOTP		IN	v110:valTotalRegistros						v1:msjSolOpValidarOTPQR:v1:contextoSolicitud:v11:paginacion:v110:valTotalRegistros
+ValidarOTP		IN	v1:valTipoOTP						v1:msjSolOpValidarOTPQR:v1:valTipoOTP	APPTRN_MOVIL_CCARTERA
+ValidarOTP		IN	v111:codTipoIdentificacion						v1:msjSolOpValidarOTPQR:v1:cliente:v111:codTipoIdentificacion	01
+ValidarOTP		IN	v111:valNumeroIdentificacion						v1:msjSolOpValidarOTPQR:v1:cliente:v111:valNumeroIdentificacion	19207329
+ValidarOTP		IN	v111:valNombre						v1:msjSolOpValidarOTPQR:v1:cliente:v111:valNombre
+ValidarOTP		IN	v113:codTipoTelefono						v1:msjSolOpValidarOTPQR:v1:cliente:v111:contacto:v112:telefonos:v112:telefono:v113:codTipoTelefono
+ValidarOTP		IN	v113:valNumeroTelefono						v1:msjSolOpValidarOTPQR:v1:cliente:v111:contacto:v112:telefonos:v112:telefono:v113:valNumeroTelefono
+ValidarOTP		IN	v112:valCorreoElectronico						v1:msjSolOpValidarOTPQR:v1:cliente:v111:contacto:v112:correosElectronicos:v112:valCorreoElectronico
+ValidarOTP		IN	v112:esAutorizaNotificacionElectronica						v1:msjSolOpValidarOTPQR:v1:cliente:v111:contacto:v112:esAutorizaNotificacionElectronica
+ValidarOTP		IN	v115:idMunicipio						v1:msjSolOpValidarOTPQR:v1:cliente:v111:contacto:v112:ubicaciones:v112:ubicacion:v114:municipio:v115:idMunicipio
+ValidarOTP		IN	v115:codMunicipio						v1:msjSolOpValidarOTPQR:v1:cliente:v111:contacto:v112:ubicaciones:v112:ubicacion:v114:municipio:v115:codMunicipio
+ValidarOTP		IN	v115:valNombre						v1:msjSolOpValidarOTPQR:v1:cliente:v111:contacto:v112:ubicaciones:v112:ubicacion:v114:municipio:v115:valNombre
+ValidarOTP		IN	v116:idDepartamento						v1:msjSolOpValidarOTPQR:v1:cliente:v111:contacto:v112:ubicaciones:v112:ubicacion:v114:municipio:v115:departamento:v116:idDepartamento
+ValidarOTP		IN	v116:codDepartamento						v1:msjSolOpValidarOTPQR:v1:cliente:v111:contacto:v112:ubicaciones:v112:ubicacion:v114:municipio:v115:departamento:v116:codDepartamento
+ValidarOTP		IN	v116:valNombre						v1:msjSolOpValidarOTPQR:v1:cliente:v111:contacto:v112:ubicaciones:v112:ubicacion:v114:municipio:v115:departamento:v116:valNombre
+ValidarOTP		IN	v114:valDireccion						v1:msjSolOpValidarOTPQR:v1:cliente:v111:contacto:v112:ubicaciones:v112:ubicacion:v114:valDireccion
+ValidarOTP		IN	v114:codTipoDireccion						v1:msjSolOpValidarOTPQR:v1:cliente:v111:contacto:v112:ubicaciones:v112:ubicacion:v114:codTipoDireccion
+ValidarOTP		IN	v111:valNaturaleza						v1:msjSolOpValidarOTPQR:v1:cliente:v111:valNaturaleza
+ValidarOTP		IN	v117:valPrimerNombre						v1:msjSolOpValidarOTPQR:v1:cliente:v117:valPrimerNombre
+ValidarOTP		IN	v117:valSegundoNombre						v1:msjSolOpValidarOTPQR:v1:cliente:v117:valSegundoNombre
+ValidarOTP		IN	v117:valPrimerApellido						v1:msjSolOpValidarOTPQR:v1:cliente:v117:valPrimerApellido
+ValidarOTP		IN	v117:valSegundoApellido						v1:msjSolOpValidarOTPQR:v1:cliente:v117:valSegundoApellido
+ValidarOTP		IN	v117:codSexo						v1:msjSolOpValidarOTPQR:v1:cliente:v117:codSexo
+ValidarOTP		IN	v117:codEstadoCivil						v1:msjSolOpValidarOTPQR:v1:cliente:v117:codEstadoCivil
+ValidarOTP		IN	v117:valLoginAutoservicio						v1:msjSolOpValidarOTPQR:v1:cliente:v117:valLoginAutoservicio
+ValidarOTP		IN	v117:codNivelEducativo						v1:msjSolOpValidarOTPQR:v1:cliente:v117:codNivelEducativo
+ValidarOTP		IN	v117:valFechaNacimiento						v1:msjSolOpValidarOTPQR:v1:cliente:v117:valFechaNacimiento
+ValidarOTP		IN	v118:codEmpresaAsociada						v1:msjSolOpValidarOTPQR:v1:cliente:v118:codEmpresaAsociada
+ValidarOTP		IN	v118:valNombreEmpresaAsociada						v1:msjSolOpValidarOTPQR:v1:cliente:v118:valNombreEmpresaAsociada
+ValidarOTP		IN	v1:valIdTokenOTP						v1:msjSolOpValidarOTPQR:v1:infoToken:v1:valIdTokenOTP	69220700
+ValidarOTP		IN	valTokenOTPQR						v1:msjSolOpValidarOTPQR:v1:infoToken:valTokenOTPQR
+ValidarOTP		IN	v1:valTokenOTP						v1:msjSolOpValidarOTPQR:v1:infoToken:v1:valTokenOTP	16970150
+ValidarOTP		IN	v1:valIdQR						v1:msjSolOpValidarOTPQR:v1:infoToken:v1:valIdQR
+ValidarOTP		IN	v1:esDescartaToken						v1:msjSolOpValidarOTPQR:v1:esDescartaToken	false
+ValidarOTP		IN	v1:valLlave						v1:msjSolOpValidarOTPQR:v1:listaParametrosAdicionales:v1:parametroAdicional:v1:valLlave	ValorTX
+ValidarOTP		IN	v1:valValor						v1:msjSolOpValidarOTPQR:v1:listaParametrosAdicionales:v1:parametroAdicional:v1:valValor	2000000
+ValidarOTP		IN	v1:esReplicado						v1:msjSolOpValidarOTPQR:v1:listaParametrosAdicionales:v1:parametroAdicional:v1:esReplicado
+ValidarOTP		OUT	v12:codEstadoTransaccion						v1:msjRespOpValidarOTPQR:v1:contextoRespuesta:v11:resultadoTransaccion:v12:codEstadoTransaccion
+ValidarOTP		OUT	v12:valCaracterAceptacion						v1:msjRespOpValidarOTPQR:v1:contextoRespuesta:v11:resultadoTransaccion:v12:valCaracterAceptacion
+ValidarOTP		OUT	v12:valNumeroAprobacion						v1:msjRespOpValidarOTPQR:v1:contextoRespuesta:v11:resultadoTransaccion:v12:valNumeroAprobacion
+ValidarOTP		OUT	v12:idTransaccion						v1:msjRespOpValidarOTPQR:v1:contextoRespuesta:v11:resultadoTransaccion:v12:idTransaccion
+ValidarOTP		OUT	v12:fecOperacion						v1:msjRespOpValidarOTPQR:v1:contextoRespuesta:v11:resultadoTransaccion:v12:fecOperacion
+ValidarOTP		OUT	v13:codMsjRespuesta						v1:msjRespOpValidarOTPQR:v1:contextoRespuesta:v11:error:v13:codMsjRespuesta
+ValidarOTP		OUT	v13:valMsjRespuesta						v1:msjRespOpValidarOTPQR:v1:contextoRespuesta:v11:error:v13:valMsjRespuesta
+ValidarOTP		OUT	v13:codMsjRespuestaBackend						v1:msjRespOpValidarOTPQR:v1:contextoRespuesta:v11:error:v13:codMsjRespuestaBackend
+ValidarOTP		OUT	v13:valMsjRespuestaBackend						v1:msjRespOpValidarOTPQR:v1:contextoRespuesta:v11:error:v13:valMsjRespuestaBackend
+ValidarOTP		OUT	v14:valCantidadRegistrosLote						v1:msjRespOpValidarOTPQR:v1:contextoRespuesta:v11:paginacion:v14:valCantidadRegistrosLote
+ValidarOTP		OUT	v14:valNumeroLote						v1:msjRespOpValidarOTPQR:v1:contextoRespuesta:v11:paginacion:v14:valNumeroLote
+ValidarOTP		OUT	v14:valTotalRegistros						v1:msjRespOpValidarOTPQR:v1:contextoRespuesta:v11:paginacion:v14:valTotalRegistros
+ValidarOTP		OUT	v1:esValidacionExitosa						v1:msjRespOpValidarOTPQR:v1:esValidacionExitosa
+ValidarOTP		OUT	v1:esSiguienteToken						v1:msjRespOpValidarOTPQR:v1:esSiguienteToken
+ValidarOTP		OUT	v1:valMensaje						v1:msjRespOpValidarOTPQR:v1:valMensaje
+ValidarOTP		OUT	v15:codTipoIdentificacion						v1:msjRespOpValidarOTPQR:v1:cliente:v15:codTipoIdentificacion
+ValidarOTP		OUT	v15:valNumeroIdentificacion						v1:msjRespOpValidarOTPQR:v1:cliente:v15:valNumeroIdentificacion
+ValidarOTP		OUT	v15:valNombre						v1:msjRespOpValidarOTPQR:v1:cliente:v15:valNombre
+ValidarOTP		OUT	v17:codTipoTelefono						v1:msjRespOpValidarOTPQR:v1:cliente:v15:contacto:v16:telefonos:v16:telefono:v17:codTipoTelefono
+ValidarOTP		OUT	v17:valNumeroTelefono						v1:msjRespOpValidarOTPQR:v1:cliente:v15:contacto:v16:telefonos:v16:telefono:v17:valNumeroTelefono
+ValidarOTP		OUT	v16:valCorreoElectronico						v1:msjRespOpValidarOTPQR:v1:cliente:v15:contacto:v16:correosElectronicos:v16:valCorreoElectronico
+ValidarOTP		OUT	v16:esAutorizaNotificacionElectronica						v1:msjRespOpValidarOTPQR:v1:cliente:v15:contacto:v16:esAutorizaNotificacionElectronica
+ValidarOTP		OUT	v19:idMunicipio						v1:msjRespOpValidarOTPQR:v1:cliente:v15:contacto:v16:ubicaciones:v16:ubicacion:v18:municipio:v19:idMunicipio
+ValidarOTP		OUT	v19:codMunicipio						v1:msjRespOpValidarOTPQR:v1:cliente:v15:contacto:v16:ubicaciones:v16:ubicacion:v18:municipio:v19:codMunicipio
+ValidarOTP		OUT	v19:valNombre						v1:msjRespOpValidarOTPQR:v1:cliente:v15:contacto:v16:ubicaciones:v16:ubicacion:v18:municipio:v19:valNombre
+ValidarOTP		OUT	v110:idDepartamento						v1:msjRespOpValidarOTPQR:v1:cliente:v15:contacto:v16:ubicaciones:v16:ubicacion:v18:municipio:v19:departamento:v110:idDepartamento
+ValidarOTP		OUT	v110:codDepartamento						v1:msjRespOpValidarOTPQR:v1:cliente:v15:contacto:v16:ubicaciones:v16:ubicacion:v18:municipio:v19:departamento:v110:codDepartamento
+ValidarOTP		OUT	v110:valNombre						v1:msjRespOpValidarOTPQR:v1:cliente:v15:contacto:v16:ubicaciones:v16:ubicacion:v18:municipio:v19:departamento:v110:valNombre
+ValidarOTP		OUT	v18:valDireccion						v1:msjRespOpValidarOTPQR:v1:cliente:v15:contacto:v16:ubicaciones:v16:ubicacion:v18:valDireccion
+ValidarOTP		OUT	v18:codTipoDireccion						v1:msjRespOpValidarOTPQR:v1:cliente:v15:contacto:v16:ubicaciones:v16:ubicacion:v18:codTipoDireccion
+ValidarOTP		OUT	v15:valNaturaleza						v1:msjRespOpValidarOTPQR:v1:cliente:v15:valNaturaleza
+ValidarOTP		OUT	v111:valPrimerNombre						v1:msjRespOpValidarOTPQR:v1:cliente:v111:valPrimerNombre
+ValidarOTP		OUT	v111:valSegundoNombre						v1:msjRespOpValidarOTPQR:v1:cliente:v111:valSegundoNombre
+ValidarOTP		OUT	v111:valPrimerApellido						v1:msjRespOpValidarOTPQR:v1:cliente:v111:valPrimerApellido
+ValidarOTP		OUT	v111:valSegundoApellido						v1:msjRespOpValidarOTPQR:v1:cliente:v111:valSegundoApellido
+ValidarOTP		OUT	v111:codSexo						v1:msjRespOpValidarOTPQR:v1:cliente:v111:codSexo
+ValidarOTP		OUT	v111:codEstadoCivil						v1:msjRespOpValidarOTPQR:v1:cliente:v111:codEstadoCivil
+ValidarOTP		OUT	v111:valLoginAutoservicio						v1:msjRespOpValidarOTPQR:v1:cliente:v111:valLoginAutoservicio
+ValidarOTP		OUT	v111:codNivelEducativo						v1:msjRespOpValidarOTPQR:v1:cliente:v111:codNivelEducativo
+ValidarOTP		OUT	v111:valFechaNacimiento						v1:msjRespOpValidarOTPQR:v1:cliente:v111:valFechaNacimiento
+ValidarOTP		OUT	v112:codEmpresaAsociada						v1:msjRespOpValidarOTPQR:v1:cliente:v112:codEmpresaAsociada
+ValidarOTP		OUT	v112:valNombreEmpresaAsociada						v1:msjRespOpValidarOTPQR:v1:cliente:v112:valNombreEmpresaAsociada
+ValidarOTP		OUT	v1:valIdTokenOTP						v1:msjRespOpValidarOTPQR:v1:infoToken:v1:valIdTokenOTP
+ValidarOTP		OUT	v1:fecExpiracionToken						v1:msjRespOpValidarOTPQR:v1:infoToken:v1:fecExpiracionToken
+ValidarOTP		OUT	v1:valTiempoVida						v1:msjRespOpValidarOTPQR:v1:infoToken:v1:valTiempoVida
+ValidarOTP		OUT	v1:valTipoOTP						v1:msjRespOpValidarOTPQR:v1:infoNotificacion:v1:valTipoOTP
+ValidarOTP		OUT	v1:esNotificacionPush						v1:msjRespOpValidarOTPQR:v1:infoNotificacion:v1:esNotificacionPush
+ValidarOTP		OUT	v1:esNotificacionSMS						v1:msjRespOpValidarOTPQR:v1:infoNotificacion:v1:esNotificacionSMS
+ValidarOTP		OUT	v1:esNotificacionMail						v1:msjRespOpValidarOTPQR:v1:infoNotificacion:v1:esNotificacionMail
+ValidarOTP		OUT	v1:valLlave						v1:msjRespOpValidarOTPQR:v1:listaParametrosAdicionales:v1:parametroAdicional:v1:valLlave
+ValidarOTP		OUT	v1:valValor						v1:msjRespOpValidarOTPQR:v1:listaParametrosAdicionales:v1:parametroAdicional:v1:valValor
+ValidarOTP		OUT	v1:esReplicado						v1:msjRespOpValidarOTPQR:v1:listaParametrosAdicionales:v1:parametroAdicional:v1:esReplicado
+CrearActualizarClientePN		IN	nombreOperacion						cre:crearActualizarClientePN:Request:DataHeader:nombreOperacion	crearActualizarClientePN
+CrearActualizarClientePN		IN	total						cre:crearActualizarClientePN:Request:DataHeader:total	0
+CrearActualizarClientePN		IN	jornada						cre:crearActualizarClientePN:Request:DataHeader:jornada	0
+CrearActualizarClientePN		IN	canal						cre:crearActualizarClientePN:Request:DataHeader:canal	37
+CrearActualizarClientePN		IN	modoDeOperacion						cre:crearActualizarClientePN:Request:DataHeader:modoDeOperacion	0
+CrearActualizarClientePN		IN	usuario						cre:crearActualizarClientePN:Request:DataHeader:usuario	MBaas
+CrearActualizarClientePN		IN	perfil						cre:crearActualizarClientePN:Request:DataHeader:perfil	1
+CrearActualizarClientePN		IN	versionServicio						cre:crearActualizarClientePN:Request:DataHeader:versionServicio	3.0.0
+CrearActualizarClientePN		IN	idSesion						cre:crearActualizarClientePN:Request:Data:idSesion
+CrearActualizarClientePN		IN	codIdioma						cre:crearActualizarClientePN:Request:Data:codIdioma
+CrearActualizarClientePN		IN	valOrigen						cre:crearActualizarClientePN:Request:Data:valOrigen
+CrearActualizarClientePN		IN	codPais						cre:crearActualizarClientePN:Request:Data:codPais
+CrearActualizarClientePN		IN	idTransaccion						cre:crearActualizarClientePN:Request:Data:idTransaccion
+CrearActualizarClientePN		IN	nroIdentificacionCLI						cre:crearActualizarClientePN:Request:Data:contact:nroIdentificacionCLI	19207329
+CrearActualizarClientePN		IN	descTipoIdentificacionCLI						cre:crearActualizarClientePN:Request:Data:contact:descTipoIdentificacionCLI	01
+CrearActualizarClientePN		IN	primerApellidoCLI						cre:crearActualizarClientePN:Request:Data:contact:primerApellidoCLI
+CrearActualizarClientePN		IN	nombresCLI						cre:crearActualizarClientePN:Request:Data:contact:nombresCLI
+CrearActualizarClientePN		IN	segundoApellidoCLI						cre:crearActualizarClientePN:Request:Data:contact:segundoApellidoCLI
+CrearActualizarClientePN		IN	saludoCLI						cre:crearActualizarClientePN:Request:Data:contact:saludoCLI
+CrearActualizarClientePN		IN	lugarNacimientoCLI						cre:crearActualizarClientePN:Request:Data:contact:lugarNacimientoCLI
+CrearActualizarClientePN		IN	fechaNacimientoCLI						cre:crearActualizarClientePN:Request:Data:contact:fechaNacimientoCLI
+CrearActualizarClientePN		IN	lugarExpedicionCLI						cre:crearActualizarClientePN:Request:Data:contact:lugarExpedicionCLI
+CrearActualizarClientePN		IN	fechaExpedicionCLI						cre:crearActualizarClientePN:Request:Data:contact:fechaExpedicionCLI
+CrearActualizarClientePN		IN	fechaVinculacionCLI						cre:crearActualizarClientePN:Request:Data:contact:fechaVinculacionCLI
+CrearActualizarClientePN		IN	oficinaRadicacionCLI						cre:crearActualizarClientePN:Request:Data:contact:oficinaRadicacionCLI
+CrearActualizarClientePN		IN	tokenCLI						cre:crearActualizarClientePN:Request:Data:contact:tokenCLI
+CrearActualizarClientePN		IN	indicadorExistenciaCLI						cre:crearActualizarClientePN:Request:Data:contact:indicadorExistenciaCLI
+CrearActualizarClientePN		IN	indicadorPNCNCLI						cre:crearActualizarClientePN:Request:Data:contact:indicadorPNCNCLI
+CrearActualizarClientePN		IN	estadoCLI						cre:crearActualizarClientePN:Request:Data:contact:estadoCLI
+CrearActualizarClientePN		IN	tipoCLI						cre:crearActualizarClientePN:Request:Data:contact:tipoCLI
+CrearActualizarClientePN		IN	clienteDavivaloresCLI						cre:crearActualizarClientePN:Request:Data:contact:clienteDavivaloresCLI
+CrearActualizarClientePN		IN	segmentoComercialCLI						cre:crearActualizarClientePN:Request:Data:contact:segmentoComercialCLI
+CrearActualizarClientePN		IN	subsegmentoComercialCLI						cre:crearActualizarClientePN:Request:Data:contact:subsegmentoComercialCLI
+CrearActualizarClientePN		IN	segmentoColorCLI						cre:crearActualizarClientePN:Request:Data:contact:segmentoColorCLI
+CrearActualizarClientePN		IN	flagRelntoGrupoBolivarCLI						cre:crearActualizarClientePN:Request:Data:contact:flagRelntoGrupoBolivarCLI
+CrearActualizarClientePN		IN	clienteHastaLaFecha						cre:crearActualizarClientePN:Request:Data:contact:clienteHastaLaFecha
+CrearActualizarClientePN		IN	segmentoInversionCLI						cre:crearActualizarClientePN:Request:Data:contact:segmentoInversionCLI
+CrearActualizarClientePN		IN	perfilRiesgoInversionCLI						cre:crearActualizarClientePN:Request:Data:contact:perfilRiesgoInversionCLI
+CrearActualizarClientePN		IN	cuentaDECEVALCLI						cre:crearActualizarClientePN:Request:Data:contact:cuentaDECEVALCLI
+CrearActualizarClientePN		IN	nroPersonasCargoCLI						cre:crearActualizarClientePN:Request:Data:contact:nroPersonasCargoCLI
+CrearActualizarClientePN		IN	origenCLI						cre:crearActualizarClientePN:Request:Data:contact:origenCLI
+CrearActualizarClientePN		IN	SexoCLI						cre:crearActualizarClientePN:Request:Data:contact:SexoCLI
+CrearActualizarClientePN		IN	estadoCivilCLI						cre:crearActualizarClientePN:Request:Data:contact:estadoCivilCLI
+CrearActualizarClientePN		IN	nivelEducacionCLI						cre:crearActualizarClientePN:Request:Data:contact:nivelEducacionCLI
+CrearActualizarClientePN		IN	profesionCLI						cre:crearActualizarClientePN:Request:Data:contact:profesionCLI
+CrearActualizarClientePN		IN	vincGrupoBolivarCLI						cre:crearActualizarClientePN:Request:Data:contact:vincGrupoBolivarCLI
+CrearActualizarClientePN		IN	fechaPensionadoCLI						cre:crearActualizarClientePN:Request:Data:contact:fechaPensionadoCLI
+CrearActualizarClientePN		IN	fechaMarcaActualExonerCLI						cre:crearActualizarClientePN:Request:Data:contact:fechaMarcaActualExonerCLI
+CrearActualizarClientePN		IN	clasificacionRiesgosSARLAFT						cre:crearActualizarClientePN:Request:Data:contact:clasificacionRiesgosSARLAFT
+CrearActualizarClientePN		IN	fechaActInformacionClienteCLI						cre:crearActualizarClientePN:Request:Data:contact:fechaActInformacionClienteCLI
+CrearActualizarClientePN		IN	diasActDatosCLI						cre:crearActualizarClientePN:Request:Data:contact:diasActDatosCLI
+CrearActualizarClientePN		IN	usuarioCreaClienteCLI						cre:crearActualizarClientePN:Request:Data:contact:usuarioCreaClienteCLI
+CrearActualizarClientePN		IN	ordenanteCLI						cre:crearActualizarClientePN:Request:Data:contact:ordenanteCLI
+CrearActualizarClientePN		IN	accionistaDaviviendaCLI						cre:crearActualizarClientePN:Request:Data:contact:accionistaDaviviendaCLI
+CrearActualizarClientePN		IN	indClienteEstablecimCLI						cre:crearActualizarClientePN:Request:Data:contact:indClienteEstablecimCLI
+CrearActualizarClientePN		IN	estadoExoneradoCLI						cre:crearActualizarClientePN:Request:Data:contact:estadoExoneradoCLI
+CrearActualizarClientePN		IN	modalEntreInfoAnualCostoCLI						cre:crearActualizarClientePN:Request:Data:contact:modalEntreInfoAnualCostoCLI
+CrearActualizarClientePN		IN	clienteDaviplata						cre:crearActualizarClientePN:Request:Data:contact:clienteDaviplata
+CrearActualizarClientePN		IN	clienteFiduciaria						cre:crearActualizarClientePN:Request:Data:contact:clienteFiduciaria
+CrearActualizarClientePN		IN	flagTradingElectronico						cre:crearActualizarClientePN:Request:Data:contact:flagTradingElectronico
+CrearActualizarClientePN		IN	identifBienEntregadoCLI						cre:crearActualizarClientePN:Request:Data:contact:identifBienEntregadoCLI
+CrearActualizarClientePN		IN	portafolioPersonaNatural						cre:crearActualizarClientePN:Request:Data:contact:portafolioPersonaNatural
+CrearActualizarClientePN		IN	ingresoCertificadoCLI						cre:crearActualizarClientePN:Request:Data:contact:ingresoCertificadoCLI
+CrearActualizarClientePN		IN	viviendaCLI						cre:crearActualizarClientePN:Request:Data:contact:viviendaCLI
+CrearActualizarClientePN		IN	claseRecursoEntregadoCLI						cre:crearActualizarClientePN:Request:Data:contact:claseRecursoEntregadoCLI
+CrearActualizarClientePN		IN	declaraRentaCLI						cre:crearActualizarClientePN:Request:Data:contact:declaraRentaCLI
+CrearActualizarClientePN		IN	retefuenteCLI						cre:crearActualizarClientePN:Request:Data:contact:retefuenteCLI
+CrearActualizarClientePN		IN	anoinicVidaLaboralCLI						cre:crearActualizarClientePN:Request:Data:contact:anoinicVidaLaboralCLI
+CrearActualizarClientePN		IN	particbilleteraCLI						cre:crearActualizarClientePN:Request:Data:contact:particbilleteraCLI
+CrearActualizarClientePN		IN	oficinaDeAsignacion						cre:crearActualizarClientePN:Request:Data:contact:oficinaDeAsignacion
+CrearActualizarClientePN		IN	montoPreapFirmeTotCLI						cre:crearActualizarClientePN:Request:Data:contact:montoPreapFirmeTotCLI
+CrearActualizarClientePN		IN	montoPreapRotativoFirmeCLI						cre:crearActualizarClientePN:Request:Data:contact:montoPreapRotativoFirmeCLI
+CrearActualizarClientePN		IN	montoPreapConsumoFirmeCLI						cre:crearActualizarClientePN:Request:Data:contact:montoPreapConsumoFirmeCLI
+CrearActualizarClientePN		IN	fechaLiberapreapCLI						cre:crearActualizarClientePN:Request:Data:contact:fechaLiberapreapCLI
+CrearActualizarClientePN		IN	montoPreaprobadoVehiculo						cre:crearActualizarClientePN:Request:Data:contact:montoPreaprobadoVehiculo
+CrearActualizarClientePN		IN	fechaUltActuaprCLI						cre:crearActualizarClientePN:Request:Data:contact:fechaUltActuaprCLI
+CrearActualizarClientePN		IN	montoPreaprobadoHipotecario						cre:crearActualizarClientePN:Request:Data:contact:montoPreaprobadoHipotecario
+CrearActualizarClientePN		IN	trader						cre:crearActualizarClientePN:Request:Data:contact:trader
+CrearActualizarClientePN		IN	segmentoSARLAFT						cre:crearActualizarClientePN:Request:Data:contact:segmentoSARLAFT
+CrearActualizarClientePN		IN	twitterCLI						cre:crearActualizarClientePN:Request:Data:contact:twitterCLI
+CrearActualizarClientePN		IN	clientePEPSCLI						cre:crearActualizarClientePN:Request:Data:contact:clientePEPSCLI
+CrearActualizarClientePN		IN	leyVictimasCLI						cre:crearActualizarClientePN:Request:Data:contact:leyVictimasCLI
+CrearActualizarClientePN		IN	funcionarioPublicoCLI						cre:crearActualizarClientePN:Request:Data:contact:funcionarioPublicoCLI
+CrearActualizarClientePN		IN	manejaRecursosPublCLI						cre:crearActualizarClientePN:Request:Data:contact:manejaRecursosPublCLI
+CrearActualizarClientePN		IN	nacionalidadCLI						cre:crearActualizarClientePN:Request:Data:contact:nacionalidadCLI
+CrearActualizarClientePN		IN	ingresoMensualCLI						cre:crearActualizarClientePN:Request:Data:contact:ingresoMensualCLI
+CrearActualizarClientePN		IN	cliEntregaBienEnFiduciaCLI						cre:crearActualizarClientePN:Request:Data:contact:cliEntregaBienEnFiduciaCLI
+CrearActualizarClientePN		IN	intervenDeProyectoCLI						cre:crearActualizarClientePN:Request:Data:contact:intervenDeProyectoCLI
+CrearActualizarClientePN		IN	flagEntidadPublicaCLI						cre:crearActualizarClientePN:Request:Data:contact:flagEntidadPublicaCLI
+CrearActualizarClientePN		IN	paisNacimientoCLI						cre:crearActualizarClientePN:Request:Data:contact:paisNacimientoCLI
+CrearActualizarClientePN		IN	nacionalidadAmericanaCLI						cre:crearActualizarClientePN:Request:Data:contact:nacionalidadAmericanaCLI
+CrearActualizarClientePN		IN	esContratistaEstadoCLI						cre:crearActualizarClientePN:Request:Data:contact:esContratistaEstadoCLI
+CrearActualizarClientePN		IN	ciudadaniaAmericanaCLI						cre:crearActualizarClientePN:Request:Data:contact:ciudadaniaAmericanaCLI
+CrearActualizarClientePN		IN	pasaporteAmericanoCLI						cre:crearActualizarClientePN:Request:Data:contact:pasaporteAmericanoCLI
+CrearActualizarClientePN		IN	nroPasapAmericanoCLI						cre:crearActualizarClientePN:Request:Data:contact:nroPasapAmericanoCLI
+CrearActualizarClientePN		IN	tarjetaVerdeCLI						cre:crearActualizarClientePN:Request:Data:contact:tarjetaVerdeCLI
+CrearActualizarClientePN		IN	numeroTINCLI						cre:crearActualizarClientePN:Request:Data:contact:numeroTINCLI
+CrearActualizarClientePN		IN	motivoEstadiaUSACLI						cre:crearActualizarClientePN:Request:Data:contact:motivoEstadiaUSACLI
+CrearActualizarClientePN		IN	otroMotivoEstadiaUSACLI						cre:crearActualizarClientePN:Request:Data:contact:otroMotivoEstadiaUSACLI
+CrearActualizarClientePN		IN	mas180DiasUSAUltAFiscalCLI						cre:crearActualizarClientePN:Request:Data:contact:mas180DiasUSAUltAFiscalCLI
+CrearActualizarClientePN		IN	mas122DiasPromUSAult3anosCLI						cre:crearActualizarClientePN:Request:Data:contact:mas122DiasPromUSAult3anosCLI
+CrearActualizarClientePN		IN	otraNacionalidadCLI						cre:crearActualizarClientePN:Request:Data:contact:otraNacionalidadCLI
+CrearActualizarClientePN		IN	cualOtraNacionalidadCLI						cre:crearActualizarClientePN:Request:Data:contact:cualOtraNacionalidadCLI
+CrearActualizarClientePN		IN	tieneResidLegalOtroPaisCLI						cre:crearActualizarClientePN:Request:Data:contact:tieneResidLegalOtroPaisCLI
+CrearActualizarClientePN		IN	direcOtroPaisCLI						cre:crearActualizarClientePN:Request:Data:contact:direcOtroPaisCLI
+CrearActualizarClientePN		IN	paisDirecOtroPaisCLI						cre:crearActualizarClientePN:Request:Data:contact:paisDirecOtroPaisCLI
+CrearActualizarClientePN		IN	ciudadDirOtroPaisCLI						cre:crearActualizarClientePN:Request:Data:contact:ciudadDirOtroPaisCLI
+CrearActualizarClientePN		IN	impactadoFATCACLI						cre:crearActualizarClientePN:Request:Data:contact:impactadoFATCACLI
+CrearActualizarClientePN		IN	actividadLaboralCLI						cre:crearActualizarClientePN:Request:Data:contact:actividadLaboralCLI
+CrearActualizarClientePN		IN	fechaMarcaActualColor						cre:crearActualizarClientePN:Request:Data:contact:fechaMarcaActualColor
+CrearActualizarClientePN		IN	contadorMarcaColor						cre:crearActualizarClientePN:Request:Data:contact:contadorMarcaColor
+CrearActualizarClientePN		IN	contadorMarcaLibre						cre:crearActualizarClientePN:Request:Data:contact:contadorMarcaLibre
+CrearActualizarClientePN		IN	fechaPrimeraMarcaColor						cre:crearActualizarClientePN:Request:Data:contact:fechaPrimeraMarcaColor
+CrearActualizarClientePN		IN	fechaPrimeraMarcaRel						cre:crearActualizarClientePN:Request:Data:contact:fechaPrimeraMarcaRel
+CrearActualizarClientePN		IN	autenticadoCLI						cre:crearActualizarClientePN:Request:Data:contact:autenticadoCLI
+CrearActualizarClientePN		IN	autenticacionUsuarioCLI						cre:crearActualizarClientePN:Request:Data:contact:autenticacionUsuarioCLI
+CrearActualizarClientePN		IN	tipoDeActividades						cre:crearActualizarClientePN:Request:Data:contact:tipoDeActividades
+CrearActualizarClientePN		IN	metodoAutenticacion						cre:crearActualizarClientePN:Request:Data:contact:metodoAutenticacion
+CrearActualizarClientePN		IN	reconocimientoPublicoCLI						cre:crearActualizarClientePN:Request:Data:contact:reconocimientoPublicoCLI
+CrearActualizarClientePN		IN	politicamenteExpuestCLI						cre:crearActualizarClientePN:Request:Data:contact:politicamenteExpuestCLI
+CrearActualizarClientePN		IN	cargoPepsCLI						cre:crearActualizarClientePN:Request:Data:contact:cargoPepsCLI
+CrearActualizarClientePN		IN	fechaVinculacionCargoCLI						cre:crearActualizarClientePN:Request:Data:contact:fechaVinculacionCargoCLI
+CrearActualizarClientePN		IN	fechaDesvinculacionCargoCLI						cre:crearActualizarClientePN:Request:Data:contact:fechaDesvinculacionCargoCLI
+CrearActualizarClientePN		IN	representanteOrganizacionInterCLI						cre:crearActualizarClientePN:Request:Data:contact:representanteOrganizacionInterCLI
+CrearActualizarClientePN		IN	familiarPersonaPublicaExpuestaCLI						cre:crearActualizarClientePN:Request:Data:contact:familiarPersonaPublicaExpuestaCLI
+CrearActualizarClientePN		IN	origenFondosCLI						cre:crearActualizarClientePN:Request:Data:contact:origenFondosCLI
+CrearActualizarClientePN		IN	indicadorSegmentoCLI						cre:crearActualizarClientePN:Request:Data:contact:indicadorSegmentoCLI
+CrearActualizarClientePN		IN	tipoTelefonoTL						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Telephone:dav_Telephone:tipoTelefonoTL
+CrearActualizarClientePN		IN	telefonoPpalTL						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Telephone:dav_Telephone:telefonoPpalTL
+CrearActualizarClientePN		IN	ciudadTL						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Telephone:dav_Telephone:ciudadTL
+CrearActualizarClientePN		IN	indicativoTL						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Telephone:dav_Telephone:indicativoTL
+CrearActualizarClientePN		IN	activoTL						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Telephone:dav_Telephone:activoTL
+CrearActualizarClientePN		IN	extensionTL						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Telephone:dav_Telephone:extensionTL
+CrearActualizarClientePN		IN	tipoTL						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Telephone:dav_Telephone:tipoTL
+CrearActualizarClientePN		IN	numeroCL						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_PrincipalCellphone:dav_PrincipalCellphone:numeroCL
+CrearActualizarClientePN		IN	tipoTelefonoCL						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_PrincipalCellphone:dav_PrincipalCellphone:tipoTelefonoCL
+CrearActualizarClientePN		IN	tipoCL						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_PrincipalCellphone:dav_PrincipalCellphone:tipoCL
+CrearActualizarClientePN		IN	emailEM						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_PrincipalEmail:dav_PrincipalEmail:emailEM
+CrearActualizarClientePN		IN	claseCelularEM						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_PrincipalEmail:dav_PrincipalEmail:claseCelularEM
+CrearActualizarClientePN		IN	tipo						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_PrincipalEmail:dav_PrincipalEmail:tipo
+CrearActualizarClientePN		IN	ciudadDI						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_PersonalAddress:dav_PersonalAddress:ciudadDI	16911001
+CrearActualizarClientePN		IN	paisDI						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_PersonalAddress:dav_PersonalAddress:paisDI	169
+CrearActualizarClientePN		IN	departamentoDI						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_PersonalAddress:dav_PersonalAddress:departamentoDI	16911
+CrearActualizarClientePN		IN	municipioDI						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_PersonalAddress:dav_PersonalAddress:municipioDI
+CrearActualizarClientePN		IN	codigoPostalDI						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_PersonalAddress:dav_PersonalAddress:codigoPostalDI
+CrearActualizarClientePN		IN	tipoDireccionDI						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_PersonalAddress:dav_PersonalAddress:tipoDireccionDI	01
+CrearActualizarClientePN		IN	direccionDI						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_PersonalAddress:dav_PersonalAddress:direccionDI	KR 15 # 8346 AP 707
+CrearActualizarClientePN		IN	rolCoberturaPT						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Position:dav_Position:rolCoberturaPT
+CrearActualizarClientePN		IN	puestoTrabajoPT						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Position:dav_Position:puestoTrabajoPT
+CrearActualizarClientePN		IN	divisionPT						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Position:dav_Position:divisionPT
+CrearActualizarClientePN		IN	hobbieHB						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Hobby:dav_Hobby:hobbieHB
+CrearActualizarClientePN		IN	tipo						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Hobby:dav_Hobby:tipo
+CrearActualizarClientePN		IN	tipoIdentificacionRelRL						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Relaciones:dav_Relaciones:tipoIdentificacionRelRL
+CrearActualizarClientePN		IN	noIdentificacionRelRL						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Relaciones:dav_Relaciones:noIdentificacionRelRL
+CrearActualizarClientePN		IN	claseRelacionRL						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Relaciones:dav_Relaciones:claseRelacionRL
+CrearActualizarClientePN		IN	relacion						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Relaciones:dav_Relaciones:relacion
+CrearActualizarClientePN		IN	porcentajParticipGFRL						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Relaciones:dav_Relaciones:porcentajParticipGFRL
+CrearActualizarClientePN		IN	impuestos						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Relaciones:dav_Relaciones:impuestos
+CrearActualizarClientePN		IN	grupoFamiliarRL						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Relaciones:dav_Relaciones:grupoFamiliarRL
+CrearActualizarClientePN		IN	impactadoFATCARL						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Relaciones:dav_Relaciones:impactadoFATCARL
+CrearActualizarClientePN		IN	porcentajeParticipacionRL						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Relaciones:dav_Relaciones:porcentajeParticipacionRL
+CrearActualizarClientePN		IN	numeroTINRL						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Relaciones:dav_Relaciones:numeroTINRL
+CrearActualizarClientePN		IN	tipoRelacionRL						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Relaciones:dav_Relaciones:tipoRelacionRL
+CrearActualizarClientePN		IN	tipoIN						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Ingresos:dav_Ingresos:tipoIN	1
+CrearActualizarClientePN		IN	valorIN						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Ingresos:dav_Ingresos:valorIN	7777777777
+CrearActualizarClientePN		IN	tipoActLaboralIN						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Ingresos:dav_Ingresos:tipoActLaboralIN	E
+CrearActualizarClientePN		IN	profesionIN						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Ingresos:dav_Ingresos:profesionIN
+CrearActualizarClientePN		IN	tipoContratoIN						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Ingresos:dav_Ingresos:tipoContratoIN	00002
+CrearActualizarClientePN		IN	nombreEmpresaIN						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Ingresos:dav_Ingresos:nombreEmpresaIN	libres
+CrearActualizarClientePN		IN	nitEmpresaIN						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Ingresos:dav_Ingresos:nitEmpresaIN
+CrearActualizarClientePN		IN	fechaInicioIN						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Ingresos:dav_Ingresos:fechaInicioIN	01/01/1900
+CrearActualizarClientePN		IN	antigLaboralIN						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Ingresos:dav_Ingresos:antigLaboralIN
+CrearActualizarClientePN		IN	carreraIN						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Ingresos:dav_Ingresos:carreraIN
+CrearActualizarClientePN		IN	universidadIN						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Ingresos:dav_Ingresos:universidadIN
+CrearActualizarClientePN		IN	anoCursaIN						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Ingresos:dav_Ingresos:anoCursaIN
+CrearActualizarClientePN		IN	valActividadEconomicaIN						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Ingresos:dav_Ingresos:valActividadEconomicaIN	00010
+CrearActualizarClientePN		IN	cargOcupacionIN						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Ingresos:dav_Ingresos:cargOcupacionIN
+CrearActualizarClientePN		IN	actividadEconEmpresaIN						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Ingresos:dav_Ingresos:actividadEconEmpresaIN
+CrearActualizarClientePN		IN	descripcionIN						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Ingresos:dav_Ingresos:descripcionIN
+CrearActualizarClientePN		IN	tipoEG						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Egresos:dav_Egresos:tipoEG
+CrearActualizarClientePN		IN	montoEG						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Egresos:dav_Egresos:montoEG
+CrearActualizarClientePN		IN	descripcion						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Egresos:dav_Egresos:descripcion
+CrearActualizarClientePN		IN	tipoPV						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_ActivosFincaRaizVehicle:dav_ActivosFincaRaizVehicle:tipoPV
+CrearActualizarClientePN		IN	codigoTipoPV						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_ActivosFincaRaizVehicle:dav_ActivosFincaRaizVehicle:codigoTipoPV
+CrearActualizarClientePN		IN	valorComercialPV						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_ActivosFincaRaizVehicle:dav_ActivosFincaRaizVehicle:valorComercialPV
+CrearActualizarClientePN		IN	descripcion						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_ActivosFincaRaizVehicle:dav_ActivosFincaRaizVehicle:descripcion
+CrearActualizarClientePN		IN	marcaVehiculoPV						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_ActivosFincaRaizVehicle:dav_ActivosFincaRaizVehicle:marcaVehiculoPV
+CrearActualizarClientePN		IN	direccionInmueblePV						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_ActivosFincaRaizVehicle:dav_ActivosFincaRaizVehicle:direccionInmueblePV
+CrearActualizarClientePN		IN	ciudadInmueblePV						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_ActivosFincaRaizVehicle:dav_ActivosFincaRaizVehicle:ciudadInmueblePV
+CrearActualizarClientePN		IN	matriculaInmobiliariaPV						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_ActivosFincaRaizVehicle:dav_ActivosFincaRaizVehicle:matriculaInmobiliariaPV
+CrearActualizarClientePN		IN	saldoHipotecaPV						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_ActivosFincaRaizVehicle:dav_ActivosFincaRaizVehicle:saldoHipotecaPV
+CrearActualizarClientePN		IN	modeloVehiculoPV						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_ActivosFincaRaizVehicle:dav_ActivosFincaRaizVehicle:modeloVehiculoPV
+CrearActualizarClientePN		IN	placaVehiculoPV						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_ActivosFincaRaizVehicle:dav_ActivosFincaRaizVehicle:placaVehiculoPV
+CrearActualizarClientePN		IN	reservaDominioVehPV						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_ActivosFincaRaizVehicle:dav_ActivosFincaRaizVehicle:reservaDominioVehPV
+CrearActualizarClientePN		IN	tipoPasivoPC						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Pasivos_CreditosBancarios:dav_Pasivos_CreditosBancarios:tipoPasivoPC
+CrearActualizarClientePN		IN	tipoPC						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Pasivos_CreditosBancarios:dav_Pasivos_CreditosBancarios:tipoPC
+CrearActualizarClientePN		IN	valorSaldoDeudaPC						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Pasivos_CreditosBancarios:dav_Pasivos_CreditosBancarios:valorSaldoDeudaPC
+CrearActualizarClientePN		IN	descripcion						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Pasivos_CreditosBancarios:dav_Pasivos_CreditosBancarios:descripcion
+CrearActualizarClientePN		IN	nombreEntidadPC						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Pasivos_CreditosBancarios:dav_Pasivos_CreditosBancarios:nombreEntidadPC
+CrearActualizarClientePN		IN	valorAprobadoPC						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Pasivos_CreditosBancarios:dav_Pasivos_CreditosBancarios:valorAprobadoPC
+CrearActualizarClientePN		IN	cuotaMensualPC						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Pasivos_CreditosBancarios:dav_Pasivos_CreditosBancarios:cuotaMensualPC
+CrearActualizarClientePN		IN	fechaAprobacionPC						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Pasivos_CreditosBancarios:dav_Pasivos_CreditosBancarios:fechaAprobacionPC
+CrearActualizarClientePN		IN	valorComercialPC						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Pasivos_CreditosBancarios:dav_Pasivos_CreditosBancarios:valorComercialPC
+CrearActualizarClientePN		IN	matriculaInmobiliariaPC						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Pasivos_CreditosBancarios:dav_Pasivos_CreditosBancarios:matriculaInmobiliariaPC
+CrearActualizarClientePN		IN	tipoObligacionPC						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Pasivos_CreditosBancarios:dav_Pasivos_CreditosBancarios:tipoObligacionPC
+CrearActualizarClientePN		IN	actEconomicaEM						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Empleo:dav_Empleo:actEconomicaEM
+CrearActualizarClientePN		IN	convenio						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Empleo:dav_Empleo:convenio
+CrearActualizarClientePN		IN	nitEmpresaEM						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Empleo:dav_Empleo:nitEmpresaEM
+CrearActualizarClientePN		IN	nombreEmpresaEM						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Empleo:dav_Empleo:nombreEmpresaEM
+CrearActualizarClientePN		IN	tipoContratoEM						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Empleo:dav_Empleo:tipoContratoEM
+CrearActualizarClientePN		IN	cargoEM						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Empleo:dav_Empleo:cargoEM
+CrearActualizarClientePN		IN	fechaIngresoEM						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Empleo:dav_Empleo:fechaIngresoEM
+CrearActualizarClientePN		IN	tipoRelacionR						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Referencias:dav_Referencias:tipoRelacionR
+CrearActualizarClientePN		IN	tipoRF						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Referencias:dav_Referencias:tipoRF
+CrearActualizarClientePN		IN	fRelacionRF						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Referencias:dav_Referencias:fRelacionRF
+CrearActualizarClientePN		IN	nroIdentificacionREF						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Referencias:dav_Referencias:nroIdentificacionREF
+CrearActualizarClientePN		IN	tipoIdentificacionREF						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Referencias:dav_Referencias:tipoIdentificacionREF
+CrearActualizarClientePN		IN	nombreRF						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Referencias:dav_Referencias:nombreRF
+CrearActualizarClientePN		IN	primerApellidoRF						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Referencias:dav_Referencias:primerApellidoRF
+CrearActualizarClientePN		IN	segundoApellidoRF						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Referencias:dav_Referencias:segundoApellidoRF
+CrearActualizarClientePN		IN	direccionRF						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Referencias:dav_Referencias:direccionRF
+CrearActualizarClientePN		IN	ciudadDireccionRF						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Referencias:dav_Referencias:ciudadDireccionRF
+CrearActualizarClientePN		IN	telefonoRF						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Referencias:dav_Referencias:telefonoRF
+CrearActualizarClientePN		IN	ciudadTelefonoRF						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Referencias:dav_Referencias:ciudadTelefonoRF
+CrearActualizarClientePN		IN	email						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Referencias:dav_Referencias:email
+CrearActualizarClientePN		IN	tipoMN						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Monedas:dav_Monedas:tipoMN
+CrearActualizarClientePN		IN	cuentaEntidadMN						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Monedas:dav_Monedas:cuentaEntidadMN
+CrearActualizarClientePN		IN	nombreEntidadMN						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Monedas:dav_Monedas:nombreEntidadMN
+CrearActualizarClientePN		IN	ciudadEntidadMN						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Monedas:dav_Monedas:ciudadEntidadMN
+CrearActualizarClientePN		IN	paisMN						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Monedas:dav_Monedas:paisMN
+CrearActualizarClientePN		IN	monedaMN						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Monedas:dav_Monedas:monedaMN
+CrearActualizarClientePN		IN	tipoOI						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_InternationalOperations:dav_InternationalOperations:tipoOI
+CrearActualizarClientePN		IN	tipoDeOperacionOI						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_InternationalOperations:dav_InternationalOperations:tipoDeOperacionOI
+CrearActualizarClientePN		IN	descripcionOI						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_InternationalOperations:dav_InternationalOperations:descripcionOI
+CrearActualizarClientePN		IN	valorMensualOI						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_InternationalOperations:dav_InternationalOperations:valorMensualOI
+CrearActualizarClientePN		IN	remitenteBeneficiarioOI						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_InternationalOperations:dav_InternationalOperations:remitenteBeneficiarioOI
+CrearActualizarClientePN		IN	ciudadOI						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_InternationalOperations:dav_InternationalOperations:ciudadOI
+CrearActualizarClientePN		IN	estadoOI						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_InternationalOperations:dav_InternationalOperations:estadoOI
+CrearActualizarClientePN		IN	notaNT						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Notas:dav_Notas:notaNT
+CrearActualizarClientePN		IN	tipoNotaNT						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_Notas:dav_Notas:tipoNotaNT
+CrearActualizarClientePN		IN	valNombreRespoFiscal						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_ResponsabilidadFiscalEmpresaEAIs:ResponsabilidadFiscalEmpresaEAI:valNombreRespoFiscal
+CrearActualizarClientePN		IN	valCiudadFiscal						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_ResponsabilidadFiscalEmpresaEAIs:ResponsabilidadFiscalEmpresaEAI:valCiudadFiscal
+CrearActualizarClientePN		IN	valDireccionFiscal						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_ResponsabilidadFiscalEmpresaEAIs:ResponsabilidadFiscalEmpresaEAI:valDireccionFiscal
+CrearActualizarClientePN		IN	valEstadoFiscal						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_ResponsabilidadFiscalEmpresaEAIs:ResponsabilidadFiscalEmpresaEAI:valEstadoFiscal
+CrearActualizarClientePN		IN	valPaisFiscal						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_ResponsabilidadFiscalEmpresaEAIs:ResponsabilidadFiscalEmpresaEAI:valPaisFiscal
+CrearActualizarClientePN		IN	valTINFiscal						cre:crearActualizarClientePN:Request:Data:contact:listOfDAV_ResponsabilidadFiscalEmpresaEAIs:ResponsabilidadFiscalEmpresaEAI:valTINFiscal
+CrearActualizarClientePN		OUT	nombreOperacion						cre:crearActualizarClientePNResponse:Response:DataHeader:nombreOperacion	crearActualizarClientePN
+CrearActualizarClientePN		OUT	total						cre:crearActualizarClientePNResponse:Response:DataHeader:total	0
+CrearActualizarClientePN		OUT	caracterAceptacion						cre:crearActualizarClientePNResponse:Response:DataHeader:caracterAceptacion	B
+CrearActualizarClientePN		OUT	ultimoMensaje						cre:crearActualizarClientePNResponse:Response:DataHeader:ultimoMensaje	1
+CrearActualizarClientePN		OUT	codMsgRespuesta						cre:crearActualizarClientePNResponse:Response:DataHeader:codMsgRespuesta	0
+CrearActualizarClientePN		OUT	msgRespuesta						cre:crearActualizarClientePNResponse:Response:DataHeader:msgRespuesta
+CrearActualizarClientePN		OUT	transactionInterfaceId						cre:crearActualizarClientePNResponse:Response:Data:transactionInterfaceId	IC-CRUD-002
+CrearActualizarClientePN		OUT	transactionStatusCode						cre:crearActualizarClientePNResponse:Response:Data:transactionStatusCode	0000
+CrearActualizarClientePN		OUT	transactionStatus						cre:crearActualizarClientePNResponse:Response:Data:transactionStatus	Transaccion Exitosa
+CrearActualizarClientePN		OUT	transactionComponent						cre:crearActualizarClientePNResponse:Response:Data:transactionComponent	Personas
+CrearActualizarClientePN		OUT	transactionObjectId						cre:crearActualizarClientePNResponse:Response:Data:transactionObjectId	1-S2-13390

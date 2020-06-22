@@ -1,0 +1,25 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://www.davivienda.com/xml/ConsultaClienteUnClick">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <con:consultaClienteUnClick>
+         <Request>
+            <DataHeader>
+               <nombreOperacion>consultaClienteUnClick</nombreOperacion>
+               <total>?</total>
+               <jornada>?</jornada>
+               <canal>?</canal>
+               <modoDeOperacion>?</modoDeOperacion>
+               <usuario>?</usuario>
+               <perfil>?</perfil>
+               <versionServicio>1.0.0</versionServicio>
+            </DataHeader>
+            <Data>
+               <!--Optional:-->
+               <numeroId>?</numeroId>
+               <!--Optional:-->
+               <tipoId>?</tipoId>
+            </Data>
+         </Request>
+      </con:consultaClienteUnClick>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,42 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://www.davivienda.com/xml/ConsultaTCV">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <con:consultarTCVResponse>
+         <Response>
+            <DataHeader>
+               <nombreOperacion>?</nombreOperacion>
+               <total>?</total>
+               <caracterAceptacion>?</caracterAceptacion>
+               <ultimoMensaje>?</ultimoMensaje>
+               <codMsgRespuesta>?</codMsgRespuesta>
+               <!--Optional:-->
+               <msgRespuesta>?</msgRespuesta>
+            </DataHeader>
+            <!--Optional:-->
+            <Data>
+               <numRegistros>?</numRegistros>
+               <!--Optional:-->
+               <Registros>
+                  <!--Zero or more repetitions:-->
+                  <Registro>
+                     <valTipoIdentificacion>?</valTipoIdentificacion>
+                     <numIdentificacion>?</numIdentificacion>
+                     <!--Optional:-->
+                     <fecVencimiento>?</fecVencimiento>
+                     <!--Optional:-->
+                     <valCodigoSeguridad>?</valCodigoSeguridad>
+                     <!--Optional:-->
+                     <valCampoDisponibleN1>?</valCampoDisponibleN1>
+                     <!--Optional:-->
+                     <valCampoDisponibleN2>?</valCampoDisponibleN2>
+                     <!--Optional:-->
+                     <valCampoDisponibleC1>?</valCampoDisponibleC1>
+                     <!--Optional:-->
+                     <valCampoDisponibleC2>?</valCampoDisponibleC2>
+                  </Registro>
+               </Registros>
+            </Data>
+         </Response>
+      </con:consultarTCVResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

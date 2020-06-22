@@ -1,0 +1,31 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cre="http://www.davivienda.com/xml/CrearActualizarClientePN">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cre:crearActualizarClientePNResponse>
+         <Response>
+            <DataHeader>
+               <nombreOperacion>?</nombreOperacion>
+               <total>?</total>
+               <caracterAceptacion>?</caracterAceptacion>
+               <ultimoMensaje>?</ultimoMensaje>
+               <codMsgRespuesta>?</codMsgRespuesta>
+               <!--Optional:-->
+               <msgRespuesta>?</msgRespuesta>
+            </DataHeader>
+            <!--Optional:-->
+            <Data>
+               <!--Optional:-->
+               <transactionInterfaceId>?</transactionInterfaceId>
+               <!--Optional:-->
+               <transactionStatusCode>?</transactionStatusCode>
+               <!--Optional:-->
+               <transactionStatus>?</transactionStatus>
+               <!--Optional:-->
+               <transactionComponent>?</transactionComponent>
+               <!--Optional:-->
+               <transactionObjectId>?</transactionObjectId>
+            </Data>
+         </Response>
+      </cre:crearActualizarClientePNResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

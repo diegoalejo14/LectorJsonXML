@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://www.davivienda.com/xml/GrabacionInformacionSolicitudes" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:grb="http://www.davivienda.com/xml/GrabacionInformacionSolicitudes">
+  <xsd:complexType name="GrabacionInformacionSolicitudesReq">
+    <xsd:sequence>
+      <xsd:element name="Request" type="grb:RequetsType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:element name="GrabacionInformacionSolicitudes" type="grb:GrabacionInformacionSolicitudesReq"/>
+  <xsd:complexType name="RequetsType">
+    <xsd:sequence>
+      <xsd:element name="DataHeader" type="grb:DataHeaderType"/>
+      <xsd:element name="Data" type="grb:DataType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DataHeaderType">
+    <xsd:sequence>
+      <xsd:element default="GrabacionInformacionSolicitudes" name="nombreOperacion" type="xsd:string"/>
+      <xsd:element name="total" type="xsd:int"/>
+      <xsd:element name="jornada" type="xsd:short"/>
+      <xsd:element name="canal" type="xsd:short"/>
+      <xsd:element name="modoDeOperacion" type="xsd:short"/>
+      <xsd:element name="usuario" type="xsd:string"/>
+      <xsd:element name="perfil" type="xsd:short"/>
+      <xsd:element default="1.0.0" name="versionServicio" type="xsd:string"/>
+      <xsd:element name="idTransaccion" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DataType">
+    <xsd:sequence>
+      <xsd:element name="aplicacionOrigen" type="xsd:int"/>
+      <xsd:element name="ipOrigen" type="xsd:string"/>
+      <xsd:element name="tipoIdentificacion" type="xsd:int"/>
+      <xsd:element name="nroIdentificacion" type="xsd:long"/>
+      <xsd:element minOccurs="0" name="nombres" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="primerApellido" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="segundoApellido" type="xsd:string"/>
+      <xsd:element minOccurs="1" name="nroSolicitud" type="xsd:long"/>
+      <xsd:element minOccurs="0" name="nroProceso" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="fechaProceso" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="horaProceso" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="valorSolicitado" type="xsd:long"/>
+      <xsd:element minOccurs="0" name="valorAprobado" type="xsd:long"/>
+      <xsd:element minOccurs="0" name="valorCuotaMensual" type="xsd:long"/>
+      <xsd:element minOccurs="0" name="plazoSolicitado" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="tasaAprobadaMesVencido" type="xsd:decimal"/>
+      <xsd:element minOccurs="0" name="tasaAprobadaEfectivaAnual" type="xsd:decimal"/>
+      <xsd:element minOccurs="0" name="codigoProductoRprSolicitado" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="codigoSubproductoRprSolicitado" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="codigoProductoCarteraFm2000Solicitado" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="codigoProductoRprCuentaDesembolsar" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="codigoSubproductoRprCuentaDesembolsar" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="numeroCuentaDesembolsar" type="xsd:long"/>
+      <xsd:element minOccurs="0" name="ingresoMensuales" type="xsd:long"/>
+      <xsd:element minOccurs="0" name="actividadEconomica" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="ciudadResidencia" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="empresaDondeTrabaja" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="tipoContrato" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="ocupacionIndependiente" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="decision" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="causalNegacion1" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="causalNegacion2" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="causalNegacion3" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="causalNegacion4" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="causalNegacion5" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="montoMaximoContraOferta" type="xsd:long"/>
+      <xsd:element minOccurs="0" name="ingresoFinal" type="xsd:long"/>
+      <xsd:element minOccurs="0" name="motivoRechazoIngreso" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="numeroCredito" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="fechaDesembolso" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="horaDesembolso" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="numeroSolicitudFm2000" type="xsd:long"/>
+      <xsd:element minOccurs="0" name="oficinaCliente" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="destinoCredito" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="celular" type="xsd:long"/>
+      <xsd:element minOccurs="0" name="ip" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="tipoCuentaDesembolsar" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="agenteVendedor" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="factorpormillon" type="xsd:decimal"/>
+      <xsd:element minOccurs="0" name="convenio" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="periodicidadPago" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="idDocumentoPagare" type="xsd:long"/>
+      <!--campos añadidos el 26 de enero-->
+      <!--campos anadidos el 22 de mayo de 2018 como parte de la version del documento v5 de la especificacion de FM-->
+      <xsd:element minOccurs="0" name="indicadorLibranza" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="fechadeIngresoEmpresarePortadaCliente" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="acierta" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="nitdelaEmpresaDondeTrabaja" type="xsd:long"/>
+      <xsd:element minOccurs="0" name="riesgoConvenio" type="xsd:short"/>
+      <xsd:element minOccurs="0" name="nombreconvenio" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="grupoConvenio" type="xsd:short"/>
+      <xsd:element minOccurs="0" name="tipoTasaFijaOVariable" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="spreed" type="xsd:decimal"/>
+      <xsd:element minOccurs="0" name="valorFinalCreditoIncluidoCola" type="xsd:decimal"/>
+      <xsd:element minOccurs="0" name="GMF" type="xsd:decimal"/>
+      <xsd:element minOccurs="0" name="fechaSimulacion" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="fechaEvaluacion1erMotor" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="OTP" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="campana" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="canalVentaOrigen" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="estadoDaviplata" type="xsd:string"/>
+      <!--campos anadidos el 22 de mayo de 2018 como parte de la version del documento v5 de la especificacion de FM 1248-->
+      <!--Inicio 21/09/2018 Archivos_PPM_54252_InstalacionLibranza_UnClick/BajoMonto_C_15.0-->
+      <xsd:element minOccurs="0" name="departamentoResidencia" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="estadoProcesoLibranza" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="fechaEnvioEmpresa" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="fechaLimiteRespuesta" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="fechaRespuestaEmpresa" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="fechaIngReporxEmp" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="decisionEmpresa" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="ingresosReporxEmpresa" type="xsd:decimal"/>
+      <xsd:element minOccurs="0" name="fuenteIngresosReporxEmp" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="fechaIngYReporxEmpresa" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="antiguedadReporxEmpresa" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="valorMaxDescuentoReport" type="xsd:decimal"/>
+      <xsd:element minOccurs="0" name="desicionSegundoMotor" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="valorAprobado2doMotor" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="erroresEnServicios" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="fechaEvaluacion2doMotor" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="fechaDeRespuesta" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="vlrAprobado2doMotor" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="vlrContraoferta2doMotor" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="causalDeNeg1_2doMotor" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="causalDeNeg2_2doMotor" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="causalDeNeg3_2doMotor" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="causalDeNeg4_2doMotor" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="causalDeNeg5_2doMotor" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="fechaDeExpiracionCampana" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="horaVigenciaDeLaCampana" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="estadoDeRespuesta" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="estadoDeLaSolicitud" type="xsd:int"/>
+      <xsd:element minOccurs="0" name="direccionEntregaTarjeta" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="ciudadEntregaTarjeta" type="xsd:int"/>
+      <!--Fin  21/09/2018 Archivos_PPM_54252_InstalacionLibranza_UnClick/BajoMonto_C_15.0-->
+      <!--20/03/2019-->
+      <xsd:element minOccurs="0" name="valAceptado" type="xsd:decimal"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="ResponseType">
+    <xsd:sequence>
+      <xsd:element name="DataHeader" type="grb:DataHeaderRespType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DataHeaderRespType">
+    <xsd:sequence>
+      <xsd:element default="GrabacionInformacionSolicitudes" name="nombreOperacion" type="xsd:string"/>
+      <xsd:element name="total" type="xsd:int"/>
+      <xsd:element name="caracterAceptacion" type="xsd:string"/>
+      <xsd:element name="ultimoMensaje" type="xsd:short"/>
+      <xsd:element name="idTransaccion" type="xsd:string"/>
+      <xsd:element name="codMsgRespuesta" type="xsd:short"/>
+      <xsd:element minOccurs="0" name="msgRespuesta" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="complexType">
+    <xsd:sequence>
+      <xsd:element name="Response" type="grb:ResponseType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:element name="GrabacionInformacionSolicitudesResponse" type="grb:complexType"/>
+</xsd:schema>

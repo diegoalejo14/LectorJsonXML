@@ -1,0 +1,33 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://www.davivienda.com/xml/ConsultaClientePN">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <con:consultarClientePN>
+         <Request>
+            <DataHeader>
+               <nombreOperacion>?</nombreOperacion>
+               <total>?</total>
+               <jornada>?</jornada>
+               <canal>?</canal>
+               <modoDeOperacion>?</modoDeOperacion>
+               <usuario>?</usuario>
+               <perfil>?</perfil>
+               <versionServicio>1.0.0</versionServicio>
+            </DataHeader>
+            <Data>
+               <!--Optional:-->
+               <idSesion>?</idSesion>
+               <!--Optional:-->
+               <codIdioma>?</codIdioma>
+               <!--Optional:-->
+               <valOrigen>?</valOrigen>
+               <!--Optional:-->
+               <codPais>?</codPais>
+               <!--Optional:-->
+               <numeroId>?</numeroId>
+               <!--Optional:-->
+               <tipoId>?</tipoId>
+            </Data>
+         </Request>
+      </con:consultarClientePN>
+   </soapenv:Body>
+</soapenv:Envelope>

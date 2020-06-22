@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://www.davivienda.com/xml/CrearActualizarClientePN" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.davivienda.com/xml/CrearActualizarClientePN">
+  <xsd:complexType name="DataHeaderReqType">
+    <xsd:sequence maxOccurs="1" minOccurs="1">
+      <xsd:element name="nombreOperacion" type="xsd:string"/>
+      <xsd:element name="total" type="xsd:int"/>
+      <xsd:element name="jornada" type="xsd:short"/>
+      <xsd:element name="canal" type="xsd:short"/>
+      <xsd:element name="modoDeOperacion" type="xsd:short"/>
+      <xsd:element name="usuario" type="xsd:string"/>
+      <xsd:element name="perfil" type="xsd:short"/>
+      <xsd:element default="1.0.0" name="versionServicio" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DataHeaderRespType">
+    <xsd:sequence maxOccurs="1" minOccurs="1">
+      <xsd:element name="nombreOperacion" type="xsd:string"/>
+      <xsd:element name="total" type="xsd:int"/>
+      <xsd:element name="caracterAceptacion" type="xsd:string"/>
+      <xsd:element name="ultimoMensaje" type="xsd:short"/>
+      <xsd:element name="codMsgRespuesta" type="xsd:short"/>
+      <xsd:element minOccurs="0" name="msgRespuesta" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:element name="crearActualizarClientePN" type="tns:crearActualizarClientePNType"/>
+  <xsd:element name="crearActualizarClientePNResponse" type="tns:crearActualizarClientePNResponseType"/>
+  <xsd:complexType name="crearActualizarClientePNType">
+    <xsd:sequence>
+      <xsd:element name="Request" type="tns:RequestcrearActualizarClientePNType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="crearActualizarClientePNResponseType">
+    <xsd:sequence>
+      <xsd:element name="Response" type="tns:ResponsecrearActualizarClientePNType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RequestcrearActualizarClientePNType">
+    <xsd:sequence>
+      <xsd:element name="DataHeader" type="tns:DataHeaderReqType"/>
+      <xsd:element name="Data" type="tns:DataReqType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="ResponsecrearActualizarClientePNType">
+    <xsd:sequence>
+      <xsd:element name="DataHeader" type="tns:DataHeaderRespType"/>
+      <xsd:element name="Data" type="tns:DataRespType" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DataReqType">
+    <xsd:sequence>
+      <xsd:element name="contact" type="tns:RegistroTypeContact" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeContact">
+    <xsd:sequence>
+      <xsd:element name="nroIdentificacionCLI" type="xsd:string"/>
+      <xsd:element name="descTipoIdentificacionCLI" type="xsd:string"/>
+      <xsd:element name="primerApellidoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="nombresCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="segundoApellidoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="saludoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="lugarNacimientoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="fechaNacimientoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="lugarExpedicionCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="fechaExpedicionCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="fechaVinculacionCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="oficinaRadicacionCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="tokenCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="indicadorExistenciaCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="indicadorPNCNCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="estadoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="tipoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="clienteDavivaloresCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="segmentoComercialCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="subsegmentoComercialCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="segmentoColorCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="flagRelntoGrupoBolivarCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="clienteHastaLaFecha" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="segmentoInversionCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="perfilRiesgoInversionCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="cuentaDECEVALCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="nroPersonasCargoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="origenCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="SexoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="estadoCivilCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="nivelEducacionCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="profesionCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="vincGrupoBolivarCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="fechaPensionadoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="fechaMarcaActualExonerCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="clasificacionRiesgosSARLAFT" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="fechaActInformacionClienteCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="diasActDatosCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="usuarioCreaClienteCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="ordenanteCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="accionistaDaviviendaCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="indClienteEstablecimCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="estadoExoneradoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="modalEntreInfoAnualCostoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="clienteDaviplata" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="clienteFiduciaria" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="flagTradingElectronico" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="identifBienEntregadoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="portafolioPersonaNatural" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="ingresoCertificadoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="viviendaCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="claseRecursoEntregadoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="declaraRentaCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="retefuenteCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="anoinicVidaLaboralCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="particbilleteraCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="oficinaDeAsignacion" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="montoPreapFirmeTotCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="montoPreapRotativoFirmeCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="montoPreapConsumoFirmeCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="fechaLiberapreapCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="montoPreaprobadoVehiculo" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="fechaUltActuaprCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="montoPreaprobadoHipotecario" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="trader" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="segmentoSARLAFT" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="twitterCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="clientePEPSCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="leyVictimasCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="funcionarioPublicoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="manejaRecursosPublCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="nacionalidadCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="ingresoMensualCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="cliEntregaBienEnFiduciaCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="intervenDeProyectoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="flagEntidadPublicaCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="paisNacimientoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="nacionalidadAmericanaCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="esContratistaEstadoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="ciudadaniaAmericanaCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="pasaporteAmericanoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="nroPasapAmericanoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="tarjetaVerdeCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="numeroTINCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="motivoEstadiaUSACLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="otroMotivoEstadiaUSACLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="mas180DiasUSAUltAFiscalCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="mas122DiasPromUSAult3anosCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="otraNacionalidadCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="cualOtraNacionalidadCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="tieneResidLegalOtroPaisCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="direcOtroPaisCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="paisDirecOtroPaisCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="ciudadDirOtroPaisCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="impactadoFATCACLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="actividadLaboralCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="fechaMarcaActualColor" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="contadorMarcaColor" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="contadorMarcaLibre" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="fechaPrimeraMarcaColor" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="fechaPrimeraMarcaRel" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="autenticadoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="autenticacionUsuarioCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="tipoDeActividades" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="metodoAutenticacion" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="reconocimientoPublicoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="politicamenteExpuestCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="cargoPepsCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="fechaVinculacionCargoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="fechaDesvinculacionCargoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="representanteOrganizacionInterCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="familiarPersonaPublicaExpuestaCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="origenFondosCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="indicadorSegmentoCLI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="listOfDAV_Telephone" type="tns:RegistroTypelistOfDAV_Telephone" minOccurs="0"/>
+      <xsd:element name="listOfDAV_PrincipalCellphone" type="tns:RegistroTypeListOfDAV_PrincipalCellphone" minOccurs="0"/>
+      <xsd:element name="listOfDAV_PrincipalEmail" type="tns:RegistroTypeListOfDAV_PrincipalEmail" minOccurs="0"/>
+      <xsd:element name="listOfDAV_PersonalAddress" type="tns:RegistroTypeListOfDAV_PersonalAddress" minOccurs="0"/>
+      <xsd:element name="listOfDAV_Position" type="tns:RegistroTypeListOfDAV_Position" minOccurs="0"/>
+      <xsd:element name="listOfDAV_Hobby" type="tns:RegistroTypeListOfDAV_Hobby" minOccurs="0"/>
+      <xsd:element name="listOfDAV_Relaciones" type="tns:RegistroTypeListOfDAV_Relaciones" minOccurs="0"/>
+      <xsd:element name="listOfDAV_Ingresos" type="tns:RegistroTypeListOfDAV_Ingresos" minOccurs="0"/>
+      <xsd:element name="listOfDAV_Egresos" type="tns:RegistroTypeListOfDAV_Egresos" minOccurs="0"/>
+      <xsd:element name="listOfDAV_ActivosFincaRaizVehicle" type="tns:RegistroTypeListOfDAV_ActivosFincaRaizVehicle" minOccurs="0"/>
+      <xsd:element name="listOfDAV_Pasivos_CreditosBancarios" type="tns:RegistroTypeListOfDAV_Pasivos_CreditosBancarios" minOccurs="0"/>
+      <xsd:element name="listOfDAV_Empleo" type="tns:RegistroTypeListOfDAV_Empleo" minOccurs="0"/>
+      <xsd:element name="listOfDAV_Referencias" type="tns:RegistroTypeListOfDAV_Referencias" minOccurs="0"/>
+      <xsd:element name="listOfDAV_Monedas" type="tns:RegistroTypeListOfDAV_Monedas" minOccurs="0"/>
+      <xsd:element name="listOfDAV_InternationalOperations" type="tns:RegistroTypeListOfDAV_InternationalOperations" minOccurs="0"/>
+      <xsd:element name="listOfDAV_Notas" type="tns:RegistroTypeListOfDAV_Notas" minOccurs="0"/>
+      <xsd:element name="listOfDAV_ResponsabilidadFiscalEmpresaEAIs" type="tns:ResponsabilidadFiscalEmpresaEAIsReqType" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeListOfDAV_Notas">
+    <xsd:sequence>
+      <xsd:element name="dav_Notas" type="tns:RegistroTypeDAV_Notas" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeListOfDAV_InternationalOperations">
+    <xsd:sequence>
+      <xsd:element name="dav_InternationalOperations" type="tns:RegistroTypeDAV_InternationalOperations" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeListOfDAV_Monedas">
+    <xsd:sequence>
+      <xsd:element name="dav_Monedas" type="tns:RegistroTypeDAV_Monedas" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeListOfDAV_Referencias">
+    <xsd:sequence>
+      <xsd:element name="dav_Referencias" type="tns:RegistroTypeDAV_Referencias" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeListOfDAV_Empleo">
+    <xsd:sequence>
+      <xsd:element name="dav_Empleo" type="tns:RegistroTypeDAV_Empleo" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeListOfDAV_Pasivos_CreditosBancarios">
+    <xsd:sequence>
+      <xsd:element name="dav_Pasivos_CreditosBancarios" type="tns:RegistroTypeDAV_Pasivos_CreditosBancarios" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeListOfDAV_ActivosFincaRaizVehicle">
+    <xsd:sequence>
+      <xsd:element name="dav_ActivosFincaRaizVehicle" type="tns:RegistroTypeDAV_ActivosFincaRaizVehicle" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeListOfDAV_Egresos">
+    <xsd:sequence>
+      <xsd:element name="dav_Egresos" type="tns:RegistroTypeDAV_Egresos" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeListOfDAV_Ingresos">
+    <xsd:sequence>
+      <xsd:element name="dav_Ingresos" type="tns:RegistroTypeDAV_Ingresos" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeListOfDAV_Relaciones">
+    <xsd:sequence>
+      <xsd:element name="dav_Relaciones" type="tns:RegistroTypeDAV_Relaciones" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeListOfDAV_Hobby">
+    <xsd:sequence>
+      <xsd:element name="dav_Hobby" type="tns:RegistroTypeDAV_Hobby" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeListOfDAV_Position">
+    <xsd:sequence>
+      <xsd:element name="dav_Position" type="tns:RegistroTypeDAV_Position" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeListOfDAV_PersonalAddress">
+    <xsd:sequence>
+      <xsd:element name="dav_PersonalAddress" type="tns:RegistroTypeDAV_PersonalAddress" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeListOfDAV_PrincipalEmail">
+    <xsd:sequence>
+      <xsd:element name="dav_PrincipalEmail" type="tns:RegistroTypeDAV_PrincipalEmail" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeListOfDAV_PrincipalCellphone">
+    <xsd:sequence>
+      <xsd:element name="dav_PrincipalCellphone" type="tns:RegistroTypedav_PrincipalCellphone" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypelistOfDAV_Telephone">
+    <xsd:sequence>
+      <xsd:element name="dav_Telephone" type="tns:RegistroTypeDAV_Telephone" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeDAV_Notas">
+    <xsd:sequence>
+      <xsd:element name="notaNT" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="tipoNotaNT" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <!--ResponsabilidadFiscalEmpresaEAI - Tag-->
+  <xsd:complexType name="ResponsabilidadFiscalEmpresaEAIsReqType">
+    <xsd:sequence>
+      <xsd:element name="ResponsabilidadFiscalEmpresaEAI" type="tns:ResponsabilidadFiscalEmpresaEAIReqType" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <!--ResponsabilidadFiscalEmpresaEAI - Tag-->
+  <xsd:complexType name="ResponsabilidadFiscalEmpresaEAIReqType">
+    <xsd:sequence>
+      <xsd:element name="valNombreRespoFiscal" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="valCiudadFiscal" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="valDireccionFiscal" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="valEstadoFiscal" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="valPaisFiscal" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="valTINFiscal" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeDAV_InternationalOperations">
+    <xsd:sequence>
+      <xsd:element name="tipoOI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="tipoDeOperacionOI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="descripcionOI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="valorMensualOI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="remitenteBeneficiarioOI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="ciudadOI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="estadoOI" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeDAV_Monedas">
+    <xsd:sequence>
+      <xsd:element name="tipoMN" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="cuentaEntidadMN" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="nombreEntidadMN" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="ciudadEntidadMN" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="paisMN" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="monedaMN" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeDAV_Referencias">
+    <xsd:sequence>
+      <xsd:element name="tipoRelacionR" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="tipoRF" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="fRelacionRF" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="nroIdentificacionREF" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="tipoIdentificacionREF" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="nombreRF" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="primerApellidoRF" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="segundoApellidoRF" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="direccionRF" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="ciudadDireccionRF" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="telefonoRF" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="ciudadTelefonoRF" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="email" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeDAV_Empleo">
+    <xsd:sequence>
+      <xsd:element name="actEconomicaEM" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="convenio" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="nitEmpresaEM" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="nombreEmpresaEM" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="tipoContratoEM" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="cargoEM" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="fechaIngresoEM" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeDAV_Pasivos_CreditosBancarios">
+    <xsd:sequence>
+      <xsd:element name="tipoPasivoPC" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="tipoPC" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="valorSaldoDeudaPC" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="descripcion" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="nombreEntidadPC" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="valorAprobadoPC" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="cuotaMensualPC" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="fechaAprobacionPC" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="valorComercialPC" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="matriculaInmobiliariaPC" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="tipoObligacionPC" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeDAV_ActivosFincaRaizVehicle">
+    <xsd:sequence>
+      <xsd:element name="tipoPV" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="codigoTipoPV" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="valorComercialPV" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="descripcion" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="marcaVehiculoPV" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="direccionInmueblePV" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="ciudadInmueblePV" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="matriculaInmobiliariaPV" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="saldoHipotecaPV" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="modeloVehiculoPV" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="placaVehiculoPV" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="reservaDominioVehPV" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeDAV_Egresos">
+    <xsd:sequence>
+      <xsd:element name="tipoEG" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="montoEG" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="descripcion" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeDAV_Ingresos">
+    <xsd:sequence>
+      <xsd:element name="tipoIN" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="valorIN" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="tipoActLaboralIN" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="profesionIN" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="tipoContratoIN" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="nombreEmpresaIN" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="nitEmpresaIN" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="fechaInicioIN" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="antigLaboralIN" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="carreraIN" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="universidadIN" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="anoCursaIN" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="valActividadEconomicaIN" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="cargOcupacionIN" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="actividadEconEmpresaIN" type="xsd:string" minOccurs="0"/>
+      <!--Field Added-->
+      <xsd:element name="descripcionIN" type="xsd:string" minOccurs="0"/>
+      <!--Field Added-->
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeDAV_Relaciones">
+    <xsd:sequence>
+      <xsd:element name="tipoIdentificacionRelRL" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="noIdentificacionRelRL" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="claseRelacionRL" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="relacion" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="porcentajParticipGFRL" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="impuestos" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="grupoFamiliarRL" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="impactadoFATCARL" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="porcentajeParticipacionRL" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="numeroTINRL" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="tipoRelacionRL" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeDAV_Hobby">
+    <xsd:sequence>
+      <xsd:element name="hobbieHB" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="tipo" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+    <xsd:attribute name="IsPrimaryMVG" type="xsd:string" minOccurs="0"/>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeDAV_Position">
+    <xsd:sequence>
+      <xsd:element name="rolCoberturaPT" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="puestoTrabajoPT" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="divisionPT" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeDAV_PersonalAddress">
+    <xsd:sequence>
+      <xsd:element name="ciudadDI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="paisDI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="departamentoDI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="municipioDI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="codigoPostalDI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="tipoDireccionDI" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="direccionDI" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+    <xsd:attribute name="IsPrimaryMVG" type="xsd:string"/>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeDAV_PrincipalEmail">
+    <xsd:sequence>
+      <xsd:element name="emailEM" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="claseCelularEM" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="tipo" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+    <xsd:attribute name="IsPrimaryMVG" type="xsd:string"/>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypedav_PrincipalCellphone">
+    <xsd:sequence>
+      <xsd:element name="numeroCL" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="tipoTelefonoCL" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="tipoCL" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+    <xsd:attribute name="IsPrimaryMVG" type="xsd:string"/>
+  </xsd:complexType>
+  <xsd:complexType name="RegistroTypeDAV_Telephone">
+    <xsd:sequence>
+      <xsd:element name="tipoTelefonoTL" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="telefonoPpalTL" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="ciudadTL" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="indicativoTL" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="activoTL" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="extensionTL" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="tipoTL" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+    <xsd:attribute name="IsPrimaryMVG" type="xsd:string"/>
+  </xsd:complexType>
+  <xsd:complexType name="DataRespType">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="transactionInterfaceId" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="transactionStatusCode" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="transactionStatus" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="transactionComponent" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="transactionObjectId" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

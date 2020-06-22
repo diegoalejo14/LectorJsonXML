@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://www.davivienda.com/xml/ValidacionesPreviasExpressDigital" xmlns:tns="http://www.davivienda.com/xml/ValidacionesPreviasExpressDigital" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="ValidacionesPreviasExpressDigital" type="tns:ValidacionesPreviasExpressDigitalType"/>
+  <xsd:element name="ValidacionesPreviasExpressDigitalResponse" type="tns:ValidacionesPreviasExpressDigitalResponseType"/>
+  <xsd:complexType name="ValidacionesPreviasExpressDigitalType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="1" name="Request" type="tns:RequestType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RequestType">
+    <xsd:sequence>
+      <xsd:element name="DataHeader" type="tns:DataHeaderReqType"/>
+      <xsd:element name="Data" type="tns:DataReqType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DataHeaderReqType">
+    <xsd:sequence>
+      <xsd:element name="nombreOperacion" type="xsd:string" default="ValidacionesPreviasExpressDigital"/>
+      <xsd:element name="total" type="xsd:int"/>
+      <xsd:element name="jornada" type="xsd:short"/>
+      <xsd:element name="canal" type="xsd:short"/>
+      <xsd:element name="modoDeOperacion" type="xsd:short"/>
+      <xsd:element name="usuario" type="xsd:string"/>
+      <xsd:element name="perfil" type="xsd:short"/>
+      <xsd:element name="versionServicio" type="xsd:string" default="1.0.0"/>
+      <xsd:element name="idTransaccion" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DataReqType">
+    <xsd:sequence>
+      <xsd:element name="InfoProceso" type="tns:infoProcesoRequestType"/>
+      <xsd:element name="InfoCliente" type="tns:infoClienteRequestType"/>
+      <xsd:element minOccurs="0" name="CamposDisponibles" type="tns:camposDisponiblesRequestType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="infoProcesoRequestType">
+    <xsd:sequence>
+      <xsd:element name="codTipoProceso" type="xsd:string"/>
+      <xsd:element name="valOperacion" type="xsd:string"/>
+      <xsd:element name="codConvenio" type="xsd:string"/>
+      <xsd:element name="valNumeroSolicitud" type="xsd:long"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="infoClienteRequestType">
+    <xsd:sequence>
+      <xsd:element name="codTipoIdentificacion" type="xsd:string"/>
+      <xsd:element name="valNumeroIdentificacion" type="xsd:long"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="camposDisponiblesRequestType">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="valCampoDisponibleN1" type="xsd:long"/>
+      <xsd:element minOccurs="0" name="valCampoDisponibleN2" type="xsd:long"/>
+      <xsd:element minOccurs="0" name="valCampoDisponibleC1" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="valCampoDisponibleC2" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="ValidacionesPreviasExpressDigitalResponseType">
+    <xsd:sequence>
+      <xsd:element name="Response" type="tns:ResponseType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="ResponseType">
+    <xsd:sequence>
+      <xsd:element name="DataHeader" type="tns:DataHeaderResType"/>
+      <xsd:element minOccurs="0" name="Data" type="tns:DataResType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DataHeaderResType">
+    <xsd:sequence>
+      <xsd:element name="nombreOperacion" type="xsd:string" default="ValidacionesPreviasExpressDigital"/>
+      <xsd:element name="total" type="xsd:int"/>
+      <xsd:element name="caracterAceptacion" type="xsd:string"/>
+      <xsd:element name="ultimoMensaje" type="xsd:short"/>
+      <xsd:element name="idTransaccion" type="xsd:string"/>
+      <xsd:element name="codMsgRespuesta" type="xsd:int"/>
+      <xsd:element name="msgRespuesta" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DataResType">
+    <xsd:sequence>
+      <xsd:element name="CamposFuturo" type="tns:camposFuturoResponseType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="camposFuturoResponseType">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="valCampoFuturo1" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="valCampoFuturo2" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="valCampoFuturoValor1" type="xsd:long"/>
+      <xsd:element minOccurs="0" name="valCampoFuturoValor2" type="xsd:long"/>
+      <xsd:element minOccurs="0" name="valCampoFuturoValor3" type="xsd:long"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

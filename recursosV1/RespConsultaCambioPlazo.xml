@@ -1,0 +1,35 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://www.davivienda.com/xml/consultaCambioPlazo">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <con:ConsultaCambioPlazoResponse>
+         <Response>
+            <DataHeader>
+               <nombreOperacion>?</nombreOperacion>
+               <total>?</total>
+               <caracterAceptacion>?</caracterAceptacion>
+               <ultimoMensaje>?</ultimoMensaje>
+               <idTransaccion>?</idTransaccion>
+               <codMsgRespuesta>?</codMsgRespuesta>
+               <!--Optional:-->
+               <msgRespuesta>?</msgRespuesta>
+            </DataHeader>
+            <!--Optional:-->
+            <Data>
+               <codOperacion>?</codOperacion>
+               <valNumeroTarjeta>?</valNumeroTarjeta>
+               <valNumeroRegistros>?</valNumeroRegistros>
+               <!--Optional:-->
+               <Registros>
+                  <!--1 or more repetitions:-->
+                  <Registro>
+                     <codTipoTransaccion>?</codTipoTransaccion>
+                     <codOrigenMovimiento>?</codOrigenMovimiento>
+                     <valPlazoDiferido>?</valPlazoDiferido>
+                     <fecDiferido>?</fecDiferido>
+                  </Registro>
+               </Registros>
+            </Data>
+         </Response>
+      </con:ConsultaCambioPlazoResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

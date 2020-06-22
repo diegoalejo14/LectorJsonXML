@@ -1,0 +1,614 @@
+[
+  {
+    "insertId": ".........7JjrWppsex.h9g3pV3goK.t",
+    "jsonPayload": {
+      "dataObject": {
+        "operation": {
+          "operationDate": "2020-06-18T12:52:26.656-05:00",
+          "type": "VIDA_CREDITICIA",
+          "statusResponse": {
+            "status": "OK",
+            "httpError": 200,
+            "errorDescription": ""
+          }
+        },
+        "documento": {
+          "numero": "1010214939",
+          "tipo": "01"
+        },
+        "consumer": {
+          "deviceConsumer": {
+            "inactiveInterval": "600000",
+            "id": "device-11111122222",
+            "sessionTimeout": "600000",
+            "locale": "CO",
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X)\n                       AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508",
+            "ip": "190.131.192.209"
+          },
+          "appConsumer": {
+            "sessionId": "658cb740-b18c-11ea-8e0e-b1be40941859",
+            "canalId": "48",
+            "id": "TMA-RP BUNDLE-1",
+            "terminalId": "1"
+          }
+        },
+        "messages": {
+          "idService": "ConsultaUbicaPlusV1",
+          "responseService": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<soap:Envelope xmlns:tns=\"http://www.davivienda.com/xml/ConsultaUbicaPlus\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Body><con:ConsultaUbicaPlusResponse xmlns:con=\"http://www.davivienda.com/xml/ConsultaUbicaPlus\"><Response><DataHeader><nombreOperacion>ConsultaUbicaPlus</nombreOperacion><total>0</total><caracterAceptacion>M</caracterAceptacion><ultimoMensaje>0</ultimoMensaje><idTransaccion>1592502746</idTransaccion><codMsgRespuesta>13</codMsgRespuesta><msgRespuesta>Tercero no Existe</msgRespuesta></DataHeader></Response></con:ConsultaUbicaPlusResponse></soap:Body></soap:Envelope>",
+          "requestService": "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"  xmlns:tns=\"http://www.davivienda.com/xml/ConsultaUbicaPlus\"><soap:Header><wsse:Security xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"\n               xmlns:wsu=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\"\n               soap:mustUnderstand=\"1\">\n \t<wsse:BinarySecurityToken   \n               EncodingType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary\" \n               ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\" \n               wsu:Id=\"x509-a52767dce0f54c2f80f041a7bd1f350a\">MIIGKzCCBROgAwIBAgIKIWOqMgACAAAJbDANBgkqhkiG9w0BAQsFADCB0TELMAkGA1UEBhMCQ08xEzARBgoJkiaJk/IsZAEZFgNsb2MxGjAYBgoJkiaJk/IsZAEZFgpkYXZpdmllbmRhMRMwEQYDVQQIEwpCb2dvdGEgRC5DMRMwEQYDVQQHEwpCb2dvdGEgRC5DMR0wGwYDVQQKExRCYW5jbyBEYXZpdmllbmRhIFMuQTEkMCIGA1UECxMbQWRtaW5pc3RyYWNpb24gU2VndXJpZGFkIFRJMSIwIAYDVQQDExlDQSBTdWJvcmRpbmFkYSBEQVZJVklFTkRBMB4XDTE5MDYyMDAzNTMwOFoXDTIwMDYxOTAzNTMwOFowgZ4xCzAJBgNVBAYTAkNPMRUwEwYDVQQIEwxDdW5kaW5hbWFyY2ExDzANBgNVBAcTBkJvZ290YTEjMCEGA1UEChMaVGVjbm9sb2dpYSBDYW5hbGVzIE1vdmlsZXMxHjAcBgNVBAsTFUJhbmNvIERhdml2aWVuZGEgUy5BLjEiMCAGA1UEAxMZbWJhYXMuY28ubGFiLm1lZGlhZG9yLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAO/wVMENwYpNDK5EsXGBY+8sUlNhCZ1tQGO99v5AyagbIBuO//1WsbdopR82ndYQnPg/rXrnBLC49vISU6eOIwMQc95VrsrGEWc/JgbcJCnRhUfpMpc7Waxk10Pn8FihOLe28j9XBLG3rQUgPOUPN+iMqRP7GC8vTA+A+kNaP8F0zLwPwHo1gtdS9llIgSoIrzhQZuhYoQ8h5qbPy/oBxyPmH8x9gx8ay9DniLVhXfZp2CpdxFn9iQMLO86aGiZ+Khkgiye3jjcT7P4/wt9Zk7EQghB6Yl9+GzwjykcQFuq62P7zuozJBh9pGyfgR3fMuQC3L/mlEl7ixgo4PCdEM/MCAwEAAaOCAjQwggIwMB0GA1UdDgQWBBTB2wDHdYLfyjSik8IFBun0PUBVxjAfBgNVHSMEGDAWgBRMMzrytu3oTvXGdizi7MY6l+EK4zCB4wYDVR0fBIHbMIHYMIHVoIHSoIHPhoHMbGRhcDovLy9DTj1DQSUyMFN1Ym9yZGluYWRhJTIwREFWSVZJRU5EQSxDTj1TQURHVkNFUlQwMUEsQ049Q0RQLENOPVB1YmxpYyUyMEtleSUyMFNlcnZpY2VzLENOPVNlcnZpY2VzLENOPUNvbmZpZ3VyYXRpb24sREM9ZGF2aXZpZW5kYSxEQz1sb2M/Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdD9iYXNlP29iamVjdENsYXNzPWNSTERpc3RyaWJ1dGlvblBvaW50MAsGA1UdDwQEAwIFoDA9BgkrBgEEAYI3FQcEMDAuBiYrBgEEAYI3FQiD+rh/g7nlRoWlgR+E2/l+g432KA2F+a4Qham7bgIBZAIBBTAzBgNVHSUELDAqBggrBgEFBQcDAQYIKwYBBQUHAwIGCCsGAQUFBwMEBgorBgEEAYI3CgMEMEEGCSsGAQQBgjcVCgQ0MDIwCgYIKwYBBQUHAwEwCgYIKwYBBQUHAwIwCgYIKwYBBQUHAwQwDAYKKwYBBAGCNwoDBDBEBgkqhkiG9w0BCQ8ENzA1MA4GCCqGSIb3DQMCAgIAgDAOBggqhkiG9w0DBAICAIAwBwYFKw4DAgcwCgYIKoZIhvcNAwcwDQYJKoZIhvcNAQELBQADggEBAOtGRWd47ao1JCc9fDgi8yHm4Y+w0vQsUOQamHh/q0alhcBOqMu02a6QtmoxXh7z1F1syPjCwwnGpFDOsCEnNoZh0O97q0tcVkhN0sSNPHuhCOcfANxHRY9DSrqHJcORUmzXJWfUoQsXl3iR1mGRmGHeoo7mwU2bUpd1QFou9C1OhXrkal+Y/OGuhZwZU4IxIZ5dOF1V/2z8tLQ+bCw6K+w3w5P/A7o0sT+JC139yqMcf38AvoWeu3frYFX0Y/Q1J3fQS4gNZ8TuF3GlbKdrTFt8+aNxdpEmqVVvi6xd6lH9fhMBmCwTCVdXSgtYfMjsnoauSqEUfBGkPo2YW7IYT2Q=</wsse:BinarySecurityToken>\n    <Timestamp xmlns=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" Id=\"_1\">\n    \t<Created>2020-06-18T17:52:26Z</Created>\n    \t<Expires>2020-06-18T18:02:26Z</Expires>\n    </Timestamp> \n<Signature xmlns=\"http://www.w3.org/2000/09/xmldsig#\"><SignedInfo><CanonicalizationMethod Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\" /><SignatureMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#rsa-sha1\" /><Reference URI=\"#_0\"><Transforms><Transform Algorithm=\"http://www.w3.org/2000/09/xmldsig#enveloped-signature\" /><Transform Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\" /></Transforms><DigestMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#sha1\" /><DigestValue>/F+PNVUz6UD+KGMcCC0t4anpO2c=</DigestValue></Reference><Reference URI=\"#_1\"><Transforms><Transform Algorithm=\"http://www.w3.org/2000/09/xmldsig#enveloped-signature\" /><Transform Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\" /></Transforms><DigestMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#sha1\" /><DigestValue>Fyv6nw63lZhACcoRbYX07cdzpT8=</DigestValue></Reference></SignedInfo><SignatureValue>v3t3hD6Id/QJ8E3aA2zPgHtwFbQFYsvlMvmYU2wTy3s2vyuspYjiMLGHoj409QPuL1gC14Fi0HpbxIjj6kJs5cSB7U7mFb0SBLTETvoytcKUY+CcCwYWKky2aYp6Mffz+biewMWSoe6Xv2/pbv9tx1AYmT3l/sadmAGvJ1KElLFs+N12Lvpzs1O8TCitwWukzuk3ReL32vwKEL8M4FoiZ/ZdJvcAl8Wp0N1/svaMAkjl6glz6R6+hXyVX9GD4GRUd6ufghb3ZDAeedG6mnrzbm4GwqPVdEUYN+90m3a9MeR2Y0h2BCmXshFpkIzdD12esKetmMvjbtUE3eAsxR4nNw==</SignatureValue><KeyInfo><wsse:SecurityTokenReference>\n    <wsse:Reference URI=\"#x509-a52767dce0f54c2f80f041a7bd1f350a\" ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\"/>\n</wsse:SecurityTokenReference>\n</KeyInfo></Signature></wsse:Security>\n</soap:Header><soap:Body Id=\"_0\"><tns:ConsultaUbicaPlus><Request><DataHeader><nombreOperacion>ConsultaUbicaPlus</nombreOperacion><total>0</total><jornada>1</jornada><canal>48</canal><modoDeOperacion>0</modoDeOperacion><usuario>MBaaS</usuario><perfil>0</perfil><versionServicio>1.0.0</versionServicio><idTransaccion>1592502746</idTransaccion></DataHeader><Data><codInformacion>5632</codInformacion><valMotivoConsulta>9</valMotivoConsulta><codTipoIdentificacion>1</codTipoIdentificacion><valNumeroIdentificacion>1010214939</valNumeroIdentificacion><valPrimerApellido></valPrimerApellido></Data></Request></tns:ConsultaUbicaPlus></soap:Body></soap:Envelope>"
+        }
+      },
+      "msm": "AUDITORIA: Operaciones"
+    },
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "mbaas-laboratorio"
+      }
+    },
+    "timestamp": "2020-06-18T17:52:27.417000055Z",
+    "logName": "projects/mbaas-laboratorio/logs/mbass-operaciones-CO",
+    "receiveTimestamp": "2020-06-18T17:52:27.541567619Z"
+  },
+  {
+    "insertId": ".........7FjrWppsex.h9g3pV3goK.t",
+    "jsonPayload": {
+      "dataObject": {
+        "operation": {
+          "type": "ESTADO_CLIENTE",
+          "statusResponse": {
+            "errorDescription": "",
+            "httpError": 200,
+            "status": "OK"
+          },
+          "operationDate": "2020-06-18T12:52:25.688-05:00"
+        },
+        "messages": {
+          "idService": "ConsultaPEPV1",
+          "responseService": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<soap:Envelope xmlns:tns=\"http://www.davivienda.com/xml/ConsultaPEP\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Body><NS2:consultaPEPResponse xmlns:NS2=\"http://www.davivienda.com/xml/ConsultaPEP\"><Response><DataHeader><nombreOperacion>consultaPEP</nombreOperacion><total>0000</total><caracterAceptacion>B</caracterAceptacion><ultimoMensaje>1</ultimoMensaje><codMsgRespuesta>0000</codMsgRespuesta></DataHeader><Data><numIndicadorClientePEP>0</numIndicadorClientePEP></Data></Response></NS2:consultaPEPResponse></soap:Body></soap:Envelope>",
+          "requestService": "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"  xmlns:tns=\"http://www.davivienda.com/xml/ConsultaPEP\"><soap:Header><wsse:Security xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\" xmlns:wsu=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" soap:mustUnderstand=\"1\"><wsse:BinarySecurityToken EncodingType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary\" ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\" wsu:Id=\"x509-cbf6299758ff4750a40dc00ef9a33a4e\">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</wsse:BinarySecurityToken><Timestamp xmlns=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" Id=\"_1\"><Created>2020-06-18T17:52:25Z</Created><Expires>2020-06-18T18:02:25Z</Expires></Timestamp><Signature xmlns=\"http://www.w3.org/2000/09/xmldsig#\"><SignedInfo><CanonicalizationMethod Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\"/><SignatureMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#rsa-sha1\"/></SignedInfo><SignatureValue>ngm0/PJJPrkLefm1Bnqn3aur0v6EIQmIH5xRcYZfsinb/8RwcfzheUnl/5LMC0Rp2EeSe2AL/K5j1t1L5zSInQdb6w+HrBe3EPwF8HCxSKe8TfXDH7F7T/dkLgTFtw04vlpSbKy+ENVqmJQqiwbO8xylveQr1/BHpdf0DCzWRIMluO1KvCTwx+sYzGfupI8npyRn5os2aqrijHep4YGzScp50/vuQdTwng0q6BXChp+7dMMh+VRS0kP1WdcHOmUWk7eJ8XjsI/QBvOO49vMMzQZ8x9BrwuUpZMabBj4P1PBXf7WayERZotErFWH180gXF627huRYiSqfJw78pYdtZA==</SignatureValue><KeyInfo><wsse:SecurityTokenReference xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"><wsse:Reference URI=\"#x509-cbf6299758ff4750a40dc00ef9a33a4e\" ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\"/></wsse:SecurityTokenReference></KeyInfo></Signature></wsse:Security></soap:Header><soap:Body Id=\"_0\"><tns:consultaPEP><Request><DataHeader><nombreOperacion>consultaPEP</nombreOperacion><total>0</total><jornada>1</jornada><canal>48</canal><modoDeOperacion>0</modoDeOperacion><usuario>MBaaS</usuario><perfil>0</perfil><versionServicio>1.0.0</versionServicio><idTransaccion>1592502745</idTransaccion></DataHeader><Data><numTipoidentificacion>01</numTipoidentificacion><numIdentificacion>1010214939</numIdentificacion></Data></Request></tns:consultaPEP></soap:Body></soap:Envelope>"
+        },
+        "consumer": {
+          "deviceConsumer": {
+            "ip": "190.131.192.209",
+            "locale": "CO",
+            "sessionTimeout": "600000",
+            "id": "device-11111122222",
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X)\n                       AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508",
+            "inactiveInterval": "600000"
+          },
+          "appConsumer": {
+            "terminalId": "1",
+            "sessionId": "658cb740-b18c-11ea-8e0e-b1be40941859",
+            "canalId": "48",
+            "id": "TMA-RP BUNDLE-1"
+          }
+        },
+        "documento": {
+          "numero": "1010214939",
+          "tipo": "01"
+        }
+      },
+      "msm": "AUDITORIA: Operaciones"
+    },
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "mbaas-laboratorio"
+      }
+    },
+    "timestamp": "2020-06-18T17:52:26.424000024Z",
+    "logName": "projects/mbaas-laboratorio/logs/mbass-operaciones-CO",
+    "receiveTimestamp": "2020-06-18T17:52:26.597457713Z"
+  },
+  {
+    "insertId": "..........cjrWppsex.h9g3pV3goK.t",
+    "jsonPayload": {
+      "dataObject": {
+        "documento": {
+          "numero": "1010214939",
+          "tipo": "01"
+        },
+        "operation": {
+          "statusResponse": {
+            "status": "OK",
+            "httpError": 200,
+            "errorDescription": ""
+          },
+          "operationDate": "2020-06-18T11:12:09.816-05:00",
+          "type": "VIDA_CREDITICIA"
+        },
+        "consumer": {
+          "appConsumer": {
+            "sessionId": "660e4bb0-b17e-11ea-8e0e-b1be40941859",
+            "terminalId": "1",
+            "canalId": "48",
+            "id": "TMA-RP BUNDLE-1"
+          },
+          "deviceConsumer": {
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X)\n                       AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508",
+            "id": "device-11111122222",
+            "inactiveInterval": "600000",
+            "locale": "CO",
+            "sessionTimeout": "600000",
+            "ip": "181.53.12.240"
+          }
+        },
+        "messages": {
+          "requestService": "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"  xmlns:tns=\"http://www.davivienda.com/xml/ConsultaUbicaPlus\"><soap:Header><wsse:Security xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"\n               xmlns:wsu=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\"\n               soap:mustUnderstand=\"1\">\n \t<wsse:BinarySecurityToken   \n               EncodingType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary\" \n               ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\" \n               wsu:Id=\"x509-a52767dce0f54c2f80f041a7bd1f350a\">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</wsse:BinarySecurityToken>\n    <Timestamp xmlns=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" Id=\"_1\">\n    \t<Created>2020-06-18T16:12:09Z</Created>\n    \t<Expires>2020-06-18T16:22:09Z</Expires>\n    </Timestamp> \n<Signature xmlns=\"http://www.w3.org/2000/09/xmldsig#\"><SignedInfo><CanonicalizationMethod Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\" /><SignatureMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#rsa-sha1\" /><Reference URI=\"#_0\"><Transforms><Transform Algorithm=\"http://www.w3.org/2000/09/xmldsig#enveloped-signature\" /><Transform Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\" /></Transforms><DigestMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#sha1\" /><DigestValue>KWB7n9FBoczWgW36hre7FN3tqbg=</DigestValue></Reference><Reference URI=\"#_1\"><Transforms><Transform Algorithm=\"http://www.w3.org/2000/09/xmldsig#enveloped-signature\" /><Transform Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\" /></Transforms><DigestMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#sha1\" /><DigestValue>FvTocHSfUyXrK8DBpZXtzpeOnZA=</DigestValue></Reference></SignedInfo><SignatureValue>X8gC8mdgn5AK8Ue5p7FODXOSdf0dZ4FXvFAVh3+snAKiTUcVhXI5uVumLw6Y7DNkGYwK8IQ+LVX7DjvXGiBmkKswaXJfUKF/DEMihJZjisJQsUWGUvzrs3IlM+2KSZ8mCJMNkbvRa3FItvmTbM3nIUKE7VuqZ6eX8IggxtW+sIE1GaAqmMKyB6VuWoRLglmRAZwGSH0o+ju4w/40lO2LuvsWiJ7R/HKG4FI0G/OD5ym3AH4zW+WpGZmQKG4Z/p6DcHFqRuDY3WqwzFnvtTW286XD7yRABsGEHY3xeMqyt6pM163CjCN9meZkqHLTCbK194nEMU+tksCxK3Xk4FMDWw==</SignatureValue><KeyInfo><wsse:SecurityTokenReference>\n    <wsse:Reference URI=\"#x509-a52767dce0f54c2f80f041a7bd1f350a\" ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\"/>\n</wsse:SecurityTokenReference>\n</KeyInfo></Signature></wsse:Security>\n</soap:Header><soap:Body Id=\"_0\"><tns:ConsultaUbicaPlus><Request><DataHeader><nombreOperacion>ConsultaUbicaPlus</nombreOperacion><total>0</total><jornada>1</jornada><canal>48</canal><modoDeOperacion>0</modoDeOperacion><usuario>MBaaS</usuario><perfil>0</perfil><versionServicio>1.0.0</versionServicio><idTransaccion>1592496729</idTransaccion></DataHeader><Data><codInformacion>5632</codInformacion><valMotivoConsulta>9</valMotivoConsulta><codTipoIdentificacion>1</codTipoIdentificacion><valNumeroIdentificacion>1010214939</valNumeroIdentificacion><valPrimerApellido></valPrimerApellido></Data></Request></tns:ConsultaUbicaPlus></soap:Body></soap:Envelope>",
+          "idService": "ConsultaUbicaPlusV1",
+          "responseService": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<soap:Envelope xmlns:tns=\"http://www.davivienda.com/xml/ConsultaUbicaPlus\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Body><con:ConsultaUbicaPlusResponse xmlns:con=\"http://www.davivienda.com/xml/ConsultaUbicaPlus\"><Response><DataHeader><nombreOperacion>ConsultaUbicaPlus</nombreOperacion><total>0</total><caracterAceptacion>M</caracterAceptacion><ultimoMensaje>0</ultimoMensaje><idTransaccion>1592496729</idTransaccion><codMsgRespuesta>13</codMsgRespuesta><msgRespuesta>Tercero no Existe</msgRespuesta></DataHeader></Response></con:ConsultaUbicaPlusResponse></soap:Body></soap:Envelope>"
+        }
+      },
+      "msm": "AUDITORIA: Operaciones"
+    },
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "mbaas-laboratorio"
+      }
+    },
+    "timestamp": "2020-06-18T16:12:10.914000034Z",
+    "logName": "projects/mbaas-laboratorio/logs/mbass-operaciones-CO",
+    "receiveTimestamp": "2020-06-18T16:12:11.350170361Z"
+  },
+  {
+    "insertId": "..........ZjrWppsex.h9g3pV3goK.t",
+    "jsonPayload": {
+      "msm": "AUDITORIA: Operaciones",
+      "dataObject": {
+        "consumer": {
+          "appConsumer": {
+            "sessionId": "660e4bb0-b17e-11ea-8e0e-b1be40941859",
+            "canalId": "48",
+            "id": "TMA-RP BUNDLE-1",
+            "terminalId": "1"
+          },
+          "deviceConsumer": {
+            "locale": "CO",
+            "sessionTimeout": "600000",
+            "id": "device-11111122222",
+            "ip": "181.53.12.240",
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X)\n                       AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508",
+            "inactiveInterval": "600000"
+          }
+        },
+        "operation": {
+          "operationDate": "2020-06-18T11:12:08.427-05:00",
+          "statusResponse": {
+            "errorDescription": "",
+            "httpError": 200,
+            "status": "OK"
+          },
+          "type": "ESTADO_CLIENTE"
+        },
+        "documento": {
+          "numero": "1010214939",
+          "tipo": "01"
+        },
+        "messages": {
+          "idService": "ConsultaPEPV1",
+          "responseService": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<soap:Envelope xmlns:tns=\"http://www.davivienda.com/xml/ConsultaPEP\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Body><NS2:consultaPEPResponse xmlns:NS2=\"http://www.davivienda.com/xml/ConsultaPEP\"><Response><DataHeader><nombreOperacion>consultaPEP</nombreOperacion><total>0000</total><caracterAceptacion>B</caracterAceptacion><ultimoMensaje>1</ultimoMensaje><codMsgRespuesta>0000</codMsgRespuesta></DataHeader><Data><numIndicadorClientePEP>0</numIndicadorClientePEP></Data></Response></NS2:consultaPEPResponse></soap:Body></soap:Envelope>",
+          "requestService": "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"  xmlns:tns=\"http://www.davivienda.com/xml/ConsultaPEP\"><soap:Header><wsse:Security xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\" xmlns:wsu=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" soap:mustUnderstand=\"1\"><wsse:BinarySecurityToken EncodingType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary\" ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\" wsu:Id=\"x509-cbf6299758ff4750a40dc00ef9a33a4e\">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</wsse:BinarySecurityToken><Timestamp xmlns=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" Id=\"_1\"><Created>2020-06-18T16:12:08Z</Created><Expires>2020-06-18T16:22:08Z</Expires></Timestamp><Signature xmlns=\"http://www.w3.org/2000/09/xmldsig#\"><SignedInfo><CanonicalizationMethod Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\"/><SignatureMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#rsa-sha1\"/></SignedInfo><SignatureValue>ngm0/PJJPrkLefm1Bnqn3aur0v6EIQmIH5xRcYZfsinb/8RwcfzheUnl/5LMC0Rp2EeSe2AL/K5j1t1L5zSInQdb6w+HrBe3EPwF8HCxSKe8TfXDH7F7T/dkLgTFtw04vlpSbKy+ENVqmJQqiwbO8xylveQr1/BHpdf0DCzWRIMluO1KvCTwx+sYzGfupI8npyRn5os2aqrijHep4YGzScp50/vuQdTwng0q6BXChp+7dMMh+VRS0kP1WdcHOmUWk7eJ8XjsI/QBvOO49vMMzQZ8x9BrwuUpZMabBj4P1PBXf7WayERZotErFWH180gXF627huRYiSqfJw78pYdtZA==</SignatureValue><KeyInfo><wsse:SecurityTokenReference xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"><wsse:Reference URI=\"#x509-cbf6299758ff4750a40dc00ef9a33a4e\" ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\"/></wsse:SecurityTokenReference></KeyInfo></Signature></wsse:Security></soap:Header><soap:Body Id=\"_0\"><tns:consultaPEP><Request><DataHeader><nombreOperacion>consultaPEP</nombreOperacion><total>0</total><jornada>1</jornada><canal>48</canal><modoDeOperacion>0</modoDeOperacion><usuario>MBaaS</usuario><perfil>0</perfil><versionServicio>1.0.0</versionServicio><idTransaccion>1592496728</idTransaccion></DataHeader><Data><numTipoidentificacion>01</numTipoidentificacion><numIdentificacion>1010214939</numIdentificacion></Data></Request></tns:consultaPEP></soap:Body></soap:Envelope>"
+        }
+      }
+    },
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "mbaas-laboratorio"
+      }
+    },
+    "timestamp": "2020-06-18T16:12:09.525000095Z",
+    "logName": "projects/mbaas-laboratorio/logs/mbass-operaciones-CO",
+    "receiveTimestamp": "2020-06-18T16:12:09.691891866Z"
+  },
+  {
+    "insertId": ".........Ck5O0sUPJl4d75F3WeKk9_O",
+    "jsonPayload": {
+      "dataObject": {
+        "operation": {
+          "statusResponse": {
+            "errorDescription": "",
+            "httpError": 200,
+            "status": "OK"
+          },
+          "type": "VIDA_CREDITICIA",
+          "operationDate": "2020-06-17T17:32:01.174-05:00"
+        },
+        "consumer": {
+          "appConsumer": {
+            "canalId": "48",
+            "id": "TMA-RP BUNDLE-1",
+            "terminalId": "1",
+            "sessionId": "51ecf120-b0ea-11ea-8e0e-b1be40941859"
+          },
+          "deviceConsumer": {
+            "inactiveInterval": "600000",
+            "locale": "CO",
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X)\n                       AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508",
+            "id": "device-11111122222",
+            "sessionTimeout": "600000",
+            "ip": "181.53.12.240"
+          }
+        },
+        "messages": {
+          "idService": "ConsultaUbicaPlusV1",
+          "responseService": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<soap:Envelope xmlns:tns=\"http://www.davivienda.com/xml/ConsultaUbicaPlus\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Body><con:ConsultaUbicaPlusResponse xmlns:con=\"http://www.davivienda.com/xml/ConsultaUbicaPlus\"><Response><DataHeader><nombreOperacion>ConsultaUbicaPlus</nombreOperacion><total>0</total><caracterAceptacion>M</caracterAceptacion><ultimoMensaje>0</ultimoMensaje><idTransaccion>1592433121</idTransaccion><codMsgRespuesta>13</codMsgRespuesta><msgRespuesta>Tercero no Existe</msgRespuesta></DataHeader></Response></con:ConsultaUbicaPlusResponse></soap:Body></soap:Envelope>",
+          "requestService": "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"  xmlns:tns=\"http://www.davivienda.com/xml/ConsultaUbicaPlus\"><soap:Header><wsse:Security xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"\n               xmlns:wsu=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\"\n               soap:mustUnderstand=\"1\">\n \t<wsse:BinarySecurityToken   \n               EncodingType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary\" \n               ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\" \n               wsu:Id=\"x509-a52767dce0f54c2f80f041a7bd1f350a\">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</wsse:BinarySecurityToken>\n    <Timestamp xmlns=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" Id=\"_1\">\n    \t<Created>2020-06-17T22:32:01Z</Created>\n    \t<Expires>2020-06-17T22:42:01Z</Expires>\n    </Timestamp> \n<Signature xmlns=\"http://www.w3.org/2000/09/xmldsig#\"><SignedInfo><CanonicalizationMethod Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\" /><SignatureMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#rsa-sha1\" /><Reference URI=\"#_0\"><Transforms><Transform Algorithm=\"http://www.w3.org/2000/09/xmldsig#enveloped-signature\" /><Transform Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\" /></Transforms><DigestMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#sha1\" /><DigestValue>R44vlE/E4ye5AhFsanff5YaM+GA=</DigestValue></Reference><Reference URI=\"#_1\"><Transforms><Transform Algorithm=\"http://www.w3.org/2000/09/xmldsig#enveloped-signature\" /><Transform Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\" /></Transforms><DigestMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#sha1\" /><DigestValue>hbBUZ5vCBzSxjA8yM5fVzSprXmA=</DigestValue></Reference></SignedInfo><SignatureValue>Dh4eg5IOjR5bmamYIaj4wjL1ft21yiegCRqAUwWWasEogXe22vHZDUu+IREBvAh8RXx2NrwQhvBQ+OUy75mK6QTA6sqNlTr9bQPMq82iDqba6uNXHTkoZaOjhoASnveR/RACrh3ixYSNZ96Euh/VYvaHZVOIx4x5E5FYKUskBvqK0SorzhpiQQX0lnP3AwwJf/DDemQFJfxNz2GWX1CjgkTW3Q3X8Jd7v59Gtrjwry386AFQnR8iQS83/R2mDTubvZMjwHUo3Z6+/U+AHBXrw+M5PqxYZ+4tF9IVeCMLQKtNH3cNg257OIsWiiWImgOELqhktF/JrO3t5BTMiJxp4w==</SignatureValue><KeyInfo><wsse:SecurityTokenReference>\n    <wsse:Reference URI=\"#x509-a52767dce0f54c2f80f041a7bd1f350a\" ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\"/>\n</wsse:SecurityTokenReference>\n</KeyInfo></Signature></wsse:Security>\n</soap:Header><soap:Body Id=\"_0\"><tns:ConsultaUbicaPlus><Request><DataHeader><nombreOperacion>ConsultaUbicaPlus</nombreOperacion><total>0</total><jornada>1</jornada><canal>48</canal><modoDeOperacion>0</modoDeOperacion><usuario>MBaaS</usuario><perfil>0</perfil><versionServicio>1.0.0</versionServicio><idTransaccion>1592433121</idTransaccion></DataHeader><Data><codInformacion>5632</codInformacion><valMotivoConsulta>9</valMotivoConsulta><codTipoIdentificacion>1</codTipoIdentificacion><valNumeroIdentificacion>1010214939</valNumeroIdentificacion><valPrimerApellido></valPrimerApellido></Data></Request></tns:ConsultaUbicaPlus></soap:Body></soap:Envelope>"
+        },
+        "documento": {
+          "tipo": "01",
+          "numero": "1010214939"
+        }
+      },
+      "msm": "AUDITORIA: Operaciones"
+    },
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "mbaas-laboratorio"
+      }
+    },
+    "timestamp": "2020-06-17T22:32:02.095000028Z",
+    "logName": "projects/mbaas-laboratorio/logs/mbass-operaciones-CO",
+    "receiveTimestamp": "2020-06-17T22:32:03.321326132Z"
+  },
+  {
+    "insertId": ".........Cg5O0sUPJl4d75F3WeKk9_O",
+    "jsonPayload": {
+      "dataObject": {
+        "operation": {
+          "operationDate": "2020-06-17T17:32:00.296-05:00",
+          "type": "ESTADO_CLIENTE",
+          "statusResponse": {
+            "status": "OK",
+            "errorDescription": "",
+            "httpError": 200
+          }
+        },
+        "messages": {
+          "requestService": "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"  xmlns:tns=\"http://www.davivienda.com/xml/ConsultaPEP\"><soap:Header><wsse:Security xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\" xmlns:wsu=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" soap:mustUnderstand=\"1\"><wsse:BinarySecurityToken EncodingType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary\" ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\" wsu:Id=\"x509-cbf6299758ff4750a40dc00ef9a33a4e\">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</wsse:BinarySecurityToken><Timestamp xmlns=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" Id=\"_1\"><Created>2020-06-17T22:32:00Z</Created><Expires>2020-06-17T22:42:00Z</Expires></Timestamp><Signature xmlns=\"http://www.w3.org/2000/09/xmldsig#\"><SignedInfo><CanonicalizationMethod Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\"/><SignatureMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#rsa-sha1\"/></SignedInfo><SignatureValue>ngm0/PJJPrkLefm1Bnqn3aur0v6EIQmIH5xRcYZfsinb/8RwcfzheUnl/5LMC0Rp2EeSe2AL/K5j1t1L5zSInQdb6w+HrBe3EPwF8HCxSKe8TfXDH7F7T/dkLgTFtw04vlpSbKy+ENVqmJQqiwbO8xylveQr1/BHpdf0DCzWRIMluO1KvCTwx+sYzGfupI8npyRn5os2aqrijHep4YGzScp50/vuQdTwng0q6BXChp+7dMMh+VRS0kP1WdcHOmUWk7eJ8XjsI/QBvOO49vMMzQZ8x9BrwuUpZMabBj4P1PBXf7WayERZotErFWH180gXF627huRYiSqfJw78pYdtZA==</SignatureValue><KeyInfo><wsse:SecurityTokenReference xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"><wsse:Reference URI=\"#x509-cbf6299758ff4750a40dc00ef9a33a4e\" ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\"/></wsse:SecurityTokenReference></KeyInfo></Signature></wsse:Security></soap:Header><soap:Body Id=\"_0\"><tns:consultaPEP><Request><DataHeader><nombreOperacion>consultaPEP</nombreOperacion><total>0</total><jornada>1</jornada><canal>48</canal><modoDeOperacion>0</modoDeOperacion><usuario>MBaaS</usuario><perfil>0</perfil><versionServicio>1.0.0</versionServicio><idTransaccion>1592433120</idTransaccion></DataHeader><Data><numTipoidentificacion>01</numTipoidentificacion><numIdentificacion>1010214939</numIdentificacion></Data></Request></tns:consultaPEP></soap:Body></soap:Envelope>",
+          "responseService": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<soap:Envelope xmlns:tns=\"http://www.davivienda.com/xml/ConsultaPEP\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Body><NS2:consultaPEPResponse xmlns:NS2=\"http://www.davivienda.com/xml/ConsultaPEP\"><Response><DataHeader><nombreOperacion>consultaPEP</nombreOperacion><total>0000</total><caracterAceptacion>B</caracterAceptacion><ultimoMensaje>1</ultimoMensaje><codMsgRespuesta>0000</codMsgRespuesta></DataHeader><Data><numIndicadorClientePEP>0</numIndicadorClientePEP></Data></Response></NS2:consultaPEPResponse></soap:Body></soap:Envelope>",
+          "idService": "ConsultaPEPV1"
+        },
+        "consumer": {
+          "appConsumer": {
+            "id": "TMA-RP BUNDLE-1",
+            "canalId": "48",
+            "terminalId": "1",
+            "sessionId": "51ecf120-b0ea-11ea-8e0e-b1be40941859"
+          },
+          "deviceConsumer": {
+            "inactiveInterval": "600000",
+            "sessionTimeout": "600000",
+            "ip": "181.53.12.240",
+            "id": "device-11111122222",
+            "locale": "CO",
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X)\n                       AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508"
+          }
+        },
+        "documento": {
+          "numero": "1010214939",
+          "tipo": "01"
+        }
+      },
+      "msm": "AUDITORIA: Operaciones"
+    },
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "mbaas-laboratorio"
+      }
+    },
+    "timestamp": "2020-06-17T22:32:00.911000013Z",
+    "logName": "projects/mbaas-laboratorio/logs/mbass-operaciones-CO",
+    "receiveTimestamp": "2020-06-17T22:32:01.080327673Z"
+  },
+  {
+    "insertId": ".........AZ5O0sUPJl4d75F3WeKk9_O",
+    "jsonPayload": {
+      "msm": "AUDITORIA: Operaciones",
+      "dataObject": {
+        "operation": {
+          "type": "VIDA_CREDITICIA",
+          "operationDate": "2020-06-17T17:10:32.904-05:00",
+          "statusResponse": {
+            "status": "OK",
+            "errorDescription": "",
+            "httpError": 200
+          }
+        },
+        "messages": {
+          "idService": "ConsultaUbicaPlusV1",
+          "responseService": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<soap:Envelope xmlns:tns=\"http://www.davivienda.com/xml/ConsultaUbicaPlus\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Body><con:ConsultaUbicaPlusResponse xmlns:con=\"http://www.davivienda.com/xml/ConsultaUbicaPlus\"><Response><DataHeader><nombreOperacion>ConsultaUbicaPlus</nombreOperacion><total>0</total><caracterAceptacion>M</caracterAceptacion><ultimoMensaje>0</ultimoMensaje><idTransaccion>1592431832</idTransaccion><codMsgRespuesta>13</codMsgRespuesta><msgRespuesta>Tercero no Existe</msgRespuesta></DataHeader></Response></con:ConsultaUbicaPlusResponse></soap:Body></soap:Envelope>",
+          "requestService": "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"  xmlns:tns=\"http://www.davivienda.com/xml/ConsultaUbicaPlus\"><soap:Header><wsse:Security xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"\n               xmlns:wsu=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\"\n               soap:mustUnderstand=\"1\">\n \t<wsse:BinarySecurityToken   \n               EncodingType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary\" \n               ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\" \n               wsu:Id=\"x509-a52767dce0f54c2f80f041a7bd1f350a\">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</wsse:BinarySecurityToken>\n    <Timestamp xmlns=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" Id=\"_1\">\n    \t<Created>2020-06-17T22:10:32Z</Created>\n    \t<Expires>2020-06-17T22:20:32Z</Expires>\n    </Timestamp> \n<Signature xmlns=\"http://www.w3.org/2000/09/xmldsig#\"><SignedInfo><CanonicalizationMethod Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\" /><SignatureMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#rsa-sha1\" /><Reference URI=\"#_0\"><Transforms><Transform Algorithm=\"http://www.w3.org/2000/09/xmldsig#enveloped-signature\" /><Transform Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\" /></Transforms><DigestMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#sha1\" /><DigestValue>OIwatEG+uF/ax+vmgGs3iPgNT5c=</DigestValue></Reference><Reference URI=\"#_1\"><Transforms><Transform Algorithm=\"http://www.w3.org/2000/09/xmldsig#enveloped-signature\" /><Transform Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\" /></Transforms><DigestMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#sha1\" /><DigestValue>ENQ0xst1c4202HDLuIIhn+RBSv4=</DigestValue></Reference></SignedInfo><SignatureValue>mb4le0Zy9XD+qAMYQZ/VkqNeDJwcDJLX2rwOAJWj3a+8iNAdydvJ/xQpVdh+pmAPG6yrqpTYnzXaQFCNGtIndfyjMKsifJUNE5GVe7ClV9a8YdL6GbwWeGegBoLoYbBgmaPQbkiZhUJ3BXgqo+rFIRJzcRmvlSatPhwUEsn7p60MH2NDmfbSb8PZY94MxKvXNwApFpETK2AYImy4iYgc9qJGRFgCbmljyp3vicHevexPuvBwigrRFP705d2IIk/jwSFUITsZOEG4XvKU0I045udMSviCvh9fHos8wJvupgcYSIaoiZidCuvlYhJeWeAW+isbLZxdARA0XA6O/WPF5w==</SignatureValue><KeyInfo><wsse:SecurityTokenReference>\n    <wsse:Reference URI=\"#x509-a52767dce0f54c2f80f041a7bd1f350a\" ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\"/>\n</wsse:SecurityTokenReference>\n</KeyInfo></Signature></wsse:Security>\n</soap:Header><soap:Body Id=\"_0\"><tns:ConsultaUbicaPlus><Request><DataHeader><nombreOperacion>ConsultaUbicaPlus</nombreOperacion><total>0</total><jornada>1</jornada><canal>48</canal><modoDeOperacion>0</modoDeOperacion><usuario>MBaaS</usuario><perfil>0</perfil><versionServicio>1.0.0</versionServicio><idTransaccion>1592431832</idTransaccion></DataHeader><Data><codInformacion>5632</codInformacion><valMotivoConsulta>9</valMotivoConsulta><codTipoIdentificacion>1</codTipoIdentificacion><valNumeroIdentificacion>1013630831</valNumeroIdentificacion><valPrimerApellido></valPrimerApellido></Data></Request></tns:ConsultaUbicaPlus></soap:Body></soap:Envelope>"
+        },
+        "documento": {
+          "numero": "1013630831",
+          "tipo": "01"
+        },
+        "consumer": {
+          "deviceConsumer": {
+            "id": "device-11111122222",
+            "inactiveInterval": "600000",
+            "ip": "181.53.12.240",
+            "locale": "CO",
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X)\n                       AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508",
+            "sessionTimeout": "600000"
+          },
+          "appConsumer": {
+            "terminalId": "1",
+            "id": "TMA-RP BUNDLE-1",
+            "sessionId": "421ecc30-b0e7-11ea-8e0e-b1be40941859",
+            "canalId": "48"
+          }
+        }
+      }
+    },
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "mbaas-laboratorio"
+      }
+    },
+    "timestamp": "2020-06-17T22:10:33.698999881Z",
+    "logName": "projects/mbaas-laboratorio/logs/mbass-operaciones-CO",
+    "receiveTimestamp": "2020-06-17T22:10:33.829023334Z"
+  },
+  {
+    "insertId": ".........AV5O0sUPJl4d75F3WeKk9_O",
+    "jsonPayload": {
+      "msm": "AUDITORIA: Operaciones",
+      "dataObject": {
+        "consumer": {
+          "deviceConsumer": {
+            "sessionTimeout": "600000",
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X)\n                       AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508",
+            "ip": "181.53.12.240",
+            "id": "device-11111122222",
+            "locale": "CO",
+            "inactiveInterval": "600000"
+          },
+          "appConsumer": {
+            "id": "TMA-RP BUNDLE-1",
+            "terminalId": "1",
+            "sessionId": "421ecc30-b0e7-11ea-8e0e-b1be40941859",
+            "canalId": "48"
+          }
+        },
+        "operation": {
+          "operationDate": "2020-06-17T17:10:30.967-05:00",
+          "type": "ESTADO_CLIENTE",
+          "statusResponse": {
+            "httpError": 200,
+            "status": "OK",
+            "errorDescription": ""
+          }
+        },
+        "messages": {
+          "requestService": "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"  xmlns:tns=\"http://www.davivienda.com/xml/ConsultaPEP\"><soap:Header><wsse:Security xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\" xmlns:wsu=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" soap:mustUnderstand=\"1\"><wsse:BinarySecurityToken EncodingType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary\" ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\" wsu:Id=\"x509-cbf6299758ff4750a40dc00ef9a33a4e\">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</wsse:BinarySecurityToken><Timestamp xmlns=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" Id=\"_1\"><Created>2020-06-17T22:10:30Z</Created><Expires>2020-06-17T22:20:30Z</Expires></Timestamp><Signature xmlns=\"http://www.w3.org/2000/09/xmldsig#\"><SignedInfo><CanonicalizationMethod Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\"/><SignatureMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#rsa-sha1\"/></SignedInfo><SignatureValue>ngm0/PJJPrkLefm1Bnqn3aur0v6EIQmIH5xRcYZfsinb/8RwcfzheUnl/5LMC0Rp2EeSe2AL/K5j1t1L5zSInQdb6w+HrBe3EPwF8HCxSKe8TfXDH7F7T/dkLgTFtw04vlpSbKy+ENVqmJQqiwbO8xylveQr1/BHpdf0DCzWRIMluO1KvCTwx+sYzGfupI8npyRn5os2aqrijHep4YGzScp50/vuQdTwng0q6BXChp+7dMMh+VRS0kP1WdcHOmUWk7eJ8XjsI/QBvOO49vMMzQZ8x9BrwuUpZMabBj4P1PBXf7WayERZotErFWH180gXF627huRYiSqfJw78pYdtZA==</SignatureValue><KeyInfo><wsse:SecurityTokenReference xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"><wsse:Reference URI=\"#x509-cbf6299758ff4750a40dc00ef9a33a4e\" ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\"/></wsse:SecurityTokenReference></KeyInfo></Signature></wsse:Security></soap:Header><soap:Body Id=\"_0\"><tns:consultaPEP><Request><DataHeader><nombreOperacion>consultaPEP</nombreOperacion><total>0</total><jornada>1</jornada><canal>48</canal><modoDeOperacion>0</modoDeOperacion><usuario>MBaaS</usuario><perfil>0</perfil><versionServicio>1.0.0</versionServicio><idTransaccion>1592431830</idTransaccion></DataHeader><Data><numTipoidentificacion>01</numTipoidentificacion><numIdentificacion>1013630831</numIdentificacion></Data></Request></tns:consultaPEP></soap:Body></soap:Envelope>",
+          "idService": "ConsultaPEPV1",
+          "responseService": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<soap:Envelope xmlns:tns=\"http://www.davivienda.com/xml/ConsultaPEP\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Body><NS2:consultaPEPResponse xmlns:NS2=\"http://www.davivienda.com/xml/ConsultaPEP\"><Response><DataHeader><nombreOperacion>consultaPEP</nombreOperacion><total>0000</total><caracterAceptacion>B</caracterAceptacion><ultimoMensaje>1</ultimoMensaje><codMsgRespuesta>0000</codMsgRespuesta></DataHeader><Data><numIndicadorClientePEP>0</numIndicadorClientePEP></Data></Response></NS2:consultaPEPResponse></soap:Body></soap:Envelope>"
+        },
+        "documento": {
+          "numero": "1013630831",
+          "tipo": "01"
+        }
+      }
+    },
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "mbaas-laboratorio"
+      }
+    },
+    "timestamp": "2020-06-17T22:10:32.608000040Z",
+    "logName": "projects/mbaas-laboratorio/logs/mbass-operaciones-CO",
+    "receiveTimestamp": "2020-06-17T22:10:32.806931594Z"
+  },
+  {
+    "insertId": ".........5c5O0sUPJl4d75F3WeKk9_O",
+    "jsonPayload": {
+      "msm": "AUDITORIA: Operaciones",
+      "dataObject": {
+        "messages": {
+          "idService": "ConsultaUbicaPlusV1",
+          "responseService": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<soap:Envelope xmlns:tns=\"http://www.davivienda.com/xml/ConsultaUbicaPlus\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Body><con:ConsultaUbicaPlusResponse xmlns:con=\"http://www.davivienda.com/xml/ConsultaUbicaPlus\"><Response><DataHeader><nombreOperacion>ConsultaUbicaPlus</nombreOperacion><total>0</total><caracterAceptacion>B</caracterAceptacion><ultimoMensaje>1</ultimoMensaje><idTransaccion>1592431143</idTransaccion><codMsgRespuesta>0</codMsgRespuesta></DataHeader><Data><valIdentificadorLinea>98793530</valIdentificadorLinea><valEstadoTitular/><valRangoEdad>41-45</valRangoEdad><codDepartamento>11</codDepartamento><codMunicipio>1</codMunicipio><InfoDocumentoIdentificacion><codConvencionTipo>C.C.</codConvencionTipo><codTipo>1</codTipo><valNumero>1013630832</valNumero><valLugarExpedicion>BOGOTA D.C.</valLugarExpedicion><fecExpedicion>06/03/1997</fecExpedicion><valEstado>VIGENTE</valEstado><valPrimerApellido>IDENTIFICACION </valPrimerApellido><valSegundoApellido>EBAS</valSegundoApellido><valNombreCompleto>IDENTIFICACION PR EBAS           </valNombreCompleto></InfoDocumentoIdentificacion><InfoCiiu><codCiiu>6422</codCiiu><valNombreCiiu>ACTIVIDADES DE LAS COMPA&#209;&#205;AS DE FINANCIAMIENTO</valNombreCiiu></InfoCiiu><InfoConsulta><valNumeroInforme>00022223090002206676</valNumeroInforme><valFechaHora>17/06/202016:59:04</valFechaHora><valEntidad>BCO  DAVIVIENDA S.A.               </valEntidad><valRespuesta>02</valRespuesta></InfoConsulta><UbicaPlusCifin><Direcciones/><Telefonos/><Celulares/><CorreosElectronicos/></UbicaPlusCifin></Data></Response></con:ConsultaUbicaPlusResponse></soap:Body></soap:Envelope>",
+          "requestService": "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"  xmlns:tns=\"http://www.davivienda.com/xml/ConsultaUbicaPlus\"><soap:Header><wsse:Security xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"\n               xmlns:wsu=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\"\n               soap:mustUnderstand=\"1\">\n \t<wsse:BinarySecurityToken   \n               EncodingType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary\" \n               ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\" \n               wsu:Id=\"x509-a52767dce0f54c2f80f041a7bd1f350a\">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</wsse:BinarySecurityToken>\n    <Timestamp xmlns=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" Id=\"_1\">\n    \t<Created>2020-06-17T21:59:03Z</Created>\n    \t<Expires>2020-06-17T22:09:03Z</Expires>\n    </Timestamp> \n<Signature xmlns=\"http://www.w3.org/2000/09/xmldsig#\"><SignedInfo><CanonicalizationMethod Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\" /><SignatureMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#rsa-sha1\" /><Reference URI=\"#_0\"><Transforms><Transform Algorithm=\"http://www.w3.org/2000/09/xmldsig#enveloped-signature\" /><Transform Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\" /></Transforms><DigestMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#sha1\" /><DigestValue>U00JKQZZAV7WHTTEOOl5K5AqDkQ=</DigestValue></Reference><Reference URI=\"#_1\"><Transforms><Transform Algorithm=\"http://www.w3.org/2000/09/xmldsig#enveloped-signature\" /><Transform Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\" /></Transforms><DigestMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#sha1\" /><DigestValue>C7c6cozUIfMYJQbfq4vgQlDjd3c=</DigestValue></Reference></SignedInfo><SignatureValue>V9CRwRNrDc32urJw6lw2cTPvpEewidvTbTNkLAIpQuOvNAaLNTWWWcL1NoZafaRpjRgFrMpnya/o+bw2avwoa7diNPiQwoeuEsVo4tWDeJnP/dkGteY/5lG3UUf2eUCdOtak4bQJuiKX9S1kbHza64jOXVUvEkZt/CX7aus9+YHqJ6uyZQFbMhotwg7GNe9RxehZshvSluFssfz5fghpjSKbK9om8JVfZdG5MFuWp3GP3LvxXnzyMJRK9zlTLoIEqvobojscX/m4KZbUsJWDmFiB1AB56O7PNIIM/P7wg5VAY11ulxYET9W6+sFekzmMu3d/8l70zHzOO/d08haYjw==</SignatureValue><KeyInfo><wsse:SecurityTokenReference>\n    <wsse:Reference URI=\"#x509-a52767dce0f54c2f80f041a7bd1f350a\" ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\"/>\n</wsse:SecurityTokenReference>\n</KeyInfo></Signature></wsse:Security>\n</soap:Header><soap:Body Id=\"_0\"><tns:ConsultaUbicaPlus><Request><DataHeader><nombreOperacion>ConsultaUbicaPlus</nombreOperacion><total>0</total><jornada>1</jornada><canal>48</canal><modoDeOperacion>0</modoDeOperacion><usuario>MBaaS</usuario><perfil>0</perfil><versionServicio>1.0.0</versionServicio><idTransaccion>1592431143</idTransaccion></DataHeader><Data><codInformacion>5632</codInformacion><valMotivoConsulta>9</valMotivoConsulta><codTipoIdentificacion>1</codTipoIdentificacion><valNumeroIdentificacion>1013630832</valNumeroIdentificacion><valPrimerApellido></valPrimerApellido></Data></Request></tns:ConsultaUbicaPlus></soap:Body></soap:Envelope>"
+        },
+        "consumer": {
+          "deviceConsumer": {
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X)\n                       AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508",
+            "locale": "CO",
+            "id": "device-11111122222",
+            "ip": "181.53.12.240",
+            "sessionTimeout": "600000",
+            "inactiveInterval": "600000"
+          },
+          "appConsumer": {
+            "id": "TMA-RP BUNDLE-1",
+            "terminalId": "1",
+            "canalId": "48",
+            "sessionId": "b5566980-b0e5-11ea-8e0e-b1be40941859"
+          }
+        },
+        "operation": {
+          "type": "VIDA_CREDITICIA",
+          "operationDate": "2020-06-17T16:59:03.758-05:00",
+          "statusResponse": {
+            "status": "OK",
+            "httpError": 200,
+            "errorDescription": ""
+          }
+        },
+        "documento": {
+          "numero": "1013630832",
+          "tipo": "01"
+        }
+      }
+    },
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "mbaas-laboratorio"
+      }
+    },
+    "timestamp": "2020-06-17T21:59:05.023000001Z",
+    "logName": "projects/mbaas-laboratorio/logs/mbass-operaciones-CO",
+    "receiveTimestamp": "2020-06-17T21:59:05.220833743Z"
+  },
+  {
+    "insertId": ".........5Z5O0sUPJl4d75F3WeKk9_O",
+    "jsonPayload": {
+      "msm": "AUDITORIA: Operaciones",
+      "dataObject": {
+        "messages": {
+          "responseService": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<soap:Envelope xmlns:tns=\"http://www.davivienda.com/xml/ConsultaPEP\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Body><NS2:consultaPEPResponse xmlns:NS2=\"http://www.davivienda.com/xml/ConsultaPEP\"><Response><DataHeader><nombreOperacion>consultaPEP</nombreOperacion><total>0000</total><caracterAceptacion>B</caracterAceptacion><ultimoMensaje>1</ultimoMensaje><codMsgRespuesta>0000</codMsgRespuesta></DataHeader><Data><numIndicadorClientePEP>0</numIndicadorClientePEP></Data></Response></NS2:consultaPEPResponse></soap:Body></soap:Envelope>",
+          "idService": "ConsultaPEPV1",
+          "requestService": "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"  xmlns:tns=\"http://www.davivienda.com/xml/ConsultaPEP\"><soap:Header><wsse:Security xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\" xmlns:wsu=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" soap:mustUnderstand=\"1\"><wsse:BinarySecurityToken EncodingType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary\" ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\" wsu:Id=\"x509-cbf6299758ff4750a40dc00ef9a33a4e\">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</wsse:BinarySecurityToken><Timestamp xmlns=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" Id=\"_1\"><Created>2020-06-17T21:59:02Z</Created><Expires>2020-06-17T22:09:02Z</Expires></Timestamp><Signature xmlns=\"http://www.w3.org/2000/09/xmldsig#\"><SignedInfo><CanonicalizationMethod Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\"/><SignatureMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#rsa-sha1\"/></SignedInfo><SignatureValue>ngm0/PJJPrkLefm1Bnqn3aur0v6EIQmIH5xRcYZfsinb/8RwcfzheUnl/5LMC0Rp2EeSe2AL/K5j1t1L5zSInQdb6w+HrBe3EPwF8HCxSKe8TfXDH7F7T/dkLgTFtw04vlpSbKy+ENVqmJQqiwbO8xylveQr1/BHpdf0DCzWRIMluO1KvCTwx+sYzGfupI8npyRn5os2aqrijHep4YGzScp50/vuQdTwng0q6BXChp+7dMMh+VRS0kP1WdcHOmUWk7eJ8XjsI/QBvOO49vMMzQZ8x9BrwuUpZMabBj4P1PBXf7WayERZotErFWH180gXF627huRYiSqfJw78pYdtZA==</SignatureValue><KeyInfo><wsse:SecurityTokenReference xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"><wsse:Reference URI=\"#x509-cbf6299758ff4750a40dc00ef9a33a4e\" ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\"/></wsse:SecurityTokenReference></KeyInfo></Signature></wsse:Security></soap:Header><soap:Body Id=\"_0\"><tns:consultaPEP><Request><DataHeader><nombreOperacion>consultaPEP</nombreOperacion><total>0</total><jornada>1</jornada><canal>48</canal><modoDeOperacion>0</modoDeOperacion><usuario>MBaaS</usuario><perfil>0</perfil><versionServicio>1.0.0</versionServicio><idTransaccion>1592431142</idTransaccion></DataHeader><Data><numTipoidentificacion>01</numTipoidentificacion><numIdentificacion>1013630832</numIdentificacion></Data></Request></tns:consultaPEP></soap:Body></soap:Envelope>"
+        },
+        "operation": {
+          "statusResponse": {
+            "httpError": 200,
+            "errorDescription": "",
+            "status": "OK"
+          },
+          "operationDate": "2020-06-17T16:59:02.290-05:00",
+          "type": "ESTADO_CLIENTE"
+        },
+        "documento": {
+          "tipo": "01",
+          "numero": "1013630832"
+        },
+        "consumer": {
+          "appConsumer": {
+            "terminalId": "1",
+            "sessionId": "b5566980-b0e5-11ea-8e0e-b1be40941859",
+            "id": "TMA-RP BUNDLE-1",
+            "canalId": "48"
+          },
+          "deviceConsumer": {
+            "sessionTimeout": "600000",
+            "inactiveInterval": "600000",
+            "locale": "CO",
+            "ip": "181.53.12.240",
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X)\n                       AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508",
+            "id": "device-11111122222"
+          }
+        }
+      }
+    },
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "mbaas-laboratorio"
+      }
+    },
+    "timestamp": "2020-06-17T21:59:03.505000114Z",
+    "logName": "projects/mbaas-laboratorio/logs/mbass-operaciones-CO",
+    "receiveTimestamp": "2020-06-17T21:59:03.687665211Z"
+  },
+  {
+    "insertId": ".........N2q7x4YyNx1sd7.Hsw.uE8E",
+    "jsonPayload": {
+      "dataObject": {
+        "messages": {
+          "requestService": "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"  xmlns:tns=\"http://www.davivienda.com/xml/ConsultaUbicaPlus\"><soap:Header><wsse:Security xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"\n               xmlns:wsu=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\"\n               soap:mustUnderstand=\"1\">\n \t<wsse:BinarySecurityToken   \n               EncodingType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary\" \n               ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\" \n               wsu:Id=\"x509-a52767dce0f54c2f80f041a7bd1f350a\">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</wsse:BinarySecurityToken>\n    <Timestamp xmlns=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" Id=\"_1\">\n    \t<Created>2020-06-17T20:25:49Z</Created>\n    \t<Expires>2020-06-17T20:35:49Z</Expires>\n    </Timestamp> \n<Signature xmlns=\"http://www.w3.org/2000/09/xmldsig#\"><SignedInfo><CanonicalizationMethod Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\" /><SignatureMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#rsa-sha1\" /><Reference URI=\"#_0\"><Transforms><Transform Algorithm=\"http://www.w3.org/2000/09/xmldsig#enveloped-signature\" /><Transform Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\" /></Transforms><DigestMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#sha1\" /><DigestValue>eTDfWkOWHXZqlbRqre+39esbsLE=</DigestValue></Reference><Reference URI=\"#_1\"><Transforms><Transform Algorithm=\"http://www.w3.org/2000/09/xmldsig#enveloped-signature\" /><Transform Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\" /></Transforms><DigestMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#sha1\" /><DigestValue>GqntGKbwOdCgmWinGuNMx+sb41g=</DigestValue></Reference></SignedInfo><SignatureValue>GVOz2yejmVP/5bwpJ6vtBj02xWOauX0LI5d2oHcfFq72nk2Lf9Ix75ZJ3VQGjkCQ8TGLGZr0PSIfbRVCU+ehb15ZSoMo7rtDfFZSifCS8SdVketOgBQq5fMLbU2rfeCFe6mA0DJNMfSkmLy5f5VEFyaJq/nKDmQYvw4nW0VGiAVve+lU0OopnlBbquXo0DrIPKfSdPwLAxrUrZH+9/FQq7xUo2LUHkhUExxP9jEO/hgF9YwePgWZmdSNFcg1L1l025PBrHniZHyBJlHrlIAwuKOxIiobj6kGFIpm2aSom3+/8UsFLRVTaYBnwiD68ctROAVljdybguvCkFfhmGbwrA==</SignatureValue><KeyInfo><wsse:SecurityTokenReference>\n    <wsse:Reference URI=\"#x509-a52767dce0f54c2f80f041a7bd1f350a\" ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\"/>\n</wsse:SecurityTokenReference>\n</KeyInfo></Signature></wsse:Security>\n</soap:Header><soap:Body Id=\"_0\"><tns:ConsultaUbicaPlus><Request><DataHeader><nombreOperacion>ConsultaUbicaPlus</nombreOperacion><total>0</total><jornada>1</jornada><canal>48</canal><modoDeOperacion>0</modoDeOperacion><usuario>MBaaS</usuario><perfil>0</perfil><versionServicio>1.0.0</versionServicio><idTransaccion>1592425549</idTransaccion></DataHeader><Data><codInformacion>5632</codInformacion><valMotivoConsulta>9</valMotivoConsulta><codTipoIdentificacion>1</codTipoIdentificacion><valNumeroIdentificacion>1010214939</valNumeroIdentificacion><valPrimerApellido></valPrimerApellido></Data></Request></tns:ConsultaUbicaPlus></soap:Body></soap:Envelope>",
+          "idService": "ConsultaUbicaPlusV1",
+          "responseService": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<soap:Envelope xmlns:tns=\"http://www.davivienda.com/xml/ConsultaUbicaPlus\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Body><con:ConsultaUbicaPlusResponse xmlns:con=\"http://www.davivienda.com/xml/ConsultaUbicaPlus\"><Response><DataHeader><nombreOperacion>ConsultaUbicaPlus</nombreOperacion><total>0</total><caracterAceptacion>M</caracterAceptacion><ultimoMensaje>0</ultimoMensaje><idTransaccion>1592425549</idTransaccion><codMsgRespuesta>13</codMsgRespuesta><msgRespuesta>Tercero no Existe</msgRespuesta></DataHeader></Response></con:ConsultaUbicaPlusResponse></soap:Body></soap:Envelope>"
+        },
+        "operation": {
+          "operationDate": "2020-06-17T15:25:49.646-05:00",
+          "statusResponse": {
+            "errorDescription": "",
+            "httpError": 200,
+            "status": "OK"
+          },
+          "type": "VIDA_CREDITICIA"
+        },
+        "consumer": {
+          "appConsumer": {
+            "terminalId": "1",
+            "id": "TMA-RP BUNDLE-1",
+            "sessionId": "9c634f40-b0d8-11ea-8e0e-b1be40941859",
+            "canalId": "48"
+          },
+          "deviceConsumer": {
+            "locale": "CO",
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X)\n                       AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508",
+            "inactiveInterval": "600000",
+            "id": "device-11111122222",
+            "sessionTimeout": "600000",
+            "ip": "181.53.12.240"
+          }
+        },
+        "documento": {
+          "tipo": "01",
+          "numero": "1010214939"
+        }
+      },
+      "msm": "AUDITORIA: Operaciones"
+    },
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "mbaas-laboratorio"
+      }
+    },
+    "timestamp": "2020-06-17T20:25:50.471999883Z",
+    "logName": "projects/mbaas-laboratorio/logs/mbass-operaciones-CO",
+    "receiveTimestamp": "2020-06-17T20:25:50.737364804Z"
+  },
+  {
+    "insertId": ".........Mzq7x4YyNx1sd7.Hsw.uE8E",
+    "jsonPayload": {
+      "dataObject": {
+        "consumer": {
+          "deviceConsumer": {
+            "sessionTimeout": "600000",
+            "inactiveInterval": "600000",
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X)\n                       AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508",
+            "id": "device-11111122222",
+            "locale": "CO",
+            "ip": "181.53.12.240"
+          },
+          "appConsumer": {
+            "canalId": "48",
+            "sessionId": "9c634f40-b0d8-11ea-8e0e-b1be40941859",
+            "terminalId": "1",
+            "id": "TMA-RP BUNDLE-1"
+          }
+        },
+        "messages": {
+          "responseService": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<soap:Envelope xmlns:tns=\"http://www.davivienda.com/xml/ConsultaPEP\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Body><NS2:consultaPEPResponse xmlns:NS2=\"http://www.davivienda.com/xml/ConsultaPEP\"><Response><DataHeader><nombreOperacion>consultaPEP</nombreOperacion><total>0000</total><caracterAceptacion>B</caracterAceptacion><ultimoMensaje>1</ultimoMensaje><codMsgRespuesta>0000</codMsgRespuesta></DataHeader><Data><numIndicadorClientePEP>0</numIndicadorClientePEP></Data></Response></NS2:consultaPEPResponse></soap:Body></soap:Envelope>",
+          "idService": "ConsultaPEPV1",
+          "requestService": "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"  xmlns:tns=\"http://www.davivienda.com/xml/ConsultaPEP\"><soap:Header><wsse:Security xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\" xmlns:wsu=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" soap:mustUnderstand=\"1\"><wsse:BinarySecurityToken EncodingType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary\" ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\" wsu:Id=\"x509-cbf6299758ff4750a40dc00ef9a33a4e\">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</wsse:BinarySecurityToken><Timestamp xmlns=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" Id=\"_1\"><Created>2020-06-17T20:25:48Z</Created><Expires>2020-06-17T20:35:48Z</Expires></Timestamp><Signature xmlns=\"http://www.w3.org/2000/09/xmldsig#\"><SignedInfo><CanonicalizationMethod Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\"/><SignatureMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#rsa-sha1\"/></SignedInfo><SignatureValue>ngm0/PJJPrkLefm1Bnqn3aur0v6EIQmIH5xRcYZfsinb/8RwcfzheUnl/5LMC0Rp2EeSe2AL/K5j1t1L5zSInQdb6w+HrBe3EPwF8HCxSKe8TfXDH7F7T/dkLgTFtw04vlpSbKy+ENVqmJQqiwbO8xylveQr1/BHpdf0DCzWRIMluO1KvCTwx+sYzGfupI8npyRn5os2aqrijHep4YGzScp50/vuQdTwng0q6BXChp+7dMMh+VRS0kP1WdcHOmUWk7eJ8XjsI/QBvOO49vMMzQZ8x9BrwuUpZMabBj4P1PBXf7WayERZotErFWH180gXF627huRYiSqfJw78pYdtZA==</SignatureValue><KeyInfo><wsse:SecurityTokenReference xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"><wsse:Reference URI=\"#x509-cbf6299758ff4750a40dc00ef9a33a4e\" ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\"/></wsse:SecurityTokenReference></KeyInfo></Signature></wsse:Security></soap:Header><soap:Body Id=\"_0\"><tns:consultaPEP><Request><DataHeader><nombreOperacion>consultaPEP</nombreOperacion><total>0</total><jornada>1</jornada><canal>48</canal><modoDeOperacion>0</modoDeOperacion><usuario>MBaaS</usuario><perfil>0</perfil><versionServicio>1.0.0</versionServicio><idTransaccion>1592425548</idTransaccion></DataHeader><Data><numTipoidentificacion>01</numTipoidentificacion><numIdentificacion>1010214939</numIdentificacion></Data></Request></tns:consultaPEP></soap:Body></soap:Envelope>"
+        },
+        "operation": {
+          "type": "ESTADO_CLIENTE",
+          "statusResponse": {
+            "httpError": 200,
+            "errorDescription": "",
+            "status": "OK"
+          },
+          "operationDate": "2020-06-17T15:25:48.675-05:00"
+        },
+        "documento": {
+          "tipo": "01",
+          "numero": "1010214939"
+        }
+      },
+      "msm": "AUDITORIA: Operaciones"
+    },
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "mbaas-laboratorio"
+      }
+    },
+    "timestamp": "2020-06-17T20:25:49.459000110Z",
+    "logName": "projects/mbaas-laboratorio/logs/mbass-operaciones-CO",
+    "receiveTimestamp": "2020-06-17T20:25:49.556632723Z"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "insertId": "..........Mt_CwHvCO04f69A5_eorer",
+    "jsonPayload": {
+      "dataObject": {
+        "consumer": {
+          "appConsumer": {
+            "terminalId": "1",
+            "canalId": "37",
+            "sessionId": "5d47dcd0-a77e-11ea-9126-ef7014bb4938",
+            "id": "APPTRN_MOVIL_SV"
+          },
+          "deviceConsumer": {
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X)\n                       AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508",
+            "locale": "CO",
+            "sessionTimeout": "600000",
+            "ip": "186.28.115.112",
+            "id": "device-11111122222",
+            "inactiveInterval": "600000"
+          }
+        },
+        "operation": {
+          "operationDate": "2020-06-05T17:46:44.442-05:00",
+          "type": "GRABAR_INFO_SOLICITUD",
+          "statusResponse": {
+            "status": "OK",
+            "httpError": 200
+          }
+        },
+        "messages": {
+          "responseService": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<S:Envelope xmlns:S=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:env=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:u=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" xmlns:o=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"><S:Body><grab:GrabacionInformacionSolicitudesResponse xmlns:grab=\"http://www.davivienda.com/xml/GrabacionInformacionSolicitudes\"><Response><DataHeader><nombreOperacion>GrabacionInformacionSolicitudes</nombreOperacion><total>370000</total><caracterAceptacion>B</caracterAceptacion><ultimoMensaje>1</ultimoMensaje><idTransaccion>1591397204</idTransaccion><codMsgRespuesta>0000</codMsgRespuesta></DataHeader><Data><nroSolicitud>000000000000035893</nroSolicitud></Data></Response></grab:GrabacionInformacionSolicitudesResponse></S:Body></S:Envelope>",
+          "requestService": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n    <S:Envelope xmlns:S=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:env=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:u=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" xmlns:o=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\">\n    <env:Header><o:Security xmlns:o=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"><u:Timestamp xmlns:u=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" xmlns:wsu=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" wsu:Id=\"_2427\"><u:Created>2020-06-05T22:46:44Z</u:Created><u:Expires>2020-06-05T22:51:44Z</u:Expires></u:Timestamp><o:BinarySecurityToken ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\" EncodingType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary\" u:Id=\"sec_1213\">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</o:BinarySecurityToken><Signature xmlns=\"http://www.w3.org/2000/09/xmldsig#\"><SignedInfo><CanonicalizationMethod Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\"/><SignatureMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#rsa-sha1\"/><Reference URI=\"#_2426\"><Transforms><Transform Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\"/></Transforms><DigestMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#sha1\"/><DigestValue>rpSXuGSZCxK6MBD1uxP5gg1zOz4=</DigestValue></Reference><Reference URI=\"#_2427\"><Transforms><Transform Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\"/></Transforms><DigestMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#sha1\"/><DigestValue>wLqSmzYa/vr+5E4QM/mQGIoMoB4=</DigestValue></Reference></SignedInfo><SignatureValue>yS3Yw9GS08lk6w7FUb1oNy9UlxR5CQIg1tXodCgTV0XqFDAWXcoMv1yO3HTsnTmZcLx9Ha5qUFNJLKV9IwAfeNOIfH0y3/3f0JA3xwCuiCTemElxJfZn8h85c00p5/Nun/bmIEeoOPoKuNRZQzEFiEK4aMEH5kCZuqLkHHg5JRkG1w+z966E4tMm9fFTj1cLtm/JffgR2VAH8NQfMlSaAyY+yn0dePcRKKAHAeCNmiwM742BhvTLs12g4TrapEX4oVUVKp1mdDfBTuboeh6y+s/TzTCcGB/pTqHfXJtCvy1AzwirONZ947YN83zYXZXaysEuZxOUR94HHllSLZ2fkg==</SignatureValue><KeyInfo><o:SecurityTokenReference xmlns:o=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"><o:Reference URI=\"#sec_1213\" ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\"/></o:SecurityTokenReference></KeyInfo></Signature></o:Security></env:Header>\n    <S:Body xmlns:wsu=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" wsu:Id=\"_2426\">\n    \n      <ns0:GrabacionInformacionSolicitudes xmlns:ns0=\"http://www.davivienda.com/xml/GrabacionInformacionSolicitudes\">\n      <Request>\n         <DataHeader>\n              <nombreOperacion>GrabacionInformacionSolicitudes</nombreOperacion>\n              <total>370000</total>\n              <jornada>0</jornada>\n              <canal>37</canal>\n              <modoDeOperacion>0</modoDeOperacion>\n              <usuario>Mbaas</usuario>\n              <perfil>0</perfil>\n              <versionServicio>1.0.0</versionServicio>\n              <idTransaccion>1591397204</idTransaccion>\n          </DataHeader>\n          <Data>\n          <aplicacionOrigen>37</aplicacionOrigen>\n              <ipOrigen>186.28.115.112</ipOrigen>\n              <tipoIdentificacion>01</tipoIdentificacion>\n              <nroIdentificacion>19207329</nroIdentificacion>\n              <nombres>ROBERTO</nombres>\n              <primerApellido>LIZARAZO</primerApellido>\n              <segundoApellido>MEJIA</segundoApellido>\n              <nroSolicitud>35893</nroSolicitud>\n              <nroProceso>1</nroProceso>\n              <fechaProceso>20200605</fechaProceso>\n              <horaProceso>104644</horaProceso>\n              \n              <codigoProductoRprSolicitado>120</codigoProductoRprSolicitado>\n              <codigoSubproductoRprSolicitado>3510</codigoSubproductoRprSolicitado>\n              \n              \n              \n              \n              \n              \n              \n              \n              \n              \n              \n              \n              <ingresoFinal>111111111111</ingresoFinal>\n              <motivoRechazoIngreso>0</motivoRechazoIngreso>\n              <oficinaCliente>0005</oficinaCliente>\n              <celular>3001231234</celular>\n              <ip>186.28.115.112</ip>\n              \n              \n              \n              \n              \n              \n              <departamentoResidencia>11</departamentoResidencia>\n              \n              \n\n            </Data>\n          </Request>\n       </ns0:GrabacionInformacionSolicitudes>\n      </S:Body>\n    </S:Envelope>",
+          "idService": "GrabacionInformacionSolicitudes"
+        },
+        "documento": {
+          "numero": "19207329",
+          "tipo": "01"
+        }
+      },
+      "msm": "AUDITORIA: Operaciones"
+    },
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "mbaas-laboratorio"
+      }
+    },
+    "timestamp": "2020-06-05T22:46:45.559999942Z",
+    "logName": "projects/mbaas-laboratorio/logs/mbass-operaciones-CO",
+    "receiveTimestamp": "2020-06-05T22:46:45.799713367Z"
+  }
+]

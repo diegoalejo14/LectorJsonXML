@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema version="1.0" targetNamespace="http://consultaperfilcliente.service.procesadortransacciones.davivienda.com/" xmlns:tns="http://consultaperfilcliente.service.procesadortransacciones.davivienda.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ServicioException" type="tns:ServicioException"/>
+  <xs:element name="consultarPerfilCliente" type="tns:consultarPerfilCliente"/>
+  <xs:element name="consultarPerfilClienteResponse" type="tns:consultarPerfilClienteResponse"/>
+  <xs:complexType name="consultarPerfilCliente">
+    <xs:sequence>
+      <xs:element name="dto" type="tns:consultaPerfilClienteDto" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="consultaPerfilClienteDto">
+    <xs:complexContent>
+      <xs:extension base="tns:parametrosDeTransaccionBaseDTO">
+        <xs:sequence>
+          <xs:element name="cuenta" type="xs:long" minOccurs="0"/>
+          <xs:element name="indicadorOrigen" type="xs:short" minOccurs="0"/>
+          <xs:element name="numeroIdentificacion" type="xs:long" minOccurs="0"/>
+          <xs:element name="tipoIdentificacion" type="xs:short" minOccurs="0"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="parametrosDeTransaccionBaseDTO">
+    <xs:sequence>
+      <xs:element name="canal" type="xs:short" minOccurs="0"/>
+      <xs:element name="host" type="xs:int" minOccurs="0"/>
+      <xs:element name="idTarea" type="xs:string" minOccurs="0"/>
+      <xs:element name="identificadorOperacion" type="xs:string" minOccurs="0"/>
+      <xs:element name="identificadorSesion" type="xs:string" minOccurs="0"/>
+      <xs:element name="jornada" type="xs:short" minOccurs="0"/>
+      <xs:element name="llaveRepetitivaConsulta" type="tns:campoExtendidoDto" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="modoDeOperacion" type="xs:short" minOccurs="0"/>
+      <xs:element name="origenLog" type="xs:string" minOccurs="0"/>
+      <xs:element name="parametrosSeguridad" type="tns:parametrosSeguridadDTO" minOccurs="0"/>
+      <xs:element name="perfil" type="xs:short" minOccurs="0"/>
+      <xs:element name="segundaClave" type="xs:string" minOccurs="0"/>
+      <xs:element name="total" type="xs:int" minOccurs="0"/>
+      <xs:element name="usuario" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="campoExtendidoDto">
+    <xs:complexContent>
+      <xs:extension base="tns:campoDto">
+        <xs:sequence>
+          <xs:element name="JMascara" type="xs:string" minOccurs="0"/>
+          <xs:element name="PMascara" type="xs:string" minOccurs="0"/>
+          <xs:element name="valor" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="campoDto">
+    <xs:sequence>
+      <xs:element name="caracterRelleno" type="xs:string" minOccurs="0"/>
+      <xs:element name="esAuditable" type="xs:boolean" minOccurs="0"/>
+      <xs:element name="esEncabezado" type="xs:boolean" minOccurs="0"/>
+      <xs:element name="esLlaveDeRepetitivo" type="xs:boolean" minOccurs="0"/>
+      <xs:element name="esParametro" type="xs:boolean" minOccurs="0"/>
+      <xs:element name="esRepetitivo" type="xs:boolean" minOccurs="0"/>
+      <xs:element name="idCampo" type="xs:long" minOccurs="0"/>
+      <xs:element name="idCampoLlaveRepetitiva" type="xs:long" minOccurs="0"/>
+      <xs:element name="idFormato" type="xs:long" minOccurs="0"/>
+      <xs:element name="iniciaEnCeros" type="xs:boolean" minOccurs="0"/>
+      <xs:element name="justificacion" type="xs:short" minOccurs="0"/>
+      <xs:element name="longitud" type="xs:int" minOccurs="0"/>
+      <xs:element name="nombre" type="xs:string" minOccurs="0"/>
+      <xs:element name="nombreAtributoDto" type="xs:string" minOccurs="0"/>
+      <xs:element name="posicionInicial" type="xs:int" minOccurs="0"/>
+      <xs:element name="tipoDato" type="xs:string" minOccurs="0"/>
+      <xs:element name="valorActual" type="xs:string" minOccurs="0"/>
+      <xs:element name="valorPorDefecto" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="parametrosSeguridadDTO">
+    <xs:sequence>
+      <xs:element name="debeRevalidarToken" type="xs:boolean"/>
+      <xs:element name="debeValidarSegundaClave" type="xs:boolean"/>
+      <xs:element name="idSesionToken" type="xs:string" minOccurs="0"/>
+      <xs:element name="usaToken" type="xs:boolean"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="consultarPerfilClienteResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:respuestaConsultaPerfilClienteDto" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="respuestaConsultaPerfilClienteDto">
+    <xs:complexContent>
+      <xs:extension base="tns:respuestaDeTransaccionBaseDTO">
+        <xs:sequence>
+          <xs:element name="ciudadCorrespondencia" type="xs:string" minOccurs="0"/>
+          <xs:element name="color" type="xs:short" minOccurs="0"/>
+          <xs:element name="diasActualizaSipla" type="xs:short" minOccurs="0"/>
+          <xs:element name="estadoCanalBancamovil" type="xs:short" minOccurs="0"/>
+          <xs:element name="estadoCanalInternet" type="xs:short" minOccurs="0"/>
+          <xs:element name="estadoCanalTelefonico" type="xs:short" minOccurs="0"/>
+          <xs:element name="estadoClaveBancamovil" type="xs:short" minOccurs="0"/>
+          <xs:element name="estadoClaveInternet" type="xs:short" minOccurs="0"/>
+          <xs:element name="estadoClaveTelefonica" type="xs:short" minOccurs="0"/>
+          <xs:element name="estadoOtp" type="xs:short" minOccurs="0"/>
+          <xs:element name="estadoToken" type="xs:short" minOccurs="0"/>
+          <xs:element name="impuestosPendientes" type="xs:short" minOccurs="0"/>
+          <xs:element name="indicadorClaveMonoproductoTC" type="xs:short" minOccurs="0"/>
+          <xs:element name="indicadorClienteMonoproducto" type="xs:short" minOccurs="0"/>
+          <xs:element name="indicadorCuentasInscritasRechazadas" type="xs:short" minOccurs="0"/>
+          <xs:element name="indicadorExtracto" type="xs:string" minOccurs="0"/>
+          <xs:element name="indicadorGrupo" type="xs:short" minOccurs="0"/>
+          <xs:element name="indicadorMigracion" type="xs:short" minOccurs="0"/>
+          <xs:element name="indicadorPagos" type="xs:short" minOccurs="0"/>
+          <xs:element name="indicadorSipla" type="xs:short" minOccurs="0"/>
+          <xs:element name="indicadorTarjetaChip" type="xs:short" minOccurs="0"/>
+          <xs:element name="indicadorTransferencias" type="xs:short" minOccurs="0"/>
+          <xs:element name="nombreCliente" type="xs:string" minOccurs="0"/>
+          <xs:element name="numeroIdentificacion" type="xs:long" minOccurs="0"/>
+          <xs:element name="primerApellido" type="xs:string" minOccurs="0"/>
+          <xs:element name="segmento" type="xs:short" minOccurs="0"/>
+          <xs:element name="segundoApellido" type="xs:string" minOccurs="0"/>
+          <xs:element name="sexo" type="xs:string" minOccurs="0"/>
+          <xs:element name="tipoClaveInternet" type="xs:short" minOccurs="0"/>
+          <xs:element name="tipoIdentificacion" type="xs:short" minOccurs="0"/>
+          <xs:element name="valorCobroUsoCanalInternet" type="xs:decimal" minOccurs="0"/>
+          <xs:element name="valorCobroUsoCanalTelefonoRojo" type="xs:decimal" minOccurs="0"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="respuestaDeTransaccionBaseDTO">
+    <xs:sequence>
+      <xs:element name="caracterAcepta" type="xs:string" minOccurs="0"/>
+      <xs:element name="codMRespuesta" type="xs:short" minOccurs="0"/>
+      <xs:element name="consecutivo" type="xs:int" minOccurs="0"/>
+      <xs:element name="llaveRepetitivoSiguienteTrama" type="tns:campoExtendidoDto" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="MRespuesta" type="xs:string" minOccurs="0"/>
+      <xs:element name="numeroLineas" type="xs:short" minOccurs="0"/>
+      <xs:element name="respuestaOriginal" type="xs:string" minOccurs="0"/>
+      <xs:element name="tieneMasRegistros" type="xs:boolean" minOccurs="0"/>
+      <xs:element name="total" type="xs:int" minOccurs="0"/>
+      <xs:element name="ultimoMensaje" type="xs:short" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ServicioException">
+    <xs:sequence>
+      <xs:element name="codMRespuesta" type="xs:short" minOccurs="0"/>
+      <xs:element name="mensaje" type="xs:string" minOccurs="0"/>
+      <xs:element name="message" type="xs:string" minOccurs="0"/>
+      <xs:element name="total" type="xs:int" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

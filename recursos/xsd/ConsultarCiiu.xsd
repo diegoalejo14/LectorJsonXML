@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://www.davivienda.com/xml/ConsultarCiiu" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.davivienda.com/xml/ConsultarCiiu">
+  <xsd:annotation>
+    <xsd:appinfo>IBM Integration Bus -</xsd:appinfo>
+    <xsd:documentation>Objeto Request para la operacion ConsultarCiiu</xsd:documentation>
+  </xsd:annotation>
+  <xsd:complexType name="DataHeaderReqType">
+    <xsd:sequence maxOccurs="1" minOccurs="1">
+      <xsd:element default="consultarCiiu" minOccurs="1" name="nombreOperacion" type="xsd:string"/>
+      <xsd:element minOccurs="1" name="total" type="xsd:int"/>
+      <xsd:element minOccurs="1" name="jornada" type="xsd:short"/>
+      <xsd:element minOccurs="1" name="canal" type="xsd:short"/>
+      <xsd:element minOccurs="1" name="modoDeOperacion" type="xsd:short"/>
+      <xsd:element minOccurs="1" name="usuario" type="xsd:string"/>
+      <xsd:element minOccurs="1" name="perfil" type="xsd:short"/>
+      <xsd:element default="1.0.0" minOccurs="1" name="versionServicio" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="idTransaccion" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="ConsultarCiiuRq">
+    <xsd:sequence>
+      <xsd:element name="Request" type="tns:ConsultarCiiuRqType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="ConsultarCiiuRqType">
+    <xsd:sequence>
+      <xsd:element name="DataHeader" type="tns:DataHeaderReqType"/>
+      <xsd:element name="Data" type="tns:DataReqType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DataReqType">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="idSesion" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="codIdioma" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="valOrigen" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="codPais" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="valVersionApp" type="xsd:string"/>
+      <xsd:element minOccurs="1" name="indConsulta" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="codCiiu" type="xsd:long"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:element name="consultarCiiu" type="tns:ConsultarCiiuRq"/>
+  <!--END Request ConsultarCiiu-->
+  <xsd:annotation>
+    <xsd:appinfo>IBM Integration Bus - Stratus</xsd:appinfo>
+    <xsd:documentation>Objeto Response para la operacion ConsultarCiiu</xsd:documentation>
+  </xsd:annotation>
+  <xsd:complexType name="DataHeaderRespType">
+    <xsd:sequence maxOccurs="1" minOccurs="1">
+      <xsd:element name="nombreOperacion" type="xsd:string"/>
+      <xsd:element name="total" type="xsd:int"/>
+      <xsd:element name="caracterAceptacion" type="xsd:string"/>
+      <xsd:element name="ultimoMensaje" type="xsd:short"/>
+      <xsd:element name="idTransaccion" type="xsd:string"/>
+      <xsd:element name="codMsgRespuesta" type="xsd:short"/>
+      <xsd:element minOccurs="0" name="msgRespuesta" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="ConsultarCiiuResp">
+    <xsd:sequence>
+      <xsd:element name="Response" type="tns:ConsultarCiiuRespType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="ConsultarCiiuRespType">
+    <xsd:sequence>
+      <xsd:element name="DataHeader" type="tns:DataHeaderRespType"/>
+      <xsd:element name="Data" type="tns:DataRespType" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DataRespType">
+    <xsd:sequence>
+      <xsd:element name="informacionCiiu" type="tns:informacionCiiuType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="informacionCiiuType">
+    <xsd:sequence>
+      <xsd:element name="ciiu" type="tns:ciiuType" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="ciiuType">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="codigoCiiu" type="xsd:long"/>
+      <xsd:element minOccurs="0" name="descripcionCiiu" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="indAltoRiesgo" type="xsd:string"/>
+      <xsd:element minOccurs="0" name="indNoVinculable" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:element name="consultarCiiuResponse" type="tns:ConsultarCiiuResp"/>
+  <!--END Response ConsultarCiiu-->
+</xsd:schema>

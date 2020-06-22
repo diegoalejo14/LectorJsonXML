@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://www.davivienda.com/xml/ConsultaUbicaPlus" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:con="http://www.davivienda.com/xml/ConsultaUbicaPlus">
+  <!--Request-->
+  <xsd:element name="ConsultaUbicaPlus" type="con:ConsultaUbicaPlusType"/>
+  <xsd:complexType name="ConsultaUbicaPlusType">
+    <xsd:sequence>
+      <xsd:element name="Request" type="con:RequestConsultaUbicaPlusType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="RequestConsultaUbicaPlusType">
+    <xsd:sequence>
+      <xsd:element name="DataHeader" type="con:DataHeaderReqType"/>
+      <xsd:element name="Data" type="con:DataReqType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DataHeaderReqType">
+    <xsd:sequence maxOccurs="1" minOccurs="1">
+      <xsd:element default="ConsultaUbicaPlus" name="nombreOperacion" type="xsd:string"/>
+      <xsd:element name="total" type="xsd:int"/>
+      <xsd:element name="jornada" type="xsd:short"/>
+      <xsd:element name="canal" type="xsd:short"/>
+      <xsd:element name="modoDeOperacion" type="xsd:short"/>
+      <xsd:element name="usuario" type="xsd:string"/>
+      <xsd:element name="perfil" type="xsd:short"/>
+      <xsd:element default="1.0.0" name="versionServicio" type="xsd:string"/>
+      <xsd:element name="idTransaccion" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DataReqType">
+    <xsd:sequence>
+      <xsd:element name="codInformacion" type="xsd:string"/>
+      <xsd:element name="valMotivoConsulta" type="xsd:string"/>
+      <xsd:element name="codTipoIdentificacion" type="xsd:string"/>
+      <xsd:element name="valNumeroIdentificacion" type="xsd:string"/>
+      <xsd:element name="valPrimerApellido" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <!--Response-->
+  <xsd:element name="ConsultaUbicaPlusResponse" type="con:ConsultaUbicaPlusResponseType"/>
+  <xsd:complexType name="ConsultaUbicaPlusResponseType">
+    <xsd:sequence>
+      <xsd:element name="Response" type="con:ResponseConsultaUbicaPlusType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="ResponseConsultaUbicaPlusType">
+    <xsd:sequence>
+      <xsd:element name="DataHeader" type="con:DataHeaderRespType"/>
+      <xsd:element name="Data" type="con:DataRespType" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DataHeaderRespType">
+    <xsd:sequence maxOccurs="1" minOccurs="1">
+      <xsd:element default="ConsultaUbicaPlus" name="nombreOperacion" type="xsd:string"/>
+      <xsd:element name="total" type="xsd:int"/>
+      <xsd:element name="caracterAceptacion" type="xsd:string"/>
+      <xsd:element name="ultimoMensaje" type="xsd:short"/>
+      <xsd:element name="idTransaccion" type="xsd:string"/>
+      <xsd:element name="codMsgRespuesta" type="xsd:short"/>
+      <xsd:element minOccurs="0" name="msgRespuesta" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DataRespType">
+    <xsd:sequence>
+      <xsd:element name="valIdentificadorLinea" type="xsd:string"/>
+      <xsd:element name="valEstadoTitular" type="xsd:string"/>
+      <xsd:element name="valRangoEdad" type="xsd:string"/>
+      <xsd:element name="codDepartamento" type="xsd:string"/>
+      <xsd:element name="codMunicipio" type="xsd:string"/>
+      <xsd:element name="InfoDocumentoIdentificacion" type="con:InfoDocumentoRespType"/>
+      <xsd:element name="InfoCiiu" type="con:InfoCiiuRespType"/>
+      <xsd:element name="InfoConsulta" type="con:InfoConsultaRespType"/>
+      <xsd:element name="UbicaPlusCifin" type="con:UbicaPlusRespType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="InfoDocumentoRespType">
+    <xsd:sequence>
+      <xsd:element name="codConvencionTipo" type="xsd:string"/>
+      <xsd:element name="codTipo" type="xsd:string"/>
+      <xsd:element name="valNumero" type="xsd:string"/>
+      <xsd:element name="valLugarExpedicion" type="xsd:string"/>
+      <xsd:element name="fecExpedicion" type="xsd:string"/>
+      <xsd:element name="valEstado" type="xsd:string"/>
+      <xsd:element name="valPrimerNombre" type="xsd:string"/>
+      <xsd:element name="valSegundoNombre" type="xsd:string"/>
+      <xsd:element name="valPrimerApellido" type="xsd:string"/>
+      <xsd:element name="valSegundoApellido" type="xsd:string"/>
+      <xsd:element name="valNombreCompleto" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="InfoCiiuRespType">
+    <xsd:sequence>
+      <xsd:element name="codCiiu" type="xsd:string"/>
+      <xsd:element name="valNombreCiiu" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="InfoConsultaRespType">
+    <xsd:sequence>
+      <xsd:element name="valNumeroInforme" type="xsd:string"/>
+      <xsd:element name="valFechaHora" type="xsd:string"/>
+      <xsd:element name="valEntidad" type="xsd:string"/>
+      <xsd:element name="valRespuesta" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="UbicaPlusRespType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="1" minOccurs="0" name="Direcciones" type="con:InfoDireccionesRespType"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="Telefonos" type="con:InfoTelefonosRespType"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="Celulares" type="con:InfoCelularesRespType"/>
+      <xsd:element maxOccurs="1" minOccurs="0" name="CorreosElectronicos" type="con:InfoEmailsRespType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="InfoDireccionesRespType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="unbounded" minOccurs="1" name="Direccion" type="con:InfoDireccionRespType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="InfoDireccionRespType">
+    <xsd:sequence>
+      <xsd:element name="id" type="xsd:string"/>
+      <xsd:element name="valNumeroReportes" type="xsd:string"/>
+      <xsd:element name="valProductoActivo" type="xsd:string"/>
+      <xsd:element name="valTipoUbicacion" type="xsd:string"/>
+      <xsd:element name="valSectorEconomico" type="xsd:string"/>
+      <xsd:element name="fecPrimerReporte" type="xsd:date"/>
+      <xsd:element name="fecUltimoReporte" type="xsd:date"/>
+      <xsd:element name="valDireccion" type="xsd:string"/>
+      <xsd:element name="valCiudad" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="InfoTelefonosRespType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="unbounded" minOccurs="1" name="Telefono" type="con:InfoTelefonoRespType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="InfoTelefonoRespType">
+    <xsd:sequence>
+      <xsd:element name="id" type="xsd:string"/>
+      <xsd:element name="valNumeroReportes" type="xsd:string"/>
+      <xsd:element name="valProductoActivo" type="xsd:string"/>
+      <xsd:element name="valTipoUbicacion" type="xsd:string"/>
+      <xsd:element name="valSectorEconomico" type="xsd:string"/>
+      <xsd:element name="fecPrimerReporte" type="xsd:date"/>
+      <xsd:element name="fecUltimoReporte" type="xsd:date"/>
+      <xsd:element name="valPrefijo" type="xsd:string"/>
+      <xsd:element name="valTelefono" type="xsd:string"/>
+      <xsd:element name="valCiudad" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="InfoCelularesRespType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="unbounded" minOccurs="1" name="Celular" type="con:InfoCelularRespType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="InfoCelularRespType">
+    <xsd:sequence>
+      <xsd:element name="id" type="xsd:string"/>
+      <xsd:element name="valNumeroReportes" type="xsd:string"/>
+      <xsd:element name="valProductoActivo" type="xsd:string"/>
+      <xsd:element name="valSectorEconomico" type="xsd:string"/>
+      <xsd:element name="fecPrimerReporte" type="xsd:date"/>
+      <xsd:element name="fecUltimoReporte" type="xsd:date"/>
+      <xsd:element name="valCelular" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="InfoEmailsRespType">
+    <xsd:sequence>
+      <xsd:element maxOccurs="unbounded" minOccurs="1" name="CorreoElectronico" type="con:InfoEmailRespType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="InfoEmailRespType">
+    <xsd:sequence>
+      <xsd:element name="valNumeroReportes" type="xsd:string"/>
+      <xsd:element name="fecPrimerReporte" type="xsd:date"/>
+      <xsd:element name="fecUltimoReporte" type="xsd:date"/>
+      <xsd:element name="valDireccionCorreo" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

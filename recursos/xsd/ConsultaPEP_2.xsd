@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://www.davivienda.com/xml/ConsultaPEP" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.davivienda.com/xml/ConsultaPEP">
+  <xsd:complexType name="DataHeaderReqType">
+    <xsd:sequence maxOccurs="1" minOccurs="1">
+      <xsd:element name="nombreOperacion" type="xsd:string" default="consultaPEP"/>
+      <!--Codigo de Transacción-->
+      <xsd:element name="total" type="xsd:int"/>
+      <xsd:element name="jornada" type="xsd:string"/>
+      <xsd:element name="canal" type="xsd:short"/>
+      <xsd:element name="modoDeOperacion" type="xsd:short"/>
+      <xsd:element name="usuario" type="xsd:string"/>
+      <xsd:element name="perfil" type="xsd:string"/>
+      <xsd:element name="versionServicio" type="xsd:string" default="1.0.0"/>
+      <xsd:element name="idTransaccion" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="consultaPEPRq">
+    <xsd:sequence>
+      <xsd:element name="Request" type="tns:consultaPEPRqType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="consultaPEPRqType">
+    <xsd:sequence>
+      <xsd:element name="DataHeader" type="tns:DataHeaderReqType"/>
+      <xsd:element name="Data" type="tns:DataReqType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DataReqType">
+    <xsd:sequence>
+      <xsd:element name="idSesion" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="codIdioma" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="valOrigen" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="codPais" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="numTipoidentificacion" type="xsd:short" minOccurs="1"/>
+      <xsd:element name="numIdentificacion" type="xsd:string" minOccurs="1"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:element name="consultaPEP" type="tns:consultaPEPRq"/>
+  <!--END Request consultaPEP-->
+  <xsd:complexType name="DataHeaderRespType">
+    <xsd:sequence maxOccurs="1" minOccurs="1">
+      <xsd:element name="nombreOperacion" type="xsd:string" default="consultaPEP"/>
+      <xsd:element name="total" type="xsd:int"/>
+      <xsd:element name="caracterAceptacion" type="xsd:string"/>
+      <xsd:element name="ultimoMensaje" type="xsd:short"/>
+      <xsd:element name="idTransaccion" type="xsd:string"/>
+      <!--Consecutivo-->
+      <xsd:element name="codMsgRespuesta" type="xsd:short"/>
+      <xsd:element name="msgRespuesta" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="consultaPEPResp">
+    <xsd:sequence>
+      <xsd:element name="Response" type="tns:consultaPEPRespType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="consultaPEPRespType">
+    <xsd:sequence>
+      <xsd:element name="DataHeader" type="tns:DataHeaderRespType"/>
+      <xsd:element name="Data" type="tns:DataRespType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="DataRespType">
+    <xsd:sequence>
+      <xsd:element name="numNumeroDeLineas" type="xsd:short" minOccurs="1"/>
+      <xsd:element name="numIndicadorClientePEP" type="xsd:short" minOccurs="1"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:element name="consultaPEPResponse" type="tns:consultaPEPResp"/>
+  <!--END Response consultaPEPResponse-->
+</xsd:schema>

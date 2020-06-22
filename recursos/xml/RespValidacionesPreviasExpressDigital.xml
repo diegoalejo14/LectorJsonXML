@@ -1,0 +1,34 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:val="http://www.davivienda.com/xml/ValidacionesPreviasExpressDigital">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <val:ValidacionesPreviasExpressDigitalResponse>
+         <Response>
+            <DataHeader>
+               <nombreOperacion>ValidacionesPreviasExpressDigital</nombreOperacion>
+               <total>?</total>
+               <caracterAceptacion>?</caracterAceptacion>
+               <ultimoMensaje>?</ultimoMensaje>
+               <idTransaccion>?</idTransaccion>
+               <codMsgRespuesta>?</codMsgRespuesta>
+               <!--Optional:-->
+               <msgRespuesta>?</msgRespuesta>
+            </DataHeader>
+            <!--Optional:-->
+            <Data>
+               <CamposFuturo>
+                  <!--Optional:-->
+                  <valCampoFuturo1>?</valCampoFuturo1>
+                  <!--Optional:-->
+                  <valCampoFuturo2>?</valCampoFuturo2>
+                  <!--Optional:-->
+                  <valCampoFuturoValor1>?</valCampoFuturoValor1>
+                  <!--Optional:-->
+                  <valCampoFuturoValor2>?</valCampoFuturoValor2>
+                  <!--Optional:-->
+                  <valCampoFuturoValor3>?</valCampoFuturoValor3>
+               </CamposFuturo>
+            </Data>
+         </Response>
+      </val:ValidacionesPreviasExpressDigitalResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

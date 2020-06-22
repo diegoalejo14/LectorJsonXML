@@ -1,0 +1,23 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://www.davivienda.com/xml/ConsultaPEP">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <con:consultaPEPResponse>
+         <Response>
+            <DataHeader>
+               <nombreOperacion>consultaPEP</nombreOperacion>
+               <total>?</total>
+               <caracterAceptacion>?</caracterAceptacion>
+               <ultimoMensaje>?</ultimoMensaje>
+               <idTransaccion>?</idTransaccion>
+               <codMsgRespuesta>?</codMsgRespuesta>
+               <!--Optional:-->
+               <msgRespuesta>?</msgRespuesta>
+            </DataHeader>
+            <Data>
+               <numNumeroDeLineas>?</numNumeroDeLineas>
+               <numIndicadorClientePEP>?</numIndicadorClientePEP>
+            </Data>
+         </Response>
+      </con:consultaPEPResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

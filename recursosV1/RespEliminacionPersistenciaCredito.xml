@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:elim="http://www.davivienda.com/xml/EliminacionPersistenciaCredito">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <elim:EliminacionPersistenciaCreditoResponse>
+         <Response>
+            <DataHeader>
+               <nombreOperacion>EliminacionPersistenciaCredito</nombreOperacion>
+               <total>?</total>
+               <caracterAceptacion>?</caracterAceptacion>
+               <ultimoMensaje>?</ultimoMensaje>
+               <idTransaccion>?</idTransaccion>
+               <codMsgRespuesta>?</codMsgRespuesta>
+               <!--Optional:-->
+               <msgRespuesta>?</msgRespuesta>
+            </DataHeader>
+         </Response>
+      </elim:EliminacionPersistenciaCreditoResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,93 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:prog="http://www.davivienda.com/xml/ProgramacionDebitoAutomatico">
+
+   <soapenv:Header/>
+
+   <soapenv:Body>
+
+      <prog:programarDebitoAutomatico>
+
+         <Request>
+
+            <DataHeader>
+
+               <nombreOperacion>programarDebitoAutomatico</nombreOperacion>
+
+               <total>123456</total>
+
+               <jornada>0</jornada>
+
+               <canal>canal_mbaas</canal>
+
+               <modoDeOperacion>0</modoDeOperacion>
+
+               <usuario>Mbaas</usuario>
+
+               <perfil>0</perfil>
+
+               <versionServicio>1.0.0</versionServicio>
+
+               <idTransaccion>idTransaccion_mbaas</idTransaccion>
+
+            </DataHeader>
+
+            <Data>
+
+               <!--Optional:-->
+
+               <valCodigoOperacion>A</valCodigoOperacion>
+
+               <valTipoProceso>DA</valTipoProceso>
+
+               <valTipoIdentificacion>tipoIdentificacion_mbaas</valTipoIdentificacion>
+
+               <numIdentificacion>numeroIdentificacion_mbaas</numIdentificacion>
+
+               <numCantidadRegistros>1</numCantidadRegistros>
+
+               <numCantidadRegistrosTarjetaCredito>1</numCantidadRegistrosTarjetaCredito>
+
+               <numCantidadRegistrosCreditoRotativo>0</numCantidadRegistrosCreditoRotativo>
+
+               <!--Optional:-->
+
+               <registros>
+
+                  <!--Zero or more repetitions:-->
+
+                  <registro>
+
+                     <numProducto>WSAsignarMedio_numeroTarjeta</numProducto>
+
+                     <valTipoProducto>0120</valTipoProducto>
+
+                     <valCodigoSubProducto>3510</valCodigoSubProducto>
+
+                     <valCodigoProductoDebitar>codigoproductoorigen_mbaas</valCodigoProductoDebitar>
+
+                     <numCodigoProductoDebitar>numerocuenta_mbaas</numCodigoProductoDebitar>
+
+                     <valTipoPago>1</valTipoPago>
+
+                     <valIndicadorProgramacion>tipoProductoRegistrar_mbaas</valIndicadorProgramacion>
+
+                     <valAliasDebitoAutomatico>alias_mbaas</valAliasDebitoAutomatico>
+
+                     <valCorreoElectronico>WSConsultarClienteUnClick_email</valCorreoElectronico>
+
+<numCodigoBanco>codigobancodebitointerbancario_mbaas</numCodigoBanco>
+
+<valNumeroCuentaInterbancaria>numerocuentadebitointerbancario_mbaas</valNumeroCuentaInterbancaria>
+
+                                    </registro>
+
+               </registros>
+
+            </Data>
+
+         </Request>
+
+      </prog:programarDebitoAutomatico>
+
+   </soapenv:Body>
+
+</soapenv:Envelope>

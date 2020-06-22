@@ -1,0 +1,52 @@
+[
+  {
+    "insertId": "..........9Ll2xkB4WAvuQOxG1llOfp",
+    "jsonPayload": {
+      "msm": "AUDITORIA: Operaciones",
+      "dataObject": {
+        "messages": {
+          "idService": "MantenimientoCambioPlazo",
+          "responseService": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:man=\"http://www.davivienda.com/xml/mantenimientoCambioPlazo\" xmlns:u=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" xmlns:o=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"><soapenv:Body><man:MantenimientoCambioPlazoResponse><Response><DataHeader><nombreOperacion>MantenimientoCambioPlazo</nombreOperacion><total>370001</total><caracterAceptacion>B</caracterAceptacion><ultimoMensaje>1</ultimoMensaje><idTransaccion>1591801609</idTransaccion><codMsgRespuesta>0</codMsgRespuesta><msgRespuesta>Registro creado</msgRespuesta></DataHeader><Data><codOperacion>C</codOperacion><valNumeroTarjeta>5471301443454963</valNumeroTarjeta></Data></Response></man:MantenimientoCambioPlazoResponse></soapenv:Body></soapenv:Envelope>",
+          "requestService": "\n      <soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:man=\"http://www.davivienda.com/xml/mantenimientoCambioPlazo\" xmlns:u=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" xmlns:o=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\">\n   <soapenv:Header><o:Security xmlns:o=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"><u:Timestamp xmlns:u=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" xmlns:wsu=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" wsu:Id=\"_1067\"><u:Created>2020-06-10T15:06:49Z</u:Created><u:Expires>2020-06-10T15:11:49Z</u:Expires></u:Timestamp><o:BinarySecurityToken ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\" EncodingType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary\" u:Id=\"sec_533\">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</o:BinarySecurityToken><Signature xmlns=\"http://www.w3.org/2000/09/xmldsig#\"><SignedInfo><CanonicalizationMethod Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\"/><SignatureMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#rsa-sha1\"/><Reference URI=\"#_1066\"><Transforms><Transform Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\"/></Transforms><DigestMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#sha1\"/><DigestValue>On01NStJBYKdWfzeGHGv9J9VSew=</DigestValue></Reference><Reference URI=\"#_1067\"><Transforms><Transform Algorithm=\"http://www.w3.org/2001/10/xml-exc-c14n#\"/></Transforms><DigestMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#sha1\"/><DigestValue>ul70DRveKXRUPjkoeaC+CVsf8bI=</DigestValue></Reference></SignedInfo><SignatureValue>hh2SXocuqe5YjDC2ARynSpjHpLuMR1JnTBtT0i/+j2lsnSX35YroZ79fYNKEvmeVkECh4uA5OUNbLfgYG12qFl7fWsXseOL9LjlFQjFCDll8HVlCOT+NEyMGXX0uhtqhS9NgrpnZ4Np3yDFClDVRH2GLJZuf7OUn92IszhS7IG9zAOTzAAMKTFy3eJ+Q4SMdehtQY6yu+EB1Q1aT0QKvIgpoFwlAxfXbt/ejDgO989P2uvBKzyHTtBy2AzrJZC5L1pWa5XBr8/Czhd98D1bpxsv+b7QiyK4A4KIeHUks3/I5mxSp8UgUUuxR238sVLtwMeAbQvc5t+XWOcb3+aLYcA==</SignatureValue><KeyInfo><o:SecurityTokenReference xmlns:o=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"><o:Reference URI=\"#sec_533\" ValueType=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3\"/></o:SecurityTokenReference></KeyInfo></Signature></o:Security></soapenv:Header>\n   <soapenv:Body xmlns:wsu=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd\" wsu:Id=\"_1066\">\n      <man:MantenimientoCambioPlazo>\n         <Request>\n                <DataHeader>\n                    <nombreOperacion>MantenimientoCambioPlazo</nombreOperacion>\n                    <total>370001</total>\n                    <jornada>0</jornada>\n                    <canal>37</canal>\n                    <modoDeOperacion>0</modoDeOperacion>\n                    <usuario>Mbaas</usuario>\n                    <perfil>0</perfil>\n                    <versionServicio>1.0.0</versionServicio>\n                    <idTransaccion>1591801609</idTransaccion>\n                </DataHeader>\n                <Data>\n                    <codOperacion>C</codOperacion>\n                    <valNumeroTarjeta>5471301443454963</valNumeroTarjeta>\n                    <codTipoTransaccion>2</codTipoTransaccion>\n                    <codOrigenMovimiento>03</codOrigenMovimiento>\n                    <valPlazoDiferido>3</valPlazoDiferido>\n                </Data>\n         </Request>\n      </man:MantenimientoCambioPlazo>\n   </soapenv:Body>\n</soapenv:Envelope>"
+        },
+        "consumer": {
+          "deviceConsumer": {
+            "sessionTimeout": "600000",
+            "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X)\n                       AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508",
+            "id": "device-11111122222",
+            "locale": "CO",
+            "ip": "186.28.115.112",
+            "inactiveInterval": "600000"
+          },
+          "appConsumer": {
+            "id": "APPTRN_MOVIL_SV",
+            "sessionId": "be749930-ab2a-11ea-91c7-33cc64a86b6a",
+            "terminalId": "1",
+            "canalId": "37"
+          }
+        },
+        "operation": {
+          "statusResponse": {
+            "status": "OK",
+            "httpError": 200
+          },
+          "operationDate": "2020-06-10T10:06:49.557-05:00",
+          "type": "MANTENIMIENTO_CAMBIO_PLAZO"
+        },
+        "documento": {
+          "numero": "19207329",
+          "tipo": "01"
+        }
+      }
+    },
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "mbaas-laboratorio"
+      }
+    },
+    "timestamp": "2020-06-10T15:06:51.217000007Z",
+    "logName": "projects/mbaas-laboratorio/logs/mbass-operaciones-CO",
+    "receiveTimestamp": "2020-06-10T15:06:51.429637225Z"
+  }
+]

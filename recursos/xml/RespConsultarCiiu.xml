@@ -1,0 +1,35 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:con="http://www.davivienda.com/xml/ConsultarCiiu">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <con:consultarCiiuResponse>
+         <Response>
+            <DataHeader>
+               <nombreOperacion>?</nombreOperacion>
+               <total>?</total>
+               <caracterAceptacion>?</caracterAceptacion>
+               <ultimoMensaje>?</ultimoMensaje>
+               <idTransaccion>?</idTransaccion>
+               <codMsgRespuesta>?</codMsgRespuesta>
+               <!--Optional:-->
+               <msgRespuesta>?</msgRespuesta>
+            </DataHeader>
+            <!--Optional:-->
+            <Data>
+               <informacionCiiu>
+                  <!--1 or more repetitions:-->
+                  <ciiu>
+                     <!--Optional:-->
+                     <codigoCiiu>?</codigoCiiu>
+                     <!--Optional:-->
+                     <descripcionCiiu>?</descripcionCiiu>
+                     <!--Optional:-->
+                     <indAltoRiesgo>?</indAltoRiesgo>
+                     <!--Optional:-->
+                     <indNoVinculable>?</indNoVinculable>
+                  </ciiu>
+               </informacionCiiu>
+            </Data>
+         </Response>
+      </con:consultarCiiuResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

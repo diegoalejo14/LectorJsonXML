@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<xsd:schema targetNamespace="http://www.davivienda.com/xml/AsignarMedioProcesoExpress" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.davivienda.com/xml/AsignarMedioProcesoExpress">   
+	<xsd:element name="AsignarMedioProcesoExpress" type="tns:AsignarMedioProcesoExpressType"/>
+	<xsd:element name="AsignarMedioProcesoExpressResponse" type="tns:AsignarMedioProcesoExpressResponseType"/>
+	<xsd:complexType name="DataHeaderReqType">
+		<xsd:sequence maxOccurs="1" minOccurs="1">
+			<xsd:element default="AsignarMedioProcesoExpress" name="nombreOperacion" type="xsd:string"/>
+			<xsd:element name="total" type="xsd:int"/>
+			<xsd:element name="jornada" type="xsd:short"/>
+			<xsd:element name="canal" type="xsd:short"/>
+			<xsd:element name="modoDeOperacion" type="xsd:short"/>
+			<xsd:element name="usuario" type="xsd:string"/>
+			<xsd:element name="perfil" type="xsd:short"/>
+			<xsd:element default="1.0.0" name="versionServicio" type="xsd:string"/>
+			<xsd:element minOccurs="1" name="idTransaccion" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="DataHeaderRespType">
+		<xsd:sequence maxOccurs="1" minOccurs="1">
+			<xsd:element default="AsignarMedioProcesoExpress" name="nombreOperacion" type="xsd:string"/>
+			<xsd:element name="total" type="xsd:int"/>
+			<xsd:element name="caracterAceptacion" type="xsd:string"/>
+			<xsd:element name="ultimoMensaje" type="xsd:short"/>         
+			<xsd:element minOccurs="1" name="idTransaccion" type="xsd:string"/>
+			<xsd:element name="codMsgRespuesta" type="xsd:short"/>
+			<xsd:element minOccurs="0" name="msgRespuesta" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType> 
+	<xsd:complexType name="AsignarMedioProcesoExpressType">
+		<xsd:sequence>
+			<xsd:element name="Request" type="tns:RequestAsignarMedioProcesoExpressType"/>
+		</xsd:sequence>
+	</xsd:complexType>   
+	<xsd:complexType name="AsignarMedioProcesoExpressResponseType">
+		<xsd:sequence>
+			<xsd:element name="Response" type="tns:ResponseAsignarMedioProcesoExpressType"/>
+		</xsd:sequence>
+	</xsd:complexType>   
+	<xsd:complexType name="RequestAsignarMedioProcesoExpressType">
+		<xsd:sequence>
+			<xsd:element name="DataHeader" type="tns:DataHeaderReqType"/>
+			<xsd:element name="Data" type="tns:DataReqType"/>
+		</xsd:sequence>
+	</xsd:complexType>   
+	<xsd:complexType name="ResponseAsignarMedioProcesoExpressType">
+		<xsd:sequence>
+			<xsd:element name="DataHeader" type="tns:DataHeaderRespType"/>         
+			<xsd:element name="Data" type="tns:DataRespType" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>   
+	<xsd:complexType name="DataReqType">
+		<xsd:sequence>		
+			<xsd:element  minOccurs="0"  name="idSesion"  type="xsd:string" />
+            <xsd:element  minOccurs="0"  name="codIdioma"  type="xsd:string" />
+            <xsd:element  minOccurs="0"  name="valOrigen"  type="xsd:string" />
+            <xsd:element  minOccurs="0"  name="codPais"  type="xsd:string" />
+			<xsd:element name="InformacionCliente" type="tns:ClienteRequestType" minOccurs="0"/>
+			<xsd:element name="InformacionTarjeta" type="tns:TarjetaRequestType" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="DataRespType">
+		<xsd:sequence>
+			<xsd:element minOccurs="0" name="numeroDeTarjeta" type="xsd:long"/>
+			<xsd:element minOccurs="0" name="CreacionTC" type="tns:DataResponseType"/>
+			<xsd:element minOccurs="0" name="RedistribucionCuposAutorizador" type="tns:DataResponseType"/>
+			<xsd:element minOccurs="0" name="RedistribucionCuposStratus" type="tns:DataResponseType"/>
+			<xsd:element minOccurs="0" name="CrearRPR" type="tns:DataResponseType"/>
+			<xsd:element minOccurs="0" name="PrimeraCompra" type="tns:DataResponseType"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="DataResponseType">
+		<xsd:sequence>
+			<xsd:element name="codMsgRespuesta" type="xsd:short"/>
+			<xsd:element name="msgRespuesta" type="xsd:string" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>	
+	<xsd:complexType name="ClienteRequestType">
+		<xsd:sequence>
+			<xsd:element name="valTipoCliente" type="xsd:string"/>
+			<xsd:element name="codTipoIdCliente" type="xsd:string"/>
+			<xsd:element name="valIdCliente" type="xsd:long"/>
+			<xsd:element name="valPrimerNombre" type="xsd:string"/>
+			<xsd:element name="valSegundoNombre" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="valPrimerApellido" type="xsd:string"/>
+			<xsd:element name="valSegundoApellido" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="valDireccionCorreoElecronico" type="xsd:string"/>
+			<xsd:element name="valNumeroCelular" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="TarjetaRequestType">
+		<xsd:sequence>
+			<xsd:element name="codigoConvenio" type="xsd:string"/>
+			<xsd:element name="indicadorGeneradorPlastico" type="xsd:string"/>
+			<xsd:element name="codOficina" type="xsd:string"/>
+			<xsd:element name="codigoProducto" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="cupoTotalDecisor" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="cupoTotalInmediato" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="numeroSolicitud" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="valOrigenTerminal" type="xsd:string"/>
+			<!-- Inclusion de campos nuevos para ProcesoExpress-CreditoDigital 06-04-2018 -->
+			<xsd:element name="codigoOficina" type="xsd:int" minOccurs="0"/>
+			<xsd:element name="codigoAgenteVendedor" type="xsd:int" minOccurs="0"/>
+			<xsd:element name="direccionCorrespondencia" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="ciudadCorrespondencia" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="modalidadExtractos" type="xsd:string" minOccurs="0"/>
+			<!-- Inclusion de campos nuevos para ProcesoExpress-CreditoDigital 06-04-2018 -->
+			<xsd:element name="usoFuturo1" type="xsd:long" minOccurs="0"/>
+			<xsd:element name="usoFuturo2" type="xsd:long" minOccurs="0"/>
+			<xsd:element name="usoFuturo3" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="usoFuturo4" type="xsd:string" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>
